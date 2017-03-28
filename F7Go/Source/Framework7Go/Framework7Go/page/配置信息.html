@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title></title>
+    <link href="../css/detail.css" rel="stylesheet" type="text/css" />
+    <script src="../js/boot.js" type="text/javascript"></script>
+    <script src="../js/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+    <div class="views">
+        <div class="view view-main">
+            <div class="pages">
+                <div class="page">
+                    <div class="page-content" style="padding-bottom:50px;">
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <div class="left">
+                                    <!--<a href="javascript:void(0)" class="back link"> <i class="icon icon-back"></i></a>-->
+                                </div>
+                                <div class="center sliding title">
+                                    配置信息
+                                </div>
+                            </div>
+                        </div>
+                        <div class="configInfo">
+                            <table>
+                                <tr>
+                                    <th>型号：</th>
+                                    <td>OMEN by HP 15-ax215tx Laptop PC</td>
+                                </tr>
+                                <tr>
+                                    <th>操作系统：</th>
+                                    <td>Windows 10</td>
+                                </tr>
+                                <tr>
+                                    <th>CPU类型：</th>
+                                    <td>Intel 第7代 酷睿</td>
+                                </tr>
+                                <tr>
+                                    <th>显示芯片：</th>
+                                    <td>NVIDIA GeForce GTX 1050</td>
+                                </tr>
+                                <tr>
+                                    <th>音频端口：</th>
+                                    <td>耳机、麦克风二合一接口</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var myApp = new Framework7();
+
+        var mySwiper1 = myApp.swiper('.swiper-1', {
+            pagination: '.swiper-1 .swiper-pagination',
+            spaceBetween: 50
+        });
+
+        var numberInput = {
+            defaultVal: "输入台数",
+            mIn: function () {
+                var val = $("#txtBuy").val();
+                if (this.defaultVal == val) {
+                    $("#txtBuy").val("");
+                }
+            },
+            mOut: function () {
+                var val = $("#txtBuy").val();
+                if (isNaN(Number(val))) {
+                    val = "";
+                }
+                if ("" == val || Number(val) == 0) {
+                    $("#txtBuy").val(this.defaultVal);
+                }
+            }
+        };
+        function showDetail() {
+            $(".profileContent").toggle();
+        }
+        function Ok() {
+            showMessage("chenggong_.png", "购买成功！客户稍后会联系您~", "再逛逛");
+            return;
+            //var modal = myApp.modal({
+            //    title: 'Awesome Photos?',
+            //    text: 'What do you think about my photos?',
+            //    afterText: '<div class="swiper-container" style="width: auto; margin:5px -15px -15px">' +
+            //                  '<div class="swiper-pagination"></div>' +
+            //                  '<div class="swiper-wrapper">' +
+            //                    '<div class="swiper-slide"><img src="..." height="150" style="display:block"></div>' +
+            //                    '<div class="swiper-slide"><img src="..." height="150" style="display:block"></div>' +
+            //                  '</div>' +
+            //                '</div>',
+            //    buttons: [
+            //      {
+            //          text: 'Bad :('
+            //      },
+            //      {
+            //          text: 'Awesome!',
+            //          bold: true,
+            //          onClick: function () {
+            //              myApp.alert('Thanks! I know you like it!')
+            //          }
+            //      },
+            //    ]
+            //})
+        }
+    </script>
+</body>
+</html>

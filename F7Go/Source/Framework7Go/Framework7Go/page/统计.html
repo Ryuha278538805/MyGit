@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title></title>
+    <link href="../css/list.css" rel="stylesheet" type="text/css" />
+    <link href="../js/ichart/demo.css" rel="stylesheet" />
+    <script src="../js/boot.js" type="text/javascript"></script>
+    <script src="../js/jquery-1.7.1.min.js"></script>
+    <script src="../js/ichart/ichart.1.2.1.min.js"></script>
+</head>
+<body>
+    <div class="views">
+        <div class="view view-main">
+            <div class="pages">
+                <div class="page">
+                    <div class="page-content" style="padding-bottom:100px;">
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <div class="left">
+                                    <a href="javascript:void(0)" onclick="location.href='交易大厅.html'" class="back link"> <i class="icon icon-back"></i></a>
+                                </div>
+                                <div class="center sliding title">
+                                    统计
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-block mymenu" style="margin:0">
+                            <ul>
+                                <li>
+                                    <a href="#" data-open-in="picker" class="item-link smart-select">
+                                        <select name="times">
+                                            <option value="aWeek" selected="">一周</option>
+                                            <option value="halfMonth">半月</option>
+                                            <option value="aMonth">一月</option>
+                                            <option value="aReson">一季度</option>
+                                            <option value="halfYear">半年</option>
+                                            <option value="aYear">一年</option>
+                                        </select>
+                                        <div class="item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title selText">选择时间段</div>
+                                                <div class="item-after selText">一周</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="totalNum">
+                            <div class="num">18000台</div>
+                            <div class="des">总计成交台数</div>
+                        </div>
+                        <div id='canvasDiv' style="padding-bottom:20px;"></div>
+                    </div>
+                    <div class="toolbar" style="height:100px;">
+                        <div class="toolbar-inner" style="height:100px;">
+                            <a class="aTongji">
+                                <img src="../img/tongjiqiugou_.png" class="link foot2 " />
+                                <div class="des">求购</div>
+                            </a>
+                            <a class="aTongji">
+                                <img src="../img/tongjiguadan_.png" class="link foot2 " />
+                                <div class="des">挂单</div>
+                            </a>
+                            <a class="aTongji">
+                                <img src="../img/tongjitotal_.png" class="link foot2 " />
+                                <div class="des">总计</div>
+                            </a>
+                            <a class="aTongji">
+                                <img src="../img/tongjizhongchou_.png" class="link foot2" />
+                                <div class="des">众筹</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            var flow = [10, 1000, 100, 700, 620, 1250, 250,1020];
+
+            var data = [
+                        {
+                            name: '统计',
+                            value: flow,
+                            color: 'rgb(101,193,180)',
+                            line_width: 2
+                        }
+            ];
+
+            var labels = ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月"];
+
+            var line = new iChart.LineBasic2D({
+                render: 'canvasDiv',
+                data: data,
+                align: 'center',
+                title:
+                {
+                    text: '2016年销量统计',
+                    font: '微软雅黑',
+                    fontsize: 18,
+                    color: 'rgb(101,193,180)'
+                },
+                width: document.body.clientWidth,
+                height: 300,
+                background_color: 'rgb(237,247,246)',
+                color: 'rgb(101,193,180)',
+                sub_option: {
+                    smooth: true,//平滑曲线
+                    point_size: 10
+                },
+                crosshair: {
+                    enable: true,
+                    line_color: 'rgb(101,193,180)'
+                },
+                coordinate: {
+                    width: document.body.clientWidth * 0.9-60,
+                    height: '80%',
+                    background_color: 'rgb(237,247,246)',
+                    axis: {
+                        color: '#E2E2E2',
+                        width: [0, 0, 2, 2]
+                    },
+                    scale: [{
+                        position: 'left',
+                        scale_enable: false,
+                        label: { color: 'rgb(101,193,180)', font: '微软雅黑', fontsize: 10 },
+                        scale_color: '#F00'
+                    }, {
+                        position: 'bottom',
+                        label: { color: 'rgb(101,193,180)', font: '微软雅黑', fontsize: 10 },
+                        scale_enable: false,
+                        labels: labels
+                    }]
+                }
+            });
+            //开始画图
+            line.draw();
+        });
+
+        var myApp = new Framework7();
+
+    </script>
+</body>
+</html>

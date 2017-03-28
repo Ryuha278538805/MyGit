@@ -1,0 +1,315 @@
+﻿html, body, form {
+    margin: 0;
+    border: 0;
+}
+
+.title {
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.swiper-container {
+    height: 260px;
+}
+
+.swiper-slide img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.brandContent {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+    color: #282828;
+    padding-bottom: -20px;
+}
+
+.brandTitle {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.brandPrice {
+    font-size: 20px;
+    color: #F44E4B;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.brandPriceSmall {
+    font-size: 12px;
+    color: #F44E4B;
+    font-weight: normal;
+}
+
+.brandType {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #888888;
+    padding-bottom: 6px;
+}
+
+.hasNum {
+    color: #436bD7;
+    font-size: 14px;
+    text-align: right;
+    position: relative;
+    bottom: 50px;
+    right: 15px;
+}
+
+hr {
+    border: none;
+    border-bottom: solid 1px #D5D5D5;
+    width: 90%;
+}
+
+.profile {
+    background-color: #fff;
+    margin-bottom: 4px;
+    margin-top: -12px;
+    border-bottom: 1px solid #D5D5D5;
+}
+
+.brandNum {
+    height: 60px;
+    font-size: 12px;
+    border-bottom: 1px solid #D5D5D5;
+    width: 92%;
+    margin: auto;
+}
+
+.profileinfo {
+}
+
+    .profileinfo .text {
+        display: block;
+        color: #888888;
+        padding-left: 15px;
+        width: 60%;
+        float: left;
+    }
+
+    .profileinfo .arrow {
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-top: -8px;
+        margin-right: 10px;
+    }
+
+.brandNum .numText {
+    display: block;
+    color: #888888;
+    padding-left: 15px;
+    padding-top: 24px;
+    height: 100%;
+    line-height: 100%;
+    width: 60%;
+    float: left;
+}
+
+.brandNum .opp {
+    padding-right: 8px;
+    height: 100%;
+    line-height: 100%;
+    width: 30%;
+    float: left;
+}
+
+    .brandNum .opp input {
+        width: 100%;
+        border: 0px;
+        background-color: #fa9a4d;
+        color: #fff;
+        height: 35px;
+        margin-top: 12px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .brandNum .opp a {
+        color: #282828;
+        font-size: 20pt;
+        position: relative;
+        top: 5px;
+    }
+
+    .brandNum .opp b {
+        font-size: 16px;
+        color: #F44E4B;
+        font-weight: bolder;
+        position: relative;
+        bottom: -3px;
+    }
+
+    .brandNum .opp span {
+        font-size: 12px;
+        color: #F44E4B;
+        position: relative;
+        display: block;
+        bottom: -4px;
+        right: -15px;
+    }
+
+.profileContent {
+    background-color: #fff;
+    margin-bottom: 15px;
+    display: none;
+}
+
+.profileText {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #282828;
+    padding-left: 20px;
+}
+
+.tbProfile {
+    border-collapse: collapse;
+    border: 0;
+    width: 90%;
+    margin: auto;
+}
+
+    .tbProfile tr {
+        height: 35px;
+    }
+
+    .tbProfile th {
+        font-weight: bolder;
+        text-align: left;
+        border-bottom: 1px solid #D5D5D5;
+        width: 25%;
+        font-size: 12px;
+        color: #282828;
+    }
+
+    .tbProfile td {
+        border-bottom: 1px solid #D5D5D5;
+        width: 25%;
+        font-size: 12px;
+        color: #888888;
+    }
+
+.buy {
+    background-color: #436bD7;
+    color: #fff;
+    width: 40%;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-left: 6px;
+}
+
+.barContent {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+    .barContent span {
+        float: left;
+        color: #888888;
+        font-size: 12px;
+    }.barContent i {
+        color: #888888;
+        font-size: 12px;
+        margin-left:5px;
+        float: left;
+    }
+
+.lineBar {
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+    position: relative;
+}
+
+.status {
+    width: 90%;
+    height: 20px;
+}
+
+    .status .span1 {
+        width: 33%;
+        color: #888888;
+        font-size: 12px;
+        height: 100%;
+        line-height: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .status .span2 {
+        width: 33%;
+        color: #282828;
+        font-size: 14px;
+        font-weight: bolder;
+        height: 100%;
+        line-height: 100%;
+        float: left;
+        text-align: center;
+        padding-top: 4px;
+    }
+
+.introduction {
+    width: 92%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+    .introduction .head {
+        padding-top: 10px;
+        text-align: center;
+        display: block;
+        margin: auto;
+        color: #282828;
+        font-size: 14px;
+    }
+
+    .introduction .text {
+        padding-top: 10px;
+        display: block;
+        margin: auto;
+        color: #888888;
+        font-size: 12px;
+        line-height: 20px;
+    }
+/****************************配置信息******************************/
+.configInfo {
+    width: 100%;
+    margin: auto;
+    background-color:#fff;
+    padding:15px;
+}
+
+    .configInfo table {
+        border: 0;
+        border-collapse: collapse;
+        width: 90%;
+    }
+    .configInfo table tr{
+        height:40px;
+    }
+    .configInfo table th{
+        text-align:left;
+        color: #282828;
+        font-size: 12px;
+        border-bottom:solid 1px #D5D5D5;
+        font-weight:normal;
+    }
+    .configInfo table td{
+        text-align:left;
+        color: #282828;
+        font-size: 12px;
+        border-bottom:solid 1px #D5D5D5;
+    }
