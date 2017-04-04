@@ -20,13 +20,13 @@ f7PATH = bootPATH + "framework7/";
 
 document.write('<link rel="stylesheet" href="' + f7PATH + 'css/framework7.ios.min.css?v=2"/>');
 document.write('<link rel="stylesheet" href="' + f7PATH + 'css/framework7.ios.colors.min.css"/>');
-document.write('<link rel="stylesheet" href="' + f7PATH + 'css/my-app.css?o=' + Math.random() + '"/>');
+//document.write('<link rel="stylesheet" href="' + f7PATH + 'css/my-app.css?o=' + Math.random() + '"/>');
 document.write('<script type="text/javascript" src="' + f7PATH + 'js/framework7.min.js"></sc' + 'ript>');
 
 //弹出消息展示
 function showMessage(imgName, msgText, btnText, subText,callBack) {
     if (subText && subText!="") {
-        subText = '<div style="width:100%;text-align:center;margin-top:10px;">' + subText + '</div>';
+        subText = '<div style="width:100%;text-align:center;margin-top:10px;color:#282828">' + subText + '</div>';
     }
     else {
         subText = "";
@@ -37,7 +37,7 @@ function showMessage(imgName, msgText, btnText, subText,callBack) {
         afterText: '<div style="height:90px;width:100%;text-align:center">'
                     + '<img src="../img/' + imgName + '" style="width:70px;height:70px;" />'
                 + '</div>'
-        + '<div style="width:100%;text-align:center;margin-top:-10px;font-size:16px">' + msgText + '</div>' + subText,
+        + '<div style="width:100%;text-align:center;margin-top:-10px;font-size:16px;color:#282828">' + msgText + '</div>' + subText,
         buttons: [
           {
               text: btnText,

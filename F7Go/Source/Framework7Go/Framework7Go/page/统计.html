@@ -58,19 +58,19 @@
                     </div>
                     <div class="toolbar" style="height:100px;">
                         <div class="toolbar-inner" style="height:100px;">
-                            <a class="aTongji">
+                            <a class="aTongji" onclick="reLoadData()">
                                 <img src="../img/tongjiqiugou_.png" class="link foot2 " />
                                 <div class="des">求购</div>
                             </a>
-                            <a class="aTongji">
+                            <a class="aTongji" onclick="reLoadData()">
                                 <img src="../img/tongjiguadan_.png" class="link foot2 " />
                                 <div class="des">挂单</div>
                             </a>
-                            <a class="aTongji">
+                            <a class="aTongji" onclick="reLoadData()">
                                 <img src="../img/tongjitotal_.png" class="link foot2 " />
                                 <div class="des">总计</div>
                             </a>
-                            <a class="aTongji">
+                            <a class="aTongji" onclick="reLoadData()">
                                 <img src="../img/tongjizhongchou_.png" class="link foot2" />
                                 <div class="des">众筹</div>
                             </a>
@@ -86,7 +86,7 @@
 
             var data = [
                         {
-                            name: '统计',
+                            name: '',
                             value: flow,
                             color: 'rgb(101,193,180)',
                             line_width: 2
@@ -95,7 +95,7 @@
 
             var labels = ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月"];
 
-            var line = new iChart.LineBasic2D({
+            line = new iChart.LineBasic2D({
                 render: 'canvasDiv',
                 data: data,
                 align: 'center',
@@ -114,13 +114,16 @@
                     smooth: true,//平滑曲线
                     point_size: 10
                 },
+                tip: {
+                    enable: true
+                },
                 crosshair: {
                     enable: true,
                     line_color: 'rgb(101,193,180)'
                 },
                 coordinate: {
                     width: document.body.clientWidth * 0.9-60,
-                    height: '80%',
+                    height: '70%',
                     background_color: 'rgb(237,247,246)',
                     axis: {
                         color: '#E2E2E2',
@@ -129,11 +132,11 @@
                     scale: [{
                         position: 'left',
                         scale_enable: false,
-                        label: { color: 'rgb(101,193,180)', font: '微软雅黑', fontsize: 10 },
+                        label: { color: 'rgb(101,193,180)', font: '微软雅黑', fontsize: 12 },
                         scale_color: '#F00'
                     }, {
                         position: 'bottom',
-                        label: { color: 'rgb(101,193,180)', font: '微软雅黑', fontsize: 10 },
+                        label: { color: 'rgb(101,193,180)', font: '微软雅黑', fontsize: 12 },
                         scale_enable: false,
                         labels: labels
                     }]
@@ -144,6 +147,23 @@
         });
 
         var myApp = new Framework7();
+
+        function reLoadData()
+        {
+            var flow = [];
+            for (var i = 0; i < 8; i++) {
+                flow.push(Math.floor(Math.random() * (1000 + ((i % 12) * 5))) + 10);
+            }
+            var data = [
+                        {
+                            name: '',
+                            value: flow,
+                            color: 'rgb(101,193,180)',
+                            line_width: 2
+                        }
+            ];
+            line.load(data);
+        }
 
     </script>
 </body>

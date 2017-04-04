@@ -7,11 +7,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title></title>
     <link href="../css/list.css" rel="stylesheet" type="text/css" />
+    <link href="../js/ichart/demo.css" rel="stylesheet" />
+    <link href="../css/my-app.css" rel="stylesheet" />
     <script src="../js/boot.js" type="text/javascript"></script>
-    <script src="../js/jquery-1.7.1.min.js"></script>
 </head>
-<body>
-    <div class="views">
+<body bgcolor="#EEEEEE">
+    <div class="views view-main tab" id="view-1">
         <div class="view view-main">
             <div class="pages">
                 <div class="page">
@@ -62,12 +63,13 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="toolbar">
+                    <!-- Bottom Tabbar-->
+                    <div class="toolbar tabbar tabbar-labels">
                         <div class="toolbar-inner">
-                            <img onclick="javascript:location.href='交易大厅.html'" src="../img/jiaoyi_nor.png" class="link foot1 " />
-                            <img onclick="javascript:location.href='金融政策.html'" src="../img/jingrong_nor.png" class="link foot1 " />
-                            <img onclick="javascript:location.href='厂家政策.html'" src="../img/changjia_sel.png" class="link foot1 " />
-                            <img onclick="javascript:location.href='我的.html'" src="../img/wode_nor.png" class="link foot1" />
+                            <a href="javascript:location.href='交易大厅.html'" class="tab-link "> <i class="icon tabbar-demo-icon-1 "></i><span class="tabbar-label">交易</span></a>
+                            <a href="javascript:location.href='金融政策.html'" class="tab-link"><i class="icon tabbar-demo-icon-2"></i><span class="tabbar-label">金融</span></a>
+                            <a href="javascript:location.href='厂家政策.html'" class="tab-link active"> <i class="icon tabbar-demo-icon-3"><span class="badge bg-red">4</span></i><span class="tabbar-label">厂家</span></a>
+                            <a href="javascript:location.href='我的.html'" class="tab-link"> <i class="icon tabbar-demo-icon-4"></i><span class="tabbar-label">我的</span></a>
                         </div>
                     </div>
                 </div>

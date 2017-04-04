@@ -1,0 +1,29 @@
+/* Your app custom files in this file */
+/* Tab bar icons */
+
+.toolbar-inner i.tabbar-demo-icon-1 {
+	width: 30px;
+  height: 30px;
+  background-image:url(../img/jiaoyi_nor.png);
+  }
+.toolbar-inner .active i.tabbar-demo-icon-1 {
+  background-image:url(../img/jiaoyi_sel.png);
+  }
+.toolbar-inner i.tabbar-demo-icon-2 {
+  width: 30px;
+  height: 30px;
+  background-image:url(../img/jingrong_nor.png);}
+ .toolbar-inner .active i.tabbar-demo-icon-2 {
+  background-image:url(../img/jingrong_sel.png);}
+.toolbar-inner i.tabbar-demo-icon-3 {
+  width: 30px;
+  height: 30px;
+  background-image:url(../img/changjia_nor.png);}
+ .toolbar-inner .active i.tabbar-demo-icon-3 {
+  background-image:url(../img/changjia_sel.png);}
+.toolbar-inner i.tabbar-demo-icon-4 {
+  width: 30px;
+  height: 30px;
+  background-image:url(../img/wode_nor.png);}
+.toolbar-inner .active i.tabbar-demo-icon-4 {
+  background-image:url(../img/wode_sel.png);}

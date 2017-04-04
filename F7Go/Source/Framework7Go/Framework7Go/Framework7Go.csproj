@@ -119,6 +119,7 @@
     <Content Include="css\detail.css" />
     <Content Include="css\list.css" />
     <Content Include="css\linebar.css" />
+    <Content Include="css\my-app.css" />
     <Content Include="img\add_.png" />
     <Content Include="img\changjia_nor.png" />
     <Content Include="img\chenggong_.png" />
@@ -166,6 +167,7 @@
     <Content Include="page\基本信息.html" />
     <Content Include="page\新增挂单.html" />
     <Content Include="page\手机认证.html" />
+    <Content Include="page\统计.html" />
     <Content Include="page\编辑挂单.html" />
     <Content Include="page\求购编辑.html" />
     <Content Include="page\新增求购.html" />

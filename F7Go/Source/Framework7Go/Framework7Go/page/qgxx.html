@@ -19,7 +19,7 @@
                         <div class="navbar">
                             <div class="navbar-inner">
                                 <div class="left">
-                                    <a href="javascript:void(0)" onclick="goBack('交易大厅.html')" class="back link"> <i class="icon icon-back"></i></a>
+                                    <a href="javascript:void(0)" onclick="goBack('jydt.html')" class="back link"> <i class="icon icon-back"></i></a>
                                 </div>
                                 <div class="center sliding title">
                                     求购详情
@@ -59,7 +59,7 @@
                             <div class="brandNum">
                                 <span class="numText">数量</span>
                                 <span class="opp">
-                                    <input id="txtBuy" type="text" value="请输入台数"  onclick="numberInput.mIn();" onblur="numberInput.mOut();" />
+                                    <input id="txtBuy" type="text" value="输入台数"  onclick="numberInput.mIn();" onblur="numberInput.mOut();" />
                                 </span>
                             </div>
                             <div class="brandNum profileinfo" onclick="showDetail();">
@@ -107,7 +107,7 @@
         });
 
         var numberInput = {
-            defaultVal: "请输入台数",
+            defaultVal: "输入台数",
             mIn: function () {
                 var val = $("#txtBuy").val();
                 if (this.defaultVal == val) {

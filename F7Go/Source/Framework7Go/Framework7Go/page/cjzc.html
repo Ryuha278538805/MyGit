@@ -9,7 +9,6 @@
     <link href="../css/list.css" rel="stylesheet" type="text/css" />
     <script src="../js/boot.js" type="text/javascript"></script>
     <script src="../js/jquery-1.7.1.min.js"></script>
-    <link href="../css/my-app.css" rel="stylesheet" />
 </head>
 <body>
     <div class="views">
@@ -23,7 +22,7 @@
                                     <!--<a href="javascript:void(0)" class="back link"> <i class="icon icon-back"></i></a>-->
                                 </div>
                                 <div class="center sliding title">
-                                    金融政策
+                                    厂家政策
                                 </div>
                             </div>
                         </div>
@@ -39,7 +38,6 @@
                                     </div>
                                 </div>
                             </li>
-                          
                             <li onclick="openDetail();">
                                 <img src="http://img1.gtimg.com/cd/pics/hv1/55/209/2196/142848250.jpg" />
                                 <div class="content">
@@ -64,28 +62,23 @@
                             </li>
                         </ul>
                     </div>
-                    
+                    <div class="toolbar">
+                        <div class="toolbar-inner">
+                            <img onclick="javascript:location.href='jydt.html'" src="../img/jiaoyi_nor.png" class="link foot1 " />
+                            <img onclick="javascript:location.href='jrzc.html'" src="../img/jingrong_nor.png" class="link foot1" />
+                            <img onclick="javascript:location.href='cjzc.html'" src="../img/changjia_nor.png" class="link foot1 curr" />
+                            <img onclick="javascript:location.href='me.html'" src="../img/wode_nor.png" class="link foot1" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        
-        
-        <div class="toolbar tabbar tabbar-labels">
-			<div class="toolbar-inner">
-				<a href="javascript:location.href='交易大厅.html'" class="tab-link "> <i class="icon tabbar-demo-icon-1 "></i><span class="tabbar-label">交易</span></a>
-				<a href="javascript:location.href='金融政策.html'" class="tab-link active"><i class="icon tabbar-demo-icon-2"></i><span class="tabbar-label">金融</span></a>
-				<a href="javascript:location.href='厂家政策.html'" class="tab-link"> <i class="icon tabbar-demo-icon-3"><span class="badge bg-red">4</span></i><span class="tabbar-label">厂家</span></a>
-				<a href="javascript:location.href='我的.html'" class="tab-link"> <i class="icon tabbar-demo-icon-4"></i><span class="tabbar-label">我的</span></a>
-			</div>
-		</div>
-			
     </div>
     <script type="text/javascript">
         var myApp = new Framework7();
 
-        function openDetail()
-        {
-            location.href = "金融详情.html?id="+new Date().getTime();
+        function openDetail() {
+            location.href = "厂家详情.html?id=" + new Date().getTime();
         }
     </script>
 </body>
