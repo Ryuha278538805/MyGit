@@ -53,13 +53,13 @@
                                 <div class="name">公司地址</div>
                                 <input type="text" class="ulContentinput" />
                             </li>
-                            <li>
-                                <div class="name">营业执照</div>
-                                <input id="txtPath" readonly="readonly" type="text" style="width: 50%;" onclick="doCamera();" />
-                                <img id="photo" class="Camera" src="../img/add_.png" onclick="doCamera();" />
+                            <li class="high" onclick="doCamera();">
+                                <div class="name">图片上传</div>
+                                <img id="photo" class="Camera" src="../img/add_.png" />
                             </li>
                         </ul>
                         <div style="margin:auto;width:80%;display:none">
+                            <input type="hidden" id="txtPath" />
                             <input id="txtCamera" type="file" accept="image/*" capture="camera" style="display:none">
                         </div>
                         <a href="#" class="mysubmit" onclick="Ok()">保 存</a>

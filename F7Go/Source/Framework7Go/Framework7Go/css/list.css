@@ -508,13 +508,46 @@
         margin-right: 20px;
     }
 
+.chouEdit .high {
+    height: 80px;
+    padding: 10px;
+}
+
+    .chouEdit .high .name {
+        height: 80px;
+        line-height: 80px;
+        width: 26%;
+        overflow: hidden;
+        vertical-align: middle;
+        color: #666666;
+        font-size: 12px;
+        float: left;
+    }
+
+    .chouEdit .high input {
+        float: left;
+        height: 80px;
+        line-height: 80px;
+        color: #282828;
+        font-size: 16px;
+        border: 0;
+        width:10px;
+    }
+
+    .chouEdit .high .Camera {
+        height: 80px;
+        width: 80px;
+        margin-right: 20px;
+        float: left;
+    }
+
 .mysubmit {
     background-color: #436bD7;
     height: 50px;
-    line-height: 40px;
+    line-height: 50px;
     display: block;
     width: 62%;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 80px;
     border-radius: 4px;
     color: #fff;
@@ -692,3 +725,11 @@ hr {
         margin-top: 15px;
         float: right;
     }
+
+.dateBox {
+    background-image: url('../img/date_.png');
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+    background-position: right;
+    width: 65%;
+}

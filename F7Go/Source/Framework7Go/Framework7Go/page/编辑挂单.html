@@ -44,24 +44,24 @@
                             </li>
                             <li>
                                 <div class="name">出售数量(台)</div>
-                                <input type="number" class="ulContentinput" value="200" />
+                                <input type="number" class="ulContentinput" style="text-align:right" value="200" />
                             </li>
                             <li>
                                 <div class="name">截止日期</div>
-                                <input id="calendar-default" type="text" style="width: 50%;" value="2017-03-25" />
-                                <img class="Camera" src="../img/date_.png" />
+                                <input id="calendar-default" type="text" class="dateBox" value="2017-03-25" />
+                                
                             </li>
                             <li>
                                 <div class="name">备注说明</div>
                                 <input type="text" class="ulContentinput" value="备注说明备注说明备注说明备注说明" />
                             </li>
-                            <li>
+                            <li class="high" onclick="doCamera();">
                                 <div class="name">图片上传</div>
-                                <input id="txtPath" readonly="readonly" type="text" style="width: 50%;" onclick="doCamera();" />
                                 <img id="photo" class="Camera" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1490460330651&di=8a18f97566780e706caf2ca729c516b4&imgtype=0&src=http%3A%2F%2Fg.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2F6d81800a19d8bc3e7763d030868ba61ea9d345e5.jpg" onclick="doCamera();" />
                             </li>
                         </ul>
                         <div style="margin:auto;width:80%;display:none">
+                            <input type="hidden" id="txtPath" />
                             <input id="txtCamera" type="file" accept="image/*" capture="camera" style="display:none">
                         </div>
                         <a href="#" class="mysubmit" onclick="Ok()">提 交</a>

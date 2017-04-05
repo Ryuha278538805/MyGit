@@ -44,24 +44,24 @@
                             </li>
                             <li>
                                 <div class="name">出售数量(台)</div>
-                                <input type="number" class="ulContentinput" />
+                                <input type="number" class="ulContentinput" style="text-align:right" />
                             </li>
                             <li>
                                 <div class="name">截止日期</div>
-                                <input id="calendar-default" type="text" style="width: 50%;" />
-                                <img class="Camera" src="../img/date_.png" />
+                                <input id="calendar-default" type="text" class="dateBox" />
+
                             </li>
                             <li>
                                 <div class="name">备注说明</div>
                                 <input type="text" class="ulContentinput" />
                             </li>
-                            <li>
+                            <li class="high" onclick="doCamera();">
                                 <div class="name">图片上传</div>
-                                <input id="txtPath" readonly="readonly" type="text" style="width: 50%;" onclick="doCamera();" />
-                                <img id="photo" class="Camera" src="../img/xiangji_.png" onclick="doCamera();" />
+                                <img id="photo" class="Camera" src="../img/xiangji_.png" />
                             </li>
                         </ul>
                         <div style="margin:auto;width:80%;display:none">
+                            <input type="hidden" id="txtPath" />
                             <input id="txtCamera" type="file" accept="image/*" capture="camera" style="display:none">
                         </div>
                         <a href="#" class="mysubmit" onclick="Ok()">提 交</a>
@@ -79,8 +79,7 @@
         function doCamera() {
             document.getElementById("txtCamera").click();
         }
-        function selDate()
-        {
+        function selDate() {
             document.getElementById("picker").focus();
             document.getElementById("picker").select();
             document.getElementById("picker").click();
@@ -97,12 +96,10 @@
             var fileSize = Math.round(this.files[0].size / 1024 / 1024); //以M为单位
         }, false);
 
-        function Ok()
-        {
+        function Ok() {
             showMessage("chenggong_.png", "挂单成功", "返回大厅", "单号:020201030", back)
         }
-        function back()
-        {
+        function back() {
             goBack("我的挂单.html");
         }
     </script>
