@@ -9,3 +9,14 @@ D:\VSWorkspace\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Model.pdb
 D:\VSWorkspace\HCWDDL\HCW.Bussiness\bin\Debug\Newtonsoft.Json.xml
 D:\VSWorkspace\HCWDDL\HCW.Bussiness\obj\Debug\HCW.Bussiness.dll
 D:\VSWorkspace\HCWDDL\HCW.Bussiness\obj\Debug\HCW.Bussiness.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\obj\Debug\HCW.Bussiness.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\obj\Debug\HCW.Bussiness.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Bussiness.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Bussiness.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Common.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Model.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\bin\Debug\Newtonsoft.Json.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Common.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Model.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\bin\Debug\Newtonsoft.Json.xml
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\obj\Debug\HCW.Bussiness.pdb

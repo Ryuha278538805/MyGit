@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -39,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CPManager.cs" />
     <Compile Include="NewsClassManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -46,6 +48,10 @@
     <ProjectReference Include="..\HCW.Bussiness\HCW.Bussiness.csproj">
       <Project>{814c93e8-ca39-4a17-91b0-7be82eebf8f4}</Project>
       <Name>HCW.Bussiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HCW.Common\HCW.Common.csproj">
+      <Project>{424d719c-606b-4b9c-a832-4fa93630a07a}</Project>
+      <Name>HCW.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\HCW.Model\HCW.Model.csproj">
       <Project>{3b9d2aa6-99ab-44c2-89fb-90ca7adaa0be}</Project>

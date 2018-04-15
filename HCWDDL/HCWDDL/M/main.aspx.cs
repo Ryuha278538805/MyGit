@@ -1,4 +1,5 @@
 ﻿using HCW.Bussiness;
+using HCW.Master;
 using HCW.Model;
 using System;
 using System.Collections.Generic;
@@ -13,11 +14,11 @@ namespace HCWDDL.M
     {
         public tbl_3dInfo SDInfo { get; set; }
         public tbl_ssqInfo SSQInfo { get; set; }
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            cpkjService service = new cpkjService();
-            SDInfo = service.M_Get3D();
-            SSQInfo = service.M_GetSSQ();
+            SDInfo = CPManager.SDInfo;
+            SSQInfo = CPManager.SSQInfo;
         }
     }
 }

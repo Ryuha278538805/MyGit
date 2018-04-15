@@ -43,8 +43,12 @@
     <Compile Include="M_MenuModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tbl_3dInfo.cs" />
+    <Compile Include="tbl_dltInfo.cs" />
     <Compile Include="tbl_news_classInfo.cs" />
     <Compile Include="tbl_news_Model.cs" />
+    <Compile Include="tbl_p3Info.cs" />
+    <Compile Include="tbl_qlcInfo.cs" />
+    <Compile Include="tbl_qxcInfo.cs" />
     <Compile Include="tbl_ssqInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

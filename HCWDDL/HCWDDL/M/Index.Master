@@ -9,24 +9,27 @@
     <meta name="description" content="好彩网是从各大专业彩票网站上收录其3d预测、3d字谜、3d图谜等精华内容,方便彩民浏览的彩票行业网摘网站." />
     <meta name="keywords" content="好彩网" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
-    <link href="Content/css/main.css" rel="stylesheet" />
-    <script src="Js/hm.js"></script>
-    <script src="Js/hm1.js"></script>
-    <script src="Js/zepto.min.js"></script>
-    <script src="Js/main.js"></script>
+    <link href="~/M/Content/css/main.css" rel='stylesheet'/>
+    <script src="/M/Js/hm.js"></script>
+    <script src="/M/Js/hm1.js"></script>
+    <script src="/M/Js/zepto.min.js"></script>
+    <script src="/M/Js/main.js"></script>
 
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+        <script>
+        </script>
     </asp:ContentPlaceHolder>
 </head>
 <body class="bg-grey">
     <form id="form1" runat="server">
+        
         <header class="header">
             <div class="f-l">
-                <a href="index.html">
+                <a href="/M/main.aspx">
                     <i class="iconfont icon-home"></i>首页
                 </a>
             </div>
-            <a href="kaijiang.html" class="f-r">
+            <a href="/M/awards.aspx" class="f-r">
                 <i class="iconfont icon-cup"></i>开奖公告
             </a>
         </header>
@@ -89,7 +92,6 @@
                     </div>
                 </div>
                 <%} %>
-
             </div>
 
         </section>

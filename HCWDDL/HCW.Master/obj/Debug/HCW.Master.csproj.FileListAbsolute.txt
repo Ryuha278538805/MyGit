@@ -11,3 +11,16 @@ D:\VSWorkspace\HCWDDL\HCW.Master\bin\Debug\HCW.Common.pdb
 D:\VSWorkspace\HCWDDL\HCW.Master\bin\Debug\Newtonsoft.Json.xml
 D:\VSWorkspace\HCWDDL\HCW.Master\obj\Debug\HCW.Master.dll
 D:\VSWorkspace\HCWDDL\HCW.Master\obj\Debug\HCW.Master.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Debug\HCW.Master.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Debug\HCW.Master.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Debug\HCW.Bussiness.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Debug\HCW.Model.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Debug\HCW.Common.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Debug\Newtonsoft.Json.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Debug\HCW.Bussiness.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Debug\HCW.Model.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Debug\HCW.Common.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Debug\Newtonsoft.Json.xml
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\obj\Debug\HCW.Master.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\obj\Debug\HCW.Master.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\obj\Debug\HCW.Master.pdb
