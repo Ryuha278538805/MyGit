@@ -11,7 +11,7 @@ namespace HCW.Bussiness
     public class cpkjService
     {
         private DBHelper dbHelper = new DBHelper(DBHelper.CONN_KJ);
-        private static int timespan = Int32.Parse(ConfigurationManager.AppSettings["cache_awards"]);
+        private static int qitimespan = Int32.Parse(ConfigurationManager.AppSettings["cache_qi"]);
 
         /// <summary>
         /// 获取开奖信息
@@ -45,18 +45,18 @@ namespace HCW.Bussiness
         /// 获取开奖期字典
         /// </summary>
         /// <returns></returns>
-        public IList<string> M_GetCPqi(string tbName)
+        public IList<QiModel> M_GetCPqi(string tbName)
         {
             string cachename = tbName + "_qi";
-            string sql = "SELECT qi FROM  " + tbName + " where year(date)>= " + (DateTime.Now.Year - 1).ToString() + " order by qi desc";
-            IList<string> lst = CacheHelper.GetCache<IList<string>>(cachename);
+            string sql = "SELECT id,qi FROM  " + tbName + " where year(date)>= " + (DateTime.Now.Year - 1).ToString() + " order by qi desc";
+            IList<QiModel> lst = CacheHelper.GetCache<IList<QiModel>>(cachename);
             if (lst == null)
             {
-                var temp = dbHelper.GetList<tbl_3dInfo>(sql);
-                lst = temp.Select(p => p.qi.ToString()).ToArray();
-                CacheHelper.SetCache(cachename, lst, DateTime.Now.AddMinutes(timespan), new TimeSpan());
+                lst = dbHelper.GetList<QiModel>(sql);
+                CacheHelper.SetCache(cachename, lst, DateTime.Now.AddMinutes(qitimespan), new TimeSpan());
             }
             return lst;
         }
+
     }
 }

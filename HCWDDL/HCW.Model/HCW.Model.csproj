@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="tbl_ADmanagerInfo.cs" />
+    <Compile Include="QiModel.cs" />
     <Compile Include="CPKJModel.cs" />
     <Compile Include="M_MenuModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

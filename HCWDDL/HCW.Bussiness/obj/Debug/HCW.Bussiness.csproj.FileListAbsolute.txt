@@ -20,3 +20,14 @@ D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Common.pdb
 D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Model.pdb
 D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\bin\Debug\Newtonsoft.Json.xml
 D:\VSWorkspace\GitSpace\HCWDDL\HCW.Bussiness\obj\Debug\HCW.Bussiness.pdb
+F:\001\彩票\Code\HCW.Bussiness\bin\Debug\HCW.Bussiness.dll
+F:\001\彩票\Code\HCW.Bussiness\bin\Debug\HCW.Bussiness.pdb
+F:\001\彩票\Code\HCW.Bussiness\bin\Debug\HCW.Common.dll
+F:\001\彩票\Code\HCW.Bussiness\bin\Debug\HCW.Model.dll
+F:\001\彩票\Code\HCW.Bussiness\bin\Debug\Newtonsoft.Json.dll
+F:\001\彩票\Code\HCW.Bussiness\bin\Debug\HCW.Common.pdb
+F:\001\彩票\Code\HCW.Bussiness\bin\Debug\HCW.Model.pdb
+F:\001\彩票\Code\HCW.Bussiness\bin\Debug\Newtonsoft.Json.xml
+F:\001\彩票\Code\HCW.Bussiness\obj\Debug\HCW.Bussiness.csprojResolveAssemblyReference.cache
+F:\001\彩票\Code\HCW.Bussiness\obj\Debug\HCW.Bussiness.dll
+F:\001\彩票\Code\HCW.Bussiness\obj\Debug\HCW.Bussiness.pdb

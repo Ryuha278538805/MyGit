@@ -1,0 +1,13 @@
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Release\HCW.Master.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Release\HCW.Master.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Release\HCW.Bussiness.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Release\HCW.Common.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Release\HCW.Model.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Release\Newtonsoft.Json.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Release\HCW.Bussiness.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Release\HCW.Common.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Release\HCW.Model.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\bin\Release\Newtonsoft.Json.xml
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\obj\Release\HCW.Master.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\obj\Release\HCW.Master.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Master\obj\Release\HCW.Master.pdb

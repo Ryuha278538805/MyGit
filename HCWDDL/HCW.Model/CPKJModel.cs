@@ -28,15 +28,15 @@ namespace HCW.Model
         /// </summary>
         /// <param name="strMoney"></param>
         /// <returns></returns>
-        public double GetJCMoney(string strMoney)
+        public double GetJCMoney(object strMoney)
         {
-            if (string.IsNullOrEmpty(strMoney))
+            if (strMoney == null || string.IsNullOrEmpty(strMoney.ToString()))
             {
                 return 0;
             }
             else
             {
-                return double.Parse(strMoney);
+                return double.Parse(strMoney.ToString());
             }
         }
     }

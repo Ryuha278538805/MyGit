@@ -1,0 +1,7 @@
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Common\bin\Release\HCW.Common.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Common\bin\Release\HCW.Common.pdb
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Common\bin\Release\Newtonsoft.Json.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Common\bin\Release\Newtonsoft.Json.xml
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Common\obj\Release\HCW.Common.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Common\obj\Release\HCW.Common.dll
+D:\VSWorkspace\GitSpace\HCWDDL\HCW.Common\obj\Release\HCW.Common.pdb

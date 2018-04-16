@@ -109,12 +109,17 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="M\award.html" />
+    <Content Include="M\awarddetail\award_p3.aspx" />
     <Content Include="M\awarddetail\award_3d.aspx" />
+    <Content Include="M\awarddetail\award_dlt.aspx" />
+    <Content Include="M\awarddetail\award_qlc.aspx" />
+    <Content Include="M\awarddetail\award_qxc.aspx" />
     <Content Include="M\awarddetail\award_ssq.aspx" />
     <Content Include="M\Content\css\iconfont.css" />
     <Content Include="M\Content\css\main.css" />
     <Content Include="M\Content\images\qipa.svg" />
     <Content Include="M\awards.aspx" />
+    <Content Include="M\ls2.aspx" />
     <Content Include="M\main.aspx" />
     <Content Include="M\index.html" />
     <Content Include="M\Js\cm.js" />
@@ -125,12 +130,15 @@
     <Content Include="M\Js\wh.js" />
     <Content Include="M\Js\zepto.min.js" />
     <Content Include="M\ls2.html" />
+    <Content Include="M\newdetail.aspx" />
     <Content Include="M\news.html" />
     <Content Include="packages.config" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="M\Index.Master" />
+    <Content Include="M\Handler\NewsHandler.ashx" />
+    <None Include="Properties\PublishProfiles\hcwddl.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -142,12 +150,40 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="M\awarddetail\award_p3.aspx.cs">
+      <DependentUpon>award_p3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="M\awarddetail\award_p3.aspx.designer.cs">
+      <DependentUpon>award_p3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="M\awarddetail\award_3d.aspx.cs">
       <DependentUpon>award_3d.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="M\awarddetail\award_3d.aspx.designer.cs">
       <DependentUpon>award_3d.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="M\awarddetail\award_dlt.aspx.cs">
+      <DependentUpon>award_dlt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="M\awarddetail\award_dlt.aspx.designer.cs">
+      <DependentUpon>award_dlt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="M\awarddetail\award_qlc.aspx.cs">
+      <DependentUpon>award_qlc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="M\awarddetail\award_qlc.aspx.designer.cs">
+      <DependentUpon>award_qlc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="M\awarddetail\award_qxc.aspx.cs">
+      <DependentUpon>award_qxc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="M\awarddetail\award_qxc.aspx.designer.cs">
+      <DependentUpon>award_qxc.aspx</DependentUpon>
     </Compile>
     <Compile Include="M\awarddetail\award_ssq.aspx.cs">
       <DependentUpon>award_ssq.aspx</DependentUpon>
@@ -163,6 +199,16 @@
     <Compile Include="M\awards.aspx.designer.cs">
       <DependentUpon>awards.aspx</DependentUpon>
     </Compile>
+    <Compile Include="M\Handler\NewsHandler.ashx.cs">
+      <DependentUpon>NewsHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="M\ls2.aspx.cs">
+      <DependentUpon>ls2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="M\ls2.aspx.designer.cs">
+      <DependentUpon>ls2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="M\main.aspx.cs">
       <DependentUpon>main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -176,6 +222,13 @@
     </Compile>
     <Compile Include="M\Index.Master.designer.cs">
       <DependentUpon>Index.Master</DependentUpon>
+    </Compile>
+    <Compile Include="M\newdetail.aspx.cs">
+      <DependentUpon>newdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="M\newdetail.aspx.designer.cs">
+      <DependentUpon>newdetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
