@@ -93,7 +93,6 @@
             <div class="webInfo">
                 <p>
                     <span>触屏版</span>
-                    <a href="https://www.haocw.com/">电脑版</a>
                     <a onclick="goTop()">返回顶部</a>
                 </p>
                 <p>好彩网版权所有 © 2005-2014</p>

@@ -1,12 +1,17 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="header.ascx.cs" Inherits="Www.header" %>
+
+<script type="text/javascript">
+    if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        window.location.href = "http://m.haocw.com/";
+    }
+</script>
 <div class="w1200">
 	<div id="top">
-		<div class="log"><a href="http://www.haocw.com"><img  id="logo" alt="好彩网" src="/image/logo.gif" width="121" height="75" border="0" /></a></div>
-		<div class="htop"><img  id="logo" alt="好彩网" src="/image/htop.gif"  border="0" /></script></div>
+		<div class="log"><a href="http://www.haocw.com"><img id="logo" alt="好彩网" src="/image/logo.gif" width="121" height="75" border="0" /></a></div>
+		<div class="htop"><img src="image/htop.gif" width="732" height="80"></div>
 		<div class="hyj p12">欢迎广大朋友提意见<br /><span class="reds"><a href="http://bbs.haocw.com/showforum-22.aspx">提意见点这里</a>>>></span></div>
 	</div>
 </div>
-
 <div class="dh">
 	<div class="w1200">
 			<div class="dht" >
@@ -30,5 +35,5 @@
 
 		</div>
 	</div>
+	
 </div>
-

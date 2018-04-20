@@ -13,6 +13,7 @@ namespace HCW.Master
     {
         private static tbl_newsService s = new tbl_newsService();
         private static int timespan = Int32.Parse(ConfigurationManager.AppSettings["cache_news"]);
+        private static int adspan = Int32.Parse(ConfigurationManager.AppSettings["cache_ads"]);
 
         /// <summary>
         /// 手机端首页导航
@@ -67,16 +68,19 @@ namespace HCW.Master
         /// <summary>
         /// 手机端广告
         /// </summary>
-        private static IList<tbl_ADmanagerInfo> adsM = null;
+        private static string cacheads = "cacheads";
         public static IList<tbl_ADmanagerInfo> ADsM
         {
             get
             {
-                if (adsM == null)
+                IList<tbl_ADmanagerInfo> lst = CacheHelper.GetCache<IList<tbl_ADmanagerInfo>>(cacheads);
+                if (lst == null)
                 {
-                    adsM = s.M_GetADs(6, 0);
+                    int topads = Int32.Parse(ConfigurationManager.AppSettings["top_ads"]);
+                    lst = s.M_GetADs(topads, 0);
+                    CacheHelper.SetCache(cacheads, lst, DateTime.Now.AddMinutes(adspan), new TimeSpan());
                 }
-                return adsM;
+                return lst;
             }
         }
     }

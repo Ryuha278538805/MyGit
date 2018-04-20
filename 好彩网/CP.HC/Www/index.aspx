@@ -31,6 +31,7 @@
 <uc1:header ID="header1" runat="server" />
 
 <div class="dhbg"></div>
+<div class="w1200"><a href="http://www.haocw.com/tk"><img id="logo" alt="好彩图库" src="/image/yl.jpg" width="1200" height="50"  /></a></div>
 <div class="w1200">
 	<div class="kjh p12">
 		<div class="kjh_box">

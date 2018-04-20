@@ -42,3 +42,14 @@ D:\HCWDDL\HCW.Bussiness\bin\Debug\Newtonsoft.Json.xml
 D:\HCWDDL\HCW.Bussiness\obj\Debug\HCW.Bussiness.csprojResolveAssemblyReference.cache
 D:\HCWDDL\HCW.Bussiness\obj\Debug\HCW.Bussiness.dll
 D:\HCWDDL\HCW.Bussiness\obj\Debug\HCW.Bussiness.pdb
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Bussiness.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Bussiness.pdb
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Common.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Model.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Bussiness\bin\Debug\Newtonsoft.Json.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Common.pdb
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Bussiness\bin\Debug\HCW.Model.pdb
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Bussiness\bin\Debug\Newtonsoft.Json.xml
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Bussiness\obj\Debug\HCW.Bussiness.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Bussiness\obj\Debug\HCW.Bussiness.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Bussiness\obj\Debug\HCW.Bussiness.pdb

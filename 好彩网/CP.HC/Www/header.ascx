@@ -1,4 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="header.ascx.cs" Inherits="Www.header" %>
+
 <div class="w1200">
 	<div id="top">
 		<div class="log"><a href="http://www.haocw.com"><img id="logo" alt="好彩网" src="/image/logo.gif" width="121" height="75" border="0" /></a></div>

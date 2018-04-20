@@ -82,8 +82,10 @@
     <Content Include="css\css_dz.css" />
     <Content Include="css\style.css" />
     <Content Include="footer.ascx" />
+    <Content Include="footer1.ascx" />
     <Content Include="Global.asax" />
     <Content Include="header.ascx" />
+    <Content Include="header1.ascx" />
     <Content Include="html\kjhad.html" />
     <Content Include="image\1.jpg" />
     <Content Include="image\acd_01.jpg" />
@@ -238,7 +240,6 @@
     <Content Include="yc\list.aspx" />
     <Content Include="yc\yc_info.aspx" />
     <Content Include="yc\yc_list.aspx" />
-    <Content Include="zst.htm" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="404.aspx.cs">

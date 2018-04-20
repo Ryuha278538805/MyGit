@@ -50,3 +50,16 @@ D:\HCWDDL\HCW.Master\bin\Debug\Newtonsoft.Json.xml
 D:\HCWDDL\HCW.Master\obj\Debug\HCW.Master.csprojResolveAssemblyReference.cache
 D:\HCWDDL\HCW.Master\obj\Debug\HCW.Master.dll
 D:\HCWDDL\HCW.Master\obj\Debug\HCW.Master.pdb
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\bin\Debug\HCW.Master.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\bin\Debug\HCW.Master.pdb
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\bin\Debug\HCW.Bussiness.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\bin\Debug\HCW.Common.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\bin\Debug\HCW.Model.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\bin\Debug\Newtonsoft.Json.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\bin\Debug\HCW.Bussiness.pdb
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\bin\Debug\HCW.Common.pdb
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\bin\Debug\HCW.Model.pdb
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\bin\Debug\Newtonsoft.Json.xml
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\obj\Debug\HCW.Master.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\obj\Debug\HCW.Master.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Master\obj\Debug\HCW.Master.pdb

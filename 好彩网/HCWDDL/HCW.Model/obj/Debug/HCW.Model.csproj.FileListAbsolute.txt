@@ -16,3 +16,8 @@ D:\HCWDDL\HCW.Model\bin\Debug\HCW.Model.pdb
 D:\HCWDDL\HCW.Model\obj\Debug\HCW.Model.csprojResolveAssemblyReference.cache
 D:\HCWDDL\HCW.Model\obj\Debug\HCW.Model.dll
 D:\HCWDDL\HCW.Model\obj\Debug\HCW.Model.pdb
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Model\bin\Debug\HCW.Model.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Model\bin\Debug\HCW.Model.pdb
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Model\obj\Debug\HCW.Model.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Model\obj\Debug\HCW.Model.dll
+D:\VSWorkspace\GitSpace\好彩网\HCWDDL\HCW.Model\obj\Debug\HCW.Model.pdb

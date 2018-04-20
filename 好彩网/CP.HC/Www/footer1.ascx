@@ -1,57 +1,4 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="footer.ascx.cs" Inherits="Www.footer" %>
-<!--热点导航  begin!-->
-<div class="w1200">
-    <div class="hotNav">
-        <div class="hotNavTitle"><span>热点导航</span></div>
-        <div class="hotNavList">
-            <div class="hotNavIcon"></div>
-            <div class="hotNavItem">
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-            </div>
-            <div class="hotNavItem">
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-            </div>
-            <div class="hotNavItem">
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-            </div>
-            <div class="hotNavItem">
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-            </div>
-            <div class="hotNavItem">
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-            </div>
-            <div class="hotNavItem">
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-            </div>
-            <div class="hotNavItem" style="border-right:none;">
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-                <a href="#">热点导航</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!--热点导航  end!-->
-
 <div style="background-color:#FF0000; height:5px; margin-top:15px;margin-bottom:10px;"></div>
 <div class="yqd p12"><a href="http://www.haocw.com/">返回首页</a> &nbsp;&nbsp;<a href="/jpt/list.html">好彩网图库</a> &nbsp;&nbsp;<a href="/kj/">开奖公告</a>&nbsp;&nbsp; <a href="http://bbs.haocw.com/">好彩网论坛</a></div>
 <div class="p12" style="text-align:center; line-height:25px;">
@@ -72,6 +19,12 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 </script>
 </div>
 
+<script type="text/javascript">
+    if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        window.location.href = "http://m.haocw.com/";
+    }
+</script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -86,4 +39,5 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
     /*300*250 创建于 2016/12/30*/
     var cpro_id = "u2861236";
 </script>
+
 <script type="text/javascript" src="https://cpro.baidustatic.com/cpro/ui/f.js"></script>
