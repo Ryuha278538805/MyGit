@@ -1,0 +1,41 @@
+﻿body { font-family:\5b8b\4f53,Arial Narrow,arial,serif;font-size:14px; }
+li{list-style-type:none;}
+ol,ul {list-style:none;}
+img{border:0; outline:0}
+
+/*后台列表性通用样式*/
+#admintable {
+	border-collapse:collapse;
+	border:1px solid #  ;
+	width:98%;
+	}
+#admintable th {
+	vertical-align:baseline;
+	height:36px;
+	line-height:36px;	
+	background-color:#f5f4eb;
+	border:1px solid #bbb;
+	text-align:center;
+	}
+
+#admintable td {
+	height:33px;
+	line-height:33px;
+	vertical-align:text-top;
+	padding:0 5px 0 8px;
+	background-color:#fff;
+	border:1px solid #bbb;
+	}
+.right { text-align:right; }
+.center { text-align:center;}    
+.mt10 { margin-top:10px; }
+.mt20 { margin-top:20px; }
+.mt30 { margin-top:30px; }
+.h50 {height:50px; line-height:50px; }
+
+	
+.page{ font-size:12px;font-family:Verdana;}
+.page a{ margin-right:5px;margin-left:5px;}
+
+#login{	width:80%; margin:250px auto 0; text-align:center; border:1px solid #cccccc; line-height:30px; padding:3px;}
+#login .txt{border-top:1px solid #666; border-left:1px solid #666; border-right:1px solid #ccc; border-bottom:1px solid #ccc; font-size:12px; font-family:Arial; padding:2px}

@@ -1,0 +1,34 @@
+E:\web\EB\Business\bin\Release\Business.dll
+E:\web\EB\Business\bin\Release\Business.pdb
+E:\web\EB\Business\bin\Release\Common.dll
+E:\web\EB\Business\bin\Release\DataProvider.dll
+E:\web\EB\Business\bin\Release\Model.dll
+E:\web\EB\Business\bin\Release\Model.pdb
+E:\web\EB\Business\bin\Release\Common.pdb
+E:\web\EB\Business\bin\Release\DataProvider.pdb
+E:\web\EB\Business\obj\Release\ResolveAssemblyReference.cache
+E:\web\EB\Business\obj\Release\Business.dll
+E:\web\EB\Business\obj\Release\Business.pdb
+E:\web\CP\Business\obj\Release\ResolveAssemblyReference.cache
+E:\web\CP\Business\obj\Release\Business.dll
+E:\web\CP\Business\obj\Release\Business.pdb
+E:\web\CP\Business\bin\Release\Business.dll
+E:\web\CP\Business\bin\Release\Business.pdb
+E:\web\CP\Business\bin\Release\Common.dll
+E:\web\CP\Business\bin\Release\DataProvider.dll
+E:\web\CP\Business\bin\Release\Model.dll
+E:\web\CP\Business\bin\Release\Common.pdb
+E:\web\CP\Business\bin\Release\DataProvider.pdb
+E:\web\CP\Business\bin\Release\Model.pdb
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Release\Business.dll
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Release\Business.pdb
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Release\Common.dll
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Release\DataProvider.dll
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Release\Model.dll
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Release\Common.pdb
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Release\DataProvider.pdb
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Release\Model.pdb
+D:\Project Program\www.haocw.com\CP.HC\Business\obj\Release\Business.csprojResolveAssemblyReference.cache
+D:\Project Program\www.haocw.com\CP.HC\Business\obj\Release\Business.csproj.CoreCompileInputs.cache
+D:\Project Program\www.haocw.com\CP.HC\Business\obj\Release\Business.dll
+D:\Project Program\www.haocw.com\CP.HC\Business\obj\Release\Business.pdb

@@ -1,0 +1,47 @@
+E:\web\CP.HC\Shop\bin\Shop.dll
+E:\web\CP.HC\Shop\bin\Shop.pdb
+E:\web\CP.HC\Shop\bin\AspNetPager.dll
+E:\web\CP.HC\Shop\bin\Business.dll
+E:\web\CP.HC\Shop\bin\Common.dll
+E:\web\CP.HC\Shop\bin\DataProvider.dll
+E:\web\CP.HC\Shop\bin\Intelligencia.UrlRewriter.dll
+E:\web\CP.HC\Shop\bin\Model.dll
+E:\web\CP.HC\Shop\bin\Business.pdb
+E:\web\CP.HC\Shop\bin\Common.pdb
+E:\web\CP.HC\Shop\bin\DataProvider.pdb
+E:\web\CP.HC\Shop\bin\Model.pdb
+E:\web\CP.HC\Shop\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CP.HC\Shop\obj\Debug\Shop.dll
+E:\web\CP.HC\Shop\obj\Debug\Shop.pdb
+D:\CP.HC\Shop\bin\Shop.dll
+D:\CP.HC\Shop\bin\Shop.pdb
+D:\CP.HC\Shop\bin\AspNetPager.dll
+D:\CP.HC\Shop\bin\Business.dll
+D:\CP.HC\Shop\bin\Common.dll
+D:\CP.HC\Shop\bin\DataProvider.dll
+D:\CP.HC\Shop\bin\Intelligencia.UrlRewriter.dll
+D:\CP.HC\Shop\bin\Model.dll
+D:\CP.HC\Shop\bin\Business.pdb
+D:\CP.HC\Shop\bin\Common.pdb
+D:\CP.HC\Shop\bin\DataProvider.pdb
+D:\CP.HC\Shop\bin\Model.pdb
+D:\CP.HC\Shop\obj\Debug\ResolveAssemblyReference.cache
+D:\CP.HC\Shop\obj\Debug\Shop.dll
+D:\CP.HC\Shop\obj\Debug\Shop.pdb
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\Shop.dll.config
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\Shop.dll
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\Shop.pdb
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\AspNetPager.dll
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\Business.dll
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\Common.dll
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\DataProvider.dll
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\Intelligencia.UrlRewriter.dll
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\Model.dll
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\Business.pdb
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\Common.pdb
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\DataProvider.pdb
+D:\Project Program\www.haocw.com\CP.HC\Shop\bin\Model.pdb
+D:\Project Program\www.haocw.com\CP.HC\Shop\obj\Debug\Shop.csprojResolveAssemblyReference.cache
+D:\Project Program\www.haocw.com\CP.HC\Shop\obj\Debug\Shop.csproj.CoreCompileInputs.cache
+D:\Project Program\www.haocw.com\CP.HC\Shop\obj\Debug\Shop.dll
+D:\Project Program\www.haocw.com\CP.HC\Shop\obj\Debug\Shop.pdb

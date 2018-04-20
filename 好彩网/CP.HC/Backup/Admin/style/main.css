@@ -1,0 +1,20 @@
+/* CSS Document */
+@IMPORT url("./base.css"); 
+*{ font-size:12px;}
+#leftbox{width:194px; overflow:hidden; float:left; margin:5px auto auto 5px;}
+#leftbox .topbg{ background:url(/images/main_left_topbg.gif) no-repeat; width:194px; height:5px; overflow:hidden;}
+#leftbox .centerbg{ background:url(/images/main_left_bg.gif) repeat-y; width:194px; padding-bottom:8px; overflow:hidden;}
+#leftbox .endbg{ background:url(/images/main_left_endbg.gif) no-repeat; width:194px; height:5px; overflow:hidden;}
+#leftbox .centerbg ul{ margin:0px; padding:0px;}
+#leftbox .centerbg .imgbt{ margin:6px auto auto 10px;}
+#leftbox .centerbg li{ background:url(/images/main_left_libg.gif) no-repeat; width:173px; margin:6px auto auto 10px; line-height:29px; cursor:pointer; overflow:hidden;}
+#leftbox .centerbg li .jjbt{ margin-top:6px;}
+#leftbox .centerbg .mli li{ background:url(/images/main_left_slibg.gif) no-repeat 0px 5px; padding-left:10px;width:138px; height:22px; line-height:22px; float:right;}
+
+#moretag{ border:#CCCCCC 1px solid; padding:5px; margin:5px 10px; width:50px; cursor:pointer; white-space:nowrap; }
+#form1 .hottags{ margin:10px; float:left;}
+#form1 .hottags .newtag{ margin:0px; padding:0px; float:left;}
+#form1 .hottags span{ padding:3px 10px; margin:5px 10px auto auto; cursor:pointer;float:left;white-space:nowrap; }
+#form1 .hottags .sel{ background:#0099CC; color:#FFFFFF; } 
+.img {BORDER:#cccccc 1px solid;PADDING:5px;WIDTH: 100px;}
+.label { FLOAT: left; MARGIN: 6px; WIDTH: 128px; TEXT-ALIGN: center }

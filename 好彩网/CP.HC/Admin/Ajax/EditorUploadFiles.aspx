@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EditorUploadFiles.aspx.cs" Inherits="Admin.Ajax.EditorUploadFiles" %>

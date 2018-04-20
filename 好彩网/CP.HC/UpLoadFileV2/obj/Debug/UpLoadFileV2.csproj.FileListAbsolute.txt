@@ -1,0 +1,43 @@
+E:\web\EB\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll.config
+E:\web\EB\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll
+E:\web\EB\UpLoadFileV2\bin\Debug\UpLoadFileV2.pdb
+E:\web\EB\UpLoadFileV2\obj\Debug\ResolveAssemblyReference.cache
+E:\web\EB\UpLoadFileV2\obj\Debug\UpLoadFileV2.dll
+E:\web\EB\UpLoadFileV2\obj\Debug\UpLoadFileV2.pdb
+E:\web\CP\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll.config
+E:\web\CP\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll
+E:\web\CP\UpLoadFileV2\bin\Debug\UpLoadFileV2.pdb
+E:\web\CP\UpLoadFileV2\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CP\UpLoadFileV2\obj\Debug\UpLoadFileV2.dll
+E:\web\CP\UpLoadFileV2\obj\Debug\UpLoadFileV2.pdb
+E:\web\CPhaocw\UpLoadFileV2\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CPhaocw\UpLoadFileV2\obj\Debug\UpLoadFileV2.dll
+E:\web\CPhaocw\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll.config
+E:\web\CPhaocw\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll
+E:\web\CPhaocw\UpLoadFileV2\bin\Debug\UpLoadFileV2.pdb
+E:\web\CPhaocw\UpLoadFileV2\obj\Debug\UpLoadFileV2.pdb
+E:\web\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll.config
+E:\web\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll
+E:\web\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.pdb
+E:\web\CP.HC\UpLoadFileV2\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.dll
+E:\web\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.pdb
+E:\www\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll.config
+E:\www\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll
+E:\www\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.pdb
+E:\www\CP.HC\UpLoadFileV2\obj\Debug\ResolveAssemblyReference.cache
+E:\www\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.dll
+E:\www\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.pdb
+D:\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll.config
+D:\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll
+D:\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.pdb
+D:\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.dll
+D:\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.pdb
+D:\Project Program\www.haocw.com\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll.config
+D:\Project Program\www.haocw.com\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll
+D:\Project Program\www.haocw.com\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.pdb
+D:\Project Program\www.haocw.com\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.csprojResolveAssemblyReference.cache
+D:\Project Program\www.haocw.com\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.csproj.CoreCompileInputs.cache
+D:\Project Program\www.haocw.com\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.dll
+D:\Project Program\www.haocw.com\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.pdb
+D:\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.csprojResolveAssemblyReference.cache

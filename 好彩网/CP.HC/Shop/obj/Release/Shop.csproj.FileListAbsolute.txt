@@ -1,0 +1,15 @@
+E:\web\CP\Shop\bin\Shop.dll
+E:\web\CP\Shop\bin\Shop.pdb
+E:\web\CP\Shop\obj\Release\ResolveAssemblyReference.cache
+E:\web\CP\Shop\obj\Release\Shop.dll
+E:\web\CP\Shop\obj\Release\Shop.pdb
+E:\web\CP\Shop\bin\Business.dll
+E:\web\CP\Shop\bin\Common.dll
+E:\web\CP\Shop\bin\DataProvider.dll
+E:\web\CP\Shop\bin\Model.dll
+E:\web\CP\Shop\bin\Business.pdb
+E:\web\CP\Shop\bin\Common.pdb
+E:\web\CP\Shop\bin\DataProvider.pdb
+E:\web\CP\Shop\bin\Model.pdb
+E:\web\CP\Shop\bin\Intelligencia.UrlRewriter.dll
+E:\web\CP\Shop\bin\AspNetPager.dll

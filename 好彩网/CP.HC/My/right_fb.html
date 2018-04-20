@@ -1,0 +1,325 @@
+<link href="images/skin.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #EEF2FB;
+}
+-->
+</style>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="17" valign="top" background="images/mail_leftbg.gif"><img src="images/left-top-right.gif" width="17" height="29" /></td>
+    <td valign="top" background="images/content-bg.gif"><table width="100%" height="31" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">信息发布</div></td>
+      </tr>
+    </table></td>
+    <td width="16" valign="top" background="images/mail_rightbg.gif"><img src="images/nav-right-bg.gif" width="16" height="29" /></td>
+  </tr>
+  <tr>
+    <td valign="middle" background="images/mail_leftbg.gif">&nbsp;</td>
+    <td valign="top" bgcolor="#F7F8F9"><table border="0" cellpadding="0" cellspacing="1" bgcolor="#FFFFFF" class="tb_12px ipu">
+      <tr>
+        <td height="20" colspan="5" align="center" bgcolor="#EEF2FB">&nbsp;</td>
+        </tr>
+      <tr>
+        <td height="30" colspan="5" align="center" bgcolor="#EEF2FB">彩种
+          <SELECT id="cptypeid"  name="cptypeid">
+              <OPTION value="">请选择
+              <OPTION  value="2">福彩3D</OPTION>
+              <OPTION  value="2">体彩P3</OPTION>
+              <OPTION selected value="2">双色球</OPTION>
+                            </SELECT>
+&nbsp;&nbsp;贴子形式
+<SELECT id="select"  name="select">
+              <OPTION value="">请选择
+              <OPTION  value="2">彩贝贴</OPTION>
+              <OPTION  value="2">免费帖</OPTION>
+          </SELECT>
+&nbsp;&nbsp;收费形式
+<SELECT id="select"  name="select">
+  <OPTION value="">请选择
+    <OPTION  value="2">普通贴</OPTION>
+  <OPTION selected value="2">双倍帖</OPTION>
+</SELECT>
+&nbsp;&nbsp;本贴总价：
+<SELECT id="select2"  name="select2">
+              <OPTION  value="2">1</OPTION>
+                <OPTION  value="2">2</OPTION>
+                <OPTION  value="2">3</OPTION>
+                <OPTION  value="2">4</OPTION>
+                <OPTION  value="2">5</OPTION>
+                <OPTION  value="2">6</OPTION>
+                <OPTION  value="2">7</OPTION>
+                <OPTION  value="2">8</OPTION>
+                <OPTION  value="2">9</OPTION>
+                <OPTION  value="2">10</OPTION>
+          </SELECT></td>
+        </tr>
+      <tr>
+        <td width="50" height="30" align="center" bgcolor="#EEF2FB">选择</td>
+        <td width="106" align="center" bgcolor="#EEF2FB">单项彩贝价</td>
+        <td width="122" align="center" bgcolor="#EEF2FB">项目名称</td>
+        <td width="403" bgcolor="#EEF2FB">内容</td>
+        <td width="274" bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="30" align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox4"disabled type="checkbox" id="checkbox3" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select3"  name="select3">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td width="122" bgcolor="#EEF2FB">独胆</td>
+        <td bgcolor="#EEF2FB"><input name="textfield2" type="text" size="5"></td>
+        <td width="274" bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="30" align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox42"disabled type="checkbox" id="checkbox4" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select4"  name="select4">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td bgcolor="#EEF2FB">双胆：</td>
+        <td bgcolor="#EEF2FB"><input name="textfield22" type="text" size="5"></td>
+        <td bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="30" align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox43"disabled type="checkbox" id="checkbox42" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select5"  name="select5">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td bgcolor="#EEF2FB">三胆：</td>
+        <td bgcolor="#EEF2FB"><input name="textfield3" type="text" size="5"></td>
+        <td bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="30" align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox44"disabled type="checkbox" id="checkbox43" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select6"  name="select6">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td bgcolor="#EEF2FB">杀三码</td>
+        <td bgcolor="#EEF2FB"><input name="textfield" type="text" size="5"></td>
+        <td bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="30" align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox45"disabled type="checkbox" id="checkbox44" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select7"  name="select7">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td bgcolor="#EEF2FB">五码：</td>
+        <td bgcolor="#EEF2FB"><input name="textfield32" type="text" size="8"></td>
+        <td bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="30" align="center" bgcolor="#EEF2FB"><strong>
+          <input name="checkbox" disabled type="checkbox" id="add_11" onClick="add('11')" checked data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select8"  name="select8">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td bgcolor="#EEF2FB">包星两组：</td>
+        <td bgcolor="#EEF2FB"><input name="textfield3223" type="text" value="**1 *2*" size="10"></td>
+        <td bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="30" align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox72" type="checkbox" id="checkbox72" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select9"  name="select9">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td bgcolor="#EEF2FB">二码定位</td>
+        <td bgcolor="#EEF2FB"><input name="textfield322" type="text" value="12*12*12" size="10"></td>
+        <td bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="30" align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox7" type="checkbox" id="checkbox6" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select10"  name="select10">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td bgcolor="#EEF2FB">三码定位</td>
+        <td bgcolor="#EEF2FB"><input name="textfield3222" type="text" value="123*123*123" size="14"></td>
+        <td bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="30" align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox8" type="checkbox" id="checkbox7" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select11"  name="select11">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td bgcolor="#EEF2FB">四码定位</td>
+        <td bgcolor="#EEF2FB"><input name="textfield32222" type="text" value="1234*1234*1234" size="18"></td>
+        <td bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="30" align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox9" type="checkbox" id="checkbox8" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select12"  name="select12">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td bgcolor="#EEF2FB">五码定位</td>
+        <td bgcolor="#EEF2FB"><input name="textfield322222" type="text" value="12345*12345*12345" size="20"></td>
+        <td bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox10" type="checkbox" id="checkbox9" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select13"  name="select13">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td bgcolor="#EEF2FB">直选大底30注：<br></td>
+        <td valign="top" bgcolor="#EEF2FB"><textarea name="textarea" cols="30" rows="4"></textarea>
+          <br></td>
+        <td valign="top" bgcolor="#EEF2FB"><br></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox102" type="checkbox" id="checkbox102" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select14"  name="select14">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td bgcolor="#EEF2FB">组六大底20注：</td>
+        <td valign="top" bgcolor="#EEF2FB"><textarea name="textarea3" cols="30" rows="2"></textarea></td>
+        <td valign="top" bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox103" type="checkbox" id="checkbox103" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select15"  name="select15">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td bgcolor="#EEF2FB">组三大底10注：</td>
+        <td valign="top" bgcolor="#EEF2FB"><textarea name="textarea2" cols="30" rows="2"></textarea></td>
+        <td valign="top" bgcolor="#EEF2FB">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="30" align="center" bgcolor="#EEF2FB"><strong>
+          <INPUT name="checkbox11" type="checkbox" id="checkbox10" onClick="add('11')" CHECKED data="独胆:11" required="1">
+        </strong></td>
+        <td align="center" bgcolor="#EEF2FB"><select id="select16"  name="select16">
+          <option  value="2">1彩贝</option>
+          <option  value="2">2彩贝</option>
+          <option  value="2">3彩贝</option>
+          <option  value="2">4彩贝</option>
+        </select></td>
+        <td colspan="3" bgcolor="#EEF2FB">大小：
+          <SELECT id="select46"  name="select45">
+          <OPTION value="2">大</OPTION>
+          <OPTION value="2">小</OPTION>
+        </SELECT>
+          <SELECT id="select47"  name="select46">
+            <OPTION value="2">大</OPTION>
+            <OPTION value="2">小</OPTION>
+          </SELECT>
+          <SELECT id="select48"  name="select47">
+            <OPTION value="2">大</OPTION>
+            <OPTION value="2">小</OPTION>
+          </SELECT>
+          &nbsp;&nbsp;奇偶：
+          <select id="select49"  name="select48">
+            <option value="2">奇</option>
+            <option value="2">偶</option>
+          </select>
+          <select id="select51"  name="select50">
+            <option value="2">奇</option>
+            <option value="2">偶</option>
+          </select>
+          <select id="select52"  name="select51">
+            <option value="2">奇</option>
+            <option value="2">偶</option>
+          </select>
+          &nbsp;&nbsp;值合：
+          <select id="select50"  name="select49">
+            <option value="2">值</option>
+            <option value="2">合</option>
+          </select>
+          <select id="select53"  name="select52">
+            <option value="2">值</option>
+            <option value="2">合</option>
+          </select>
+          <select id="select54"  name="select53">
+            <option value="2">值</option>
+            <option value="2">合</option>
+          </select></td>
+        </tr>
+      <tr>
+        <td bgcolor="#EEF2FB">&nbsp;</td>
+        <td bgcolor="#EEF2FB">可选内容</td>
+        <td colspan="2" bgcolor="#EEF2FB"><textarea name="textarea4" cols="60" rows="4"></textarea>          </td>
+        <td bgcolor="#EEF2FB">注：<br>
+          没有填写此内容为直接发布<br>
+          填写后要管理员审核 </td>
+      </tr>
+      <tr>
+        <td height="12" colspan="5" align="center" bgcolor="#EEF2FB"><input type="submit" name="Submit" value="  提 交  ">
+        本贴单项累计总价：25彩贝</td>
+      </tr>
+    </table></td>
+    <td background="images/mail_rightbg.gif">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="bottom" background="images/mail_leftbg.gif"><img src="images/buttom_left2.gif" width="17" height="17" /></td>
+    <td background="images/buttom_bgs.gif">&nbsp;</td>
+    <td valign="bottom" background="images/mail_rightbg.gif"><img src="images/buttom_right2.gif" width="16" height="17" /></td>
+  </tr>
+</table>
+</body>

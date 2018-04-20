@@ -1,0 +1,40 @@
+*{margin:0 auto;}
+body{ background-color:#EEEEEE;}
+table{ background-color:#fff;}
+a:link,a:visited,a:hover,a:active {font-family:"",Arial, Helvetica,sans-serif;text-decoration:none;}
+.dh { width:1200px;}
+.dh a{ color:#FFFFFF; font-size:14px; margin-left:15px;}
+.dhyj{ font-size:12px; line-height:20px;}
+.tkt a{ font-size:14px; font-weight:bold; color:#FF0000;line-height:40px; margin-left:10px;}
+.tk { width:370px;}
+.tk a{ font-size:12px; margin-left:10px; color:#000000; line-height:25px;}
+.tk div{ width:120px; float:left;}
+.ttop{ width:111px; height:29px; float:left; margin-left:80px; margin-top:10px; font-size:12px; line-height:29px; text-align:center;}
+.ttop_1{background-image: url(image/kj.jpg);background-repeat: no-repeat;}
+.ttop_2{background-image: url(image/tm.jpg);background-repeat: no-repeat;}
+.ttop_3{background-image: url(image/lt.jpg);background-repeat: no-repeat;}
+.fenlei{ margin-left:150px;}
+.wzdh0{font-size:14px; font-weight:bold; line-height:35px;}
+.wzdh0 a{ color:#fff; margin-left:20px;}
+.wzdh1{ float:left; width:80px; font-size:14px; font-weight:bold; line-height:35px; color:#000; margin-left:30px;}
+.wzdh1 a{ color:#000;}
+.wzdh2 a{ width:115px; color:#000;}
+.wzdh2{ float:left; font-size:14px; line-height:35px; color:#000; margin-left:10px;}
+.fel_yuc{ margin-left:20px;margin-top:20px; padding-left:10px;border-left: 2px solid #2F94E2; height:60px; width:130px;}
+.fel_yuc h2{ font-size:16px; line-height:40px;}
+.fel_t{ font-size:12px; color:#999999;}
+.webs{ margin-left:15px; margin-top:15px; float:left; width:120px;}
+.tit{ color:#2F94E2; font-size:14px; font-weight:bold; line-height:25px;}
+.tit a{ color:#2F94E2;}
+.leilian{ color:#999999; font-size:12px;}
+.leilian a{ color:#999;}
+.leilian a:hover{ color:#FF0000;}
+.tom{ margin-top:30px; line-height:25px; font-size:12px;border-top: 1px solid #E8E8E8; padding-top:10px;}
+
+.l_tu{ margin-top:30px;}
+.wzlb{ margin-top:30px;}
+.wzlb h1{ font-size:16px;float:left; width:110px;}
+.ltr{ }
+.lttx{ font-size:12px; color:#666666; line-height:20px; margin-top:20px;}
+
+.l_bd{ margin-top:30px;}

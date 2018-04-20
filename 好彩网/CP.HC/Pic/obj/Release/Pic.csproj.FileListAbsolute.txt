@@ -1,0 +1,16 @@
+E:\web\EB\Pic\bin\Pic.dll
+E:\web\EB\Pic\bin\Pic.pdb
+E:\web\EB\Pic\obj\Release\ResolveAssemblyReference.cache
+E:\web\EB\Pic\obj\Release\Pic.dll
+E:\web\EB\Pic\obj\Release\Pic.pdb
+E:\web\CP\Pic\bin\Pic.dll
+E:\web\CP\Pic\bin\Pic.pdb
+E:\web\CP\Pic\obj\Release\ResolveAssemblyReference.cache
+E:\web\CP\Pic\obj\Release\Pic.dll
+E:\web\CP\Pic\obj\Release\Pic.pdb
+D:\Project Program\www.haocw.com\CP.HC\Pic\bin\Pic.dll.config
+D:\Project Program\www.haocw.com\CP.HC\Pic\bin\Pic.dll
+D:\Project Program\www.haocw.com\CP.HC\Pic\bin\Pic.pdb
+D:\Project Program\www.haocw.com\CP.HC\Pic\obj\Release\Pic.csproj.CoreCompileInputs.cache
+D:\Project Program\www.haocw.com\CP.HC\Pic\obj\Release\Pic.dll
+D:\Project Program\www.haocw.com\CP.HC\Pic\obj\Release\Pic.pdb

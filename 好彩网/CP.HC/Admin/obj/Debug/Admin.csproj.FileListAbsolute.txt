@@ -1,0 +1,137 @@
+E:\web\EB\Admin\obj\Debug\ResolveAssemblyReference.cache
+E:\web\EB\Admin\bin\Admin.dll
+E:\web\EB\Admin\bin\Admin.pdb
+E:\web\EB\Admin\bin\Business.dll
+E:\web\EB\Admin\bin\Common.dll
+E:\web\EB\Admin\bin\DataProvider.dll
+E:\web\EB\Admin\bin\Model.dll
+E:\web\EB\Admin\bin\Pic.dll
+E:\web\EB\Admin\bin\Common.pdb
+E:\web\EB\Admin\bin\Model.pdb
+E:\web\EB\Admin\bin\Business.pdb
+E:\web\EB\Admin\bin\Pic.pdb
+E:\web\EB\Admin\bin\DataProvider.pdb
+E:\web\EB\Admin\obj\Debug\Admin.dll
+E:\web\EB\Admin\obj\Debug\Admin.pdb
+E:\web\EB\Admin\bin\AspNetPager.xml
+E:\web\EB\Admin\bin\en\AspNetPager.resources.dll
+E:\web\EB\Admin\bin\zh-CHT\AspNetPager.resources.dll
+E:\web\EB\Admin\bin\UpLoadFileV2.dll
+E:\web\EB\Admin\bin\UpLoadFileV2.pdb
+E:\web\CP\Admin\bin\Admin.dll
+E:\web\CP\Admin\bin\Admin.pdb
+E:\web\CP\Admin\bin\Business.dll
+E:\web\CP\Admin\bin\Common.dll
+E:\web\CP\Admin\bin\DataProvider.dll
+E:\web\CP\Admin\bin\Model.dll
+E:\web\CP\Admin\bin\Pic.dll
+E:\web\CP\Admin\bin\UpLoadFileV2.dll
+E:\web\CP\Admin\bin\Business.pdb
+E:\web\CP\Admin\bin\Common.pdb
+E:\web\CP\Admin\bin\DataProvider.pdb
+E:\web\CP\Admin\bin\Model.pdb
+E:\web\CP\Admin\bin\Pic.pdb
+E:\web\CP\Admin\bin\UpLoadFileV2.pdb
+E:\web\CP\Admin\bin\AspNetPager.xml
+E:\web\CP\Admin\bin\en\AspNetPager.resources.dll
+E:\web\CP\Admin\bin\zh-CHT\AspNetPager.resources.dll
+E:\web\CP\Admin\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CP\Admin\obj\Debug\Admin.dll
+E:\web\CP\Admin\obj\Debug\Admin.pdb
+E:\web\CPhaocw\Admin\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CPhaocw\Admin\obj\Debug\Admin.dll
+E:\web\CPhaocw\Admin\bin\Admin.dll
+E:\web\CPhaocw\Admin\bin\Admin.pdb
+E:\web\CPhaocw\Admin\bin\Business.dll
+E:\web\CPhaocw\Admin\bin\Common.dll
+E:\web\CPhaocw\Admin\bin\DataProvider.dll
+E:\web\CPhaocw\Admin\bin\Model.dll
+E:\web\CPhaocw\Admin\bin\Pic.dll
+E:\web\CPhaocw\Admin\bin\UpLoadFileV2.dll
+E:\web\CPhaocw\Admin\bin\Business.pdb
+E:\web\CPhaocw\Admin\bin\Common.pdb
+E:\web\CPhaocw\Admin\bin\DataProvider.pdb
+E:\web\CPhaocw\Admin\bin\Model.pdb
+E:\web\CPhaocw\Admin\bin\Pic.pdb
+E:\web\CPhaocw\Admin\bin\UpLoadFileV2.pdb
+E:\web\CPhaocw\Admin\obj\Debug\Admin.pdb
+E:\web\CP.HC\Admin\bin\Admin.dll
+E:\web\CP.HC\Admin\bin\Admin.pdb
+E:\web\CP.HC\Admin\bin\Business.dll
+E:\web\CP.HC\Admin\bin\Common.dll
+E:\web\CP.HC\Admin\bin\DataProvider.dll
+E:\web\CP.HC\Admin\bin\Model.dll
+E:\web\CP.HC\Admin\bin\Pic.dll
+E:\web\CP.HC\Admin\bin\UpLoadFileV2.dll
+E:\web\CP.HC\Admin\bin\Business.pdb
+E:\web\CP.HC\Admin\bin\Common.pdb
+E:\web\CP.HC\Admin\bin\DataProvider.pdb
+E:\web\CP.HC\Admin\bin\Model.pdb
+E:\web\CP.HC\Admin\bin\Pic.pdb
+E:\web\CP.HC\Admin\bin\UpLoadFileV2.pdb
+E:\web\CP.HC\Admin\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CP.HC\Admin\obj\Debug\Admin.dll
+E:\web\CP.HC\Admin\obj\Debug\Admin.pdb
+E:\www\CP.HC\Admin\bin\Admin.dll
+E:\www\CP.HC\Admin\bin\Admin.pdb
+E:\www\CP.HC\Admin\bin\Business.dll
+E:\www\CP.HC\Admin\bin\Common.dll
+E:\www\CP.HC\Admin\bin\DataProvider.dll
+E:\www\CP.HC\Admin\bin\Model.dll
+E:\www\CP.HC\Admin\bin\Pic.dll
+E:\www\CP.HC\Admin\bin\UpLoadFileV2.dll
+E:\www\CP.HC\Admin\bin\Business.pdb
+E:\www\CP.HC\Admin\bin\Common.pdb
+E:\www\CP.HC\Admin\bin\DataProvider.pdb
+E:\www\CP.HC\Admin\bin\Model.pdb
+E:\www\CP.HC\Admin\bin\Pic.pdb
+E:\www\CP.HC\Admin\bin\UpLoadFileV2.pdb
+E:\www\CP.HC\Admin\obj\Debug\ResolveAssemblyReference.cache
+E:\www\CP.HC\Admin\obj\Debug\Admin.dll
+E:\www\CP.HC\Admin\obj\Debug\Admin.pdb
+E:\www\CP.HC\Admin\bin\Www.dll
+E:\www\CP.HC\Admin\bin\Www.pdb
+D:\CP.HC\Admin\bin\Admin.dll
+D:\CP.HC\Admin\bin\Admin.pdb
+D:\CP.HC\Admin\bin\Business.dll
+D:\CP.HC\Admin\bin\Common.dll
+D:\CP.HC\Admin\bin\DataProvider.dll
+D:\CP.HC\Admin\bin\Model.dll
+D:\CP.HC\Admin\bin\Pic.dll
+D:\CP.HC\Admin\bin\UpLoadFileV2.dll
+D:\CP.HC\Admin\bin\Www.dll
+D:\CP.HC\Admin\bin\Business.pdb
+D:\CP.HC\Admin\bin\Common.pdb
+D:\CP.HC\Admin\bin\DataProvider.pdb
+D:\CP.HC\Admin\bin\Model.pdb
+D:\CP.HC\Admin\bin\Pic.pdb
+D:\CP.HC\Admin\bin\UpLoadFileV2.pdb
+D:\CP.HC\Admin\bin\Www.pdb
+D:\CP.HC\Admin\obj\Debug\Admin.dll
+D:\CP.HC\Admin\obj\Debug\Admin.pdb
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Admin.dll.config
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Admin.dll
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Admin.pdb
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Business.dll
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Common.dll
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\DataProvider.dll
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Model.dll
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Pic.dll
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\UpLoadFileV2.dll
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Www.dll
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Business.pdb
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Common.pdb
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\DataProvider.pdb
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Model.pdb
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Pic.pdb
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Pic.dll.config
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\UpLoadFileV2.pdb
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\UpLoadFileV2.dll.config
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Www.pdb
+D:\Project Program\www.haocw.com\CP.HC\Admin\bin\Www.dll.config
+D:\Project Program\www.haocw.com\CP.HC\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache
+D:\Project Program\www.haocw.com\CP.HC\Admin\obj\Debug\Admin.csproj.CoreCompileInputs.cache
+D:\Project Program\www.haocw.com\CP.HC\Admin\obj\Debug\Admin.dll
+D:\Project Program\www.haocw.com\CP.HC\Admin\obj\Debug\Admin.pdb
+D:\CP.HC\Admin\bin\Admin.dll.config
+D:\CP.HC\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache

@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DE3AFAA8-7F44-4A69-92A4-2ACB213C9B4B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Www</RootNamespace>
+    <AssemblyName>Www</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNetPager">
+      <HintPath>..\Admin\bin\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="Intelligencia.UrlRewriter">
+      <HintPath>..\..\EB\EB\bin\Intelligencia.UrlRewriter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.aspx" />
+    <Content Include="404.htm" />
+    <Content Include="500.aspx" />
+    <Content Include="ajax\makepage.aspx" />
+    <Content Include="ajax\updateui.aspx" />
+    <Content Include="ajax\waterfall.aspx" />
+    <Content Include="channelp3.aspx" />
+    <Content Include="channelssq.aspx" />
+    <Content Include="css\css.css" />
+    <Content Include="css\css_dz.css" />
+    <Content Include="css\style.css" />
+    <Content Include="footer.ascx" />
+    <Content Include="Global.asax" />
+    <Content Include="header.ascx" />
+    <Content Include="html\kjhad.html" />
+    <Content Include="image\1.jpg" />
+    <Content Include="image\acd_01.jpg" />
+    <Content Include="image\bd200.jpg" />
+    <Content Include="image\bgjiho.gif" />
+    <Content Include="image\blue.gif" />
+    <Content Include="image\chenj.jpg" />
+    <Content Include="image\concrete_wall_3.png" />
+    <Content Include="image\dasktop.gif" />
+    <Content Include="image\dhbg.gif" />
+    <Content Include="image\djgg.gif" />
+    <Content Include="image\flbg1.jpg" />
+    <Content Include="image\flbg2.jpg" />
+    <Content Include="image\gongju.jpg" />
+    <Content Include="image\grbg.jpg" />
+    <Content Include="image\guanz.jpg" />
+    <Content Include="image\haog.gif" />
+    <Content Include="image\hgg1.jpg" />
+    <Content Include="image\htop.gif" />
+    <Content Include="image\icon_feed.gif" />
+    <Content Include="image\jdr.gif" />
+    <Content Include="image\jian.jpg" />
+    <Content Include="image\jpc.jpg" />
+    <Content Include="image\jpt.jpg" />
+    <Content Include="image\jptgg.gif" />
+    <Content Include="image\kjbg.jpg" />
+    <Content Include="image\lbsbg.jpg" />
+    <Content Include="image\lightbox-blank.gif" />
+    <Content Include="image\lightbox-btn-close.gif" />
+    <Content Include="image\lightbox-btn-next.gif" />
+    <Content Include="image\lightbox-btn-prev.gif" />
+    <Content Include="image\lightbox-ico-loading.gif" />
+    <Content Include="image\lindan.png" />
+    <Content Include="image\lindan0.png" />
+    <Content Include="image\lindan1.png" />
+    <Content Include="image\loading.gif" />
+    <Content Include="image\logo.gif" />
+    <Content Include="image\logo.jpg" />
+    <Content Include="image\logo.png" />
+    <Content Include="image\lrbg.jpg" />
+    <Content Include="image\lry_1.jpg" />
+    <Content Include="image\lry_2.jpg" />
+    <Content Include="image\newhc.gif" />
+    <Content Include="image\org.gif" />
+    <Content Include="image\p3.jpg" />
+    <Content Include="image\pddhbg.jpg" />
+    <Content Include="image\phan1.jpg" />
+    <Content Include="image\phan2.jpg" />
+    <Content Include="image\pm1.jpg" />
+    <Content Include="image\pm2.jpg" />
+    <Content Include="image\qqdu.jpg" />
+    <Content Include="image\red.gif" />
+    <Content Include="image\rmgg.gif" />
+    <Content Include="image\sd.jpg" />
+    <Content Include="image\ssq.jpg" />
+    <Content Include="image\98488_01.jpg" />
+    <Content Include="image\98488_04.jpg" />
+    <Content Include="image\98488_06.jpg" />
+    <Content Include="image\98488_17.jpg" />
+    <Content Include="image\thcai_01.jpg" />
+    <Content Include="image\thcai_04.jpg" />
+    <Content Include="image\thcai_06.jpg" />
+    <Content Include="image\thtklog.jpg" />
+    <Content Include="image\thtktb.jpg" />
+    <Content Include="image\tkpub.jpg" />
+    <Content Include="image\tkpub.png" />
+    <Content Include="image\tksb.jpg" />
+    <Content Include="image\tkxb.jpg" />
+    <Content Include="image\tkxtubg.jpg" />
+    <Content Include="image\tk_login.png" />
+    <Content Include="image\topxiabg.jpg" />
+    <Content Include="image\tu1.jpg" />
+    <Content Include="image\tu2.jpg" />
+    <Content Include="image\userdu.jpg" />
+    <Content Include="image\users.gif" />
+    <Content Include="image\weizhij.gif" />
+    <Content Include="image\weizhit.gif" />
+    <Content Include="image\wzrtop.jpg" />
+    <Content Include="image\xb.jpg" />
+    <Content Include="image\xbbg.jpg" />
+    <Content Include="image\xiangqing.jpg" />
+    <Content Include="image\youqin.jpg" />
+    <Content Include="image\yqbg.jpg" />
+    <Content Include="image\zhuom.jpg" />
+    <Content Include="image\zqbg.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="js\55126.js" />
+    <Content Include="js\jquery-1.8.0.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\lightbox\css\jquery.lightbox-0.5.css" />
+    <Content Include="js\lightbox\js\jquery.lightbox-0.5.min.js" />
+    <Content Include="js\pic.js" />
+    <Content Include="kj\225.aspx" />
+    <Content Include="kj\225_list.aspx" />
+    <Content Include="kj\3d.aspx" />
+    <Content Include="kj\3d_list.aspx" />
+    <Content Include="kj\dlt.aspx" />
+    <Content Include="kj\dlt_list.aspx" />
+    <Content Include="kj\index.aspx" />
+    <Content Include="kj\live_3d.aspx" />
+    <Content Include="kj\live_p3.aspx" />
+    <Content Include="kj\live_ssq.aspx" />
+    <Content Include="kj\p3.aspx" />
+    <Content Include="kj\p3_list.aspx" />
+    <Content Include="kj\p5.aspx" />
+    <Content Include="kj\p5_list.aspx" />
+    <Content Include="kj\qlc.aspx" />
+    <Content Include="kj\qlc_list.aspx" />
+    <Content Include="kj\qxc.aspx" />
+    <Content Include="kj\qxc_list.aspx" />
+    <Content Include="kj\ssq.aspx" />
+    <Content Include="kj\ssq_list.aspx" />
+    <Content Include="news\news_info.aspx" />
+    <Content Include="news\news_info_pic.aspx" />
+    <Content Include="news\news_list.aspx" />
+    <Content Include="channel3d.aspx" />
+    <Content Include="rss.aspx" />
+    <Content Include="tk\index.htm" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="yc\list.aspx" />
+    <Content Include="yc\yc_info.aspx" />
+    <Content Include="yc\yc_list.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="500.aspx.cs">
+      <DependentUpon>500.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="500.aspx.designer.cs">
+      <DependentUpon>500.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ajax\makepage.aspx.cs">
+      <DependentUpon>makepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ajax\makepage.aspx.designer.cs">
+      <DependentUpon>makepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ajax\updateui.aspx.cs">
+      <DependentUpon>updateui.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ajax\updateui.aspx.designer.cs">
+      <DependentUpon>updateui.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ajax\waterfall.aspx.cs">
+      <DependentUpon>waterfall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ajax\waterfall.aspx.designer.cs">
+      <DependentUpon>waterfall.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="channelp3.aspx.cs">
+      <DependentUpon>channelp3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="channelp3.aspx.designer.cs">
+      <DependentUpon>channelp3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="channelssq.aspx.cs">
+      <DependentUpon>channelssq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="channelssq.aspx.designer.cs">
+      <DependentUpon>channelssq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="footer.ascx.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="footer.ascx.designer.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="header.ascx.cs">
+      <DependentUpon>header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="header.ascx.designer.cs">
+      <DependentUpon>header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\225.aspx.cs">
+      <DependentUpon>225.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\225.aspx.designer.cs">
+      <DependentUpon>225.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\225_list.aspx.cs">
+      <DependentUpon>225_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\225_list.aspx.designer.cs">
+      <DependentUpon>225_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\3d.aspx.cs">
+      <DependentUpon>3d.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\3d.aspx.designer.cs">
+      <DependentUpon>3d.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\3d_list.aspx.cs">
+      <DependentUpon>3d_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\3d_list.aspx.designer.cs">
+      <DependentUpon>3d_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\dlt.aspx.cs">
+      <DependentUpon>dlt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\dlt.aspx.designer.cs">
+      <DependentUpon>dlt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\dlt_list.aspx.cs">
+      <DependentUpon>dlt_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\dlt_list.aspx.designer.cs">
+      <DependentUpon>dlt_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\live_3d.aspx.cs">
+      <DependentUpon>live_3d.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\live_3d.aspx.designer.cs">
+      <DependentUpon>live_3d.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\live_p3.aspx.cs">
+      <DependentUpon>live_p3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\live_p3.aspx.designer.cs">
+      <DependentUpon>live_p3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\live_ssq.aspx.cs">
+      <DependentUpon>live_ssq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\live_ssq.aspx.designer.cs">
+      <DependentUpon>live_ssq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\p3.aspx.cs">
+      <DependentUpon>p3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\p3.aspx.designer.cs">
+      <DependentUpon>p3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\p3_list.aspx.cs">
+      <DependentUpon>p3_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\p3_list.aspx.designer.cs">
+      <DependentUpon>p3_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\p5.aspx.cs">
+      <DependentUpon>p5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\p5.aspx.designer.cs">
+      <DependentUpon>p5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\p5_list.aspx.cs">
+      <DependentUpon>p5_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\p5_list.aspx.designer.cs">
+      <DependentUpon>p5_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\qlc.aspx.cs">
+      <DependentUpon>qlc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\qlc.aspx.designer.cs">
+      <DependentUpon>qlc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\qlc_list.aspx.cs">
+      <DependentUpon>qlc_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\qlc_list.aspx.designer.cs">
+      <DependentUpon>qlc_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\qxc.aspx.cs">
+      <DependentUpon>qxc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\qxc.aspx.designer.cs">
+      <DependentUpon>qxc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\qxc_list.aspx.cs">
+      <DependentUpon>qxc_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\qxc_list.aspx.designer.cs">
+      <DependentUpon>qxc_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\ssq.aspx.cs">
+      <DependentUpon>ssq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\ssq.aspx.designer.cs">
+      <DependentUpon>ssq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kj\ssq_list.aspx.cs">
+      <DependentUpon>ssq_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kj\ssq_list.aspx.designer.cs">
+      <DependentUpon>ssq_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news\news_info.aspx.cs">
+      <DependentUpon>news_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news\news_info.aspx.designer.cs">
+      <DependentUpon>news_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news\news_info_pic.aspx.cs">
+      <DependentUpon>news_info_pic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news\news_info_pic.aspx.designer.cs">
+      <DependentUpon>news_info_pic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="news\news_list.aspx.cs">
+      <DependentUpon>news_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="news\news_list.aspx.designer.cs">
+      <DependentUpon>news_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="channel3d.aspx.cs">
+      <DependentUpon>channel3d.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="channel3d.aspx.designer.cs">
+      <DependentUpon>channel3d.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rss.aspx.cs">
+      <DependentUpon>rss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rss.aspx.designer.cs">
+      <DependentUpon>rss.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yc\list.aspx.cs">
+      <DependentUpon>list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yc\list.aspx.designer.cs">
+      <DependentUpon>list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yc\yc_info.aspx.cs">
+      <DependentUpon>yc_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yc\yc_info.aspx.designer.cs">
+      <DependentUpon>yc_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yc\yc_list.aspx.cs">
+      <DependentUpon>yc_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yc\yc_list.aspx.designer.cs">
+      <DependentUpon>yc_list.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{E3C806BC-7D66-47BB-8475-107FAAE211D1}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{AA52BAFB-B173-42C2-BB15-26D49E4EC318}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataProvider\DataProvider.csproj">
+      <Project>{50C93E96-52FE-46FB-AE58-90A90FE175E7}</Project>
+      <Name>DataProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{E75AFB5C-04B9-4303-A7A4-1BC8E82354D9}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pic\Pic.csproj">
+      <Project>{23C71864-B491-443F-830A-0B6FC5EC2894}</Project>
+      <Name>Pic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51897</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

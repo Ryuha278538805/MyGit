@@ -1,5 +1,0 @@
-D:\VSWorkspace\GitSpace\HCWDDL\HCW.Model\bin\Release\HCW.Model.dll
-D:\VSWorkspace\GitSpace\HCWDDL\HCW.Model\bin\Release\HCW.Model.pdb
-D:\VSWorkspace\GitSpace\HCWDDL\HCW.Model\obj\Release\HCW.Model.csprojResolveAssemblyReference.cache
-D:\VSWorkspace\GitSpace\HCWDDL\HCW.Model\obj\Release\HCW.Model.dll
-D:\VSWorkspace\GitSpace\HCWDDL\HCW.Model\obj\Release\HCW.Model.pdb

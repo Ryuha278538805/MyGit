@@ -1,0 +1,40 @@
+F:\web\EB\Model\bin\Debug\Model.dll
+F:\web\EB\Model\bin\Debug\Model.pdb
+F:\web\EB\Model\obj\Debug\ResolveAssemblyReference.cache
+F:\web\EB\Model\obj\Debug\Model.dll
+F:\web\EB\Model\obj\Debug\Model.pdb
+E:\web\EB\Model\bin\Debug\Model.dll
+E:\web\EB\Model\bin\Debug\Model.pdb
+E:\web\EB\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\web\EB\Model\obj\Debug\Model.dll
+E:\web\EB\Model\obj\Debug\Model.pdb
+E:\web\CP\Model\bin\Debug\Model.dll
+E:\web\CP\Model\bin\Debug\Model.pdb
+E:\web\CP\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CP\Model\obj\Debug\Model.dll
+E:\web\CP\Model\obj\Debug\Model.pdb
+E:\web\CPhaocw\Model\bin\Debug\Model.dll
+E:\web\CPhaocw\Model\bin\Debug\Model.pdb
+E:\web\CPhaocw\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CPhaocw\Model\obj\Debug\Model.dll
+E:\web\CPhaocw\Model\obj\Debug\Model.pdb
+E:\web\CP.HC\Model\bin\Debug\Model.dll
+E:\web\CP.HC\Model\bin\Debug\Model.pdb
+E:\web\CP.HC\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CP.HC\Model\obj\Debug\Model.dll
+E:\web\CP.HC\Model\obj\Debug\Model.pdb
+E:\www\CP.HC\Model\bin\Debug\Model.dll
+E:\www\CP.HC\Model\bin\Debug\Model.pdb
+E:\www\CP.HC\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\www\CP.HC\Model\obj\Debug\Model.dll
+E:\www\CP.HC\Model\obj\Debug\Model.pdb
+D:\CP.HC\Model\bin\Debug\Model.dll
+D:\CP.HC\Model\bin\Debug\Model.pdb
+D:\CP.HC\Model\obj\Debug\Model.dll
+D:\CP.HC\Model\obj\Debug\Model.pdb
+D:\Project Program\www.haocw.com\CP.HC\Model\bin\Debug\Model.dll
+D:\Project Program\www.haocw.com\CP.HC\Model\bin\Debug\Model.pdb
+D:\Project Program\www.haocw.com\CP.HC\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Project Program\www.haocw.com\CP.HC\Model\obj\Debug\Model.dll
+D:\Project Program\www.haocw.com\CP.HC\Model\obj\Debug\Model.pdb
+D:\CP.HC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

@@ -1,0 +1,15 @@
+﻿document.writeln("<table width=\'95%\' border=\'0\' cellpadding=\'0\' cellspacing=\'1\' bgcolor=\'999\' style=\'font-size:12px; text-align:center\'>");
+document.writeln("  <tr>");
+document.writeln("    <td height=\'30\' colspan=\'3\' bgcolor=\'F3F3F3\'><a href=\'https://60086g.com/regpage.do\' target=\'_blank\'><strong style=\'font-size:14px\'>【彩票60086g.com 】最稳定的彩票投注平台 ★ 下载手机APP存100元送38元 ★ 联系Q47933555</strong></a></td>");
+document.writeln("  </tr>");
+document.writeln("  <tr>");
+document.writeln("    <td height=\'30\' colspan=\'2\' bgcolor=\'F3F3F3\'><a href=\'https://www.hg559f.com/?p=22458764\' target=\'_blank\'><strong style=\'font-size:14px\'>站长推：加足彩交流群3006363免费推荐</strong></a></td>");
+document.writeln("    <td width=\'50%\' height=\'30\' bgcolor=\'F3F3F3\'><a href=\'https://c019999.com/#reg \' target=\'_blank\'><strong style=\'font-size:14px\'>特别推荐：c01彩票下载APP送10元红包-可提款</strong></a></td>");
+document.writeln("  </tr>");
+document.writeln("  <tr>");
+document.writeln("    <td height=\'30\' colspan=\'3\' bgcolor=\'F3F3F3\'><a href=\'https://60086g.com/regpage.do\' target=\'_blank\'><strong style=\'font-size:14px\'>【金沙彩票】最稳定的投注平台★首存1000送158★时时彩，北京PK10，9.81倍 ★联系QQ 47933555</strong></a></td>");
+document.writeln("  </tr>");
+document.writeln("  <tr>");
+document.writeln("    <td height=\'30\' colspan=\'3\' bgcolor=\'F3F3F3\'><a href=\'https://c019999.com/#reg\' target=\'_blank\'><strong style=\'font-size:14px\'>★推荐彩票c01.com ★下载APP即送18元彩金即可提款★六合彩150倍★时时彩9.8倍★北京赛车9.8倍★</strong></a></td>");
+document.writeln("  </tr>");
+document.writeln("</table>");

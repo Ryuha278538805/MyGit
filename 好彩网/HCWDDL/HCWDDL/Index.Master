@@ -1,0 +1,185 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Index.master.cs" Inherits="HCWDDL.M.Index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>手机好彩网-今日福彩3d字谜总汇/图谜汇总_全部藏机图正版</title>
+    <meta name="description" content="好彩网是从各大专业彩票网站上收录其3d预测、3d字谜、3d图谜等精华内容,方便彩民浏览的彩票行业网摘网站." />
+    <meta name="keywords" content="好彩网" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+    <link href="~/Content/css/main.css" rel='stylesheet' />
+
+    <script src="/Js/hm.js"></script>
+    <script src="/Js/hm1.js"></script>
+    <script src="/Js/zepto.min.js"></script>
+    <script src="/Js/main.js"></script>
+    <style type="text/css">
+        .homeIcon {
+            font-style: normal;
+            margin-right:3px;
+            color: rgb(255,101,0);
+            font-weight:bolder;
+            font-size:18px;
+        }
+    </style>
+    <script type="text/javascript">
+        function hideGuanggao(el) {
+            $(".tuiguang").hide()
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bg-grey">
+    <form id="form1" runat="server">
+
+        <header class="header">
+            <div class="f-l">
+                <a href="/main.aspx">
+                    <i class="homeIcon">H</i>首页
+                    <%--<i class="iconfont icon-home">H</i>首页--%>
+                </a>
+            </div>
+            <a href="/awards.aspx" class="f-r">
+                <i class="iconfont icon-cup"></i>开奖公告
+            </a>
+        </header>
+        <nav class="typeLinkBox col bg-fff clearfix mb-10">
+            <%foreach (var info in Navs)
+                { %>
+            <div class="col">
+                <a href="/ls2.aspx?cid=<%=info.cid.ToString() %>&cn=<%=info.name %>"><%=info.name %></a>
+            </div>
+            <%} %>
+            <div class="col">
+                <span id="hamburger" class="hamburger">更多
+                <i class="iconfont icon-more"></i>
+                </span>
+            </div>
+        </nav>
+
+        <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <section class="bg-fff mb-10">
+            <div class="mainTitle clearfix bb-1">
+                <i class="iconfont icon-zoushi text-orange-red"></i>
+                <a href="<%=ConfigurationManager.AppSettings["zstUrl"] %>"><b class="text-16">走势图</b></a>
+            </div>
+            <div class="typeLinkBox grey-border col3 bg-fff clearfix mb-10">
+                <div class="col">
+                    <a href="<%=ConfigurationManager.AppSettings["zstUrl"] %>?lnk=34">3D综合分布图</a>
+                </div>
+                <div class="col">
+                    <a href="<%=ConfigurationManager.AppSettings["zstUrl"] %>?lnk=36">3D开奖试机号走势图</a>
+                </div>
+                <div class="col">
+                    <a href="<%=ConfigurationManager.AppSettings["zstUrl"] %>?lnk=52">3D和值分布图</a>
+                </div>
+                <div class="col">
+                    <a href="<%=ConfigurationManager.AppSettings["zstUrl"] %>?lnk=3">双色球综合分布图</a>
+                </div>
+                <div class="col">
+                    <a href="<%=ConfigurationManager.AppSettings["zstUrl"] %>?lnk=10">双色球蓝球综合走势图</a>
+                </div>
+                <div class="col">
+                    <a href="<%=ConfigurationManager.AppSettings["zstUrl"] %>">更多>></a>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-fff">
+            <div class="webInfo">
+                <p>
+                    <span>触屏版</span>
+                    <a href="https://www.haocw.com/">电脑版</a>
+                    <a onclick="goTop()">返回顶部</a>
+                </p>
+                <p>好彩网版权所有 © 2005-2014</p>
+            </div>
+        </footer>
+
+        <%if (ADsM.Count > 0)
+            {
+                int rowcount = ADsM.Count / 2 + 1;
+        %>
+        <section class="tuiguang bg-fff mb-10">
+            <i class="tuiguang-guanbi" onclick="hideGuanggao();">✖</i>
+            <table class="tuiguangTb" cellpadding="0" cellspacing="0" border="1">
+                <tbody>
+                    <%
+                        int index = 0;
+                        for (int i = 0; i < rowcount; i++)
+                        {
+                            if (index >= ADsM.Count)
+                            {
+                                break;
+                            }
+                    %>
+                    <tr>
+                        <%if (i == 0)
+                            { %>
+                        <td rowspan="<%=rowcount%>" class="tg">
+                            <b>广<br />
+                                告</b>
+                        </td>
+                        <%} %>
+
+                        <%if (index < ADsM.Count)
+                            { %>
+                        <td><a href="<%=ADsM[index].link %>"><%=ADsM[index].title %></a></td>
+                        <%
+                                index++;
+                            } %>
+                        <%if (index < ADsM.Count)
+                            { %>
+                        <td><a href="<%=ADsM[index].link %>"><%=ADsM[index].title %></a></td>
+                        <%
+                                index++;
+                            } %>
+                    </tr>
+                    <%} %>
+                </tbody>
+            </table>
+        </section>
+        <%} %>
+
+        <i class="iconfont icon-fanhuidingbu show"></i>
+        <section id="right-sidebar">
+            <div class="sidebar">
+                <div class="sideTitle clearfix bb-1">
+                    <div class="header">
+                        <div class="f-l">
+                            <span>
+                                <i class="iconfont icon-icon"></i>菜单导航
+                            </span>
+                        </div>
+                        <span onclick="hideMore()" class="f-r">
+                            <i class="iconfont icon-guanbi"></i>关闭
+                        </span>
+                    </div>
+                </div>
+
+                <%foreach (var pname in ParentNames)
+                    {
+                        var menus = Menus.Where(p => p.PName == pname);
+                %>
+
+                <div>
+                    <h5 class="title bb-1"><%=pname %></h5>
+                    <div class="typeLinkBox col bg-fff clearfix">
+                        <%foreach (var m in menus)
+                            { %>
+                        <div class="col"><a href="/ls2.aspx?zid=<%=m.zid %>&cid=<%=m.cid %>&cn=<%=m.name %>"><%=m.name %></a></div>
+                        <%} %>
+                    </div>
+                </div>
+                <%} %>
+            </div>
+
+        </section>
+    </form>
+
+</body>
+</html>

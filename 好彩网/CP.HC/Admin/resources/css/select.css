@@ -1,0 +1,38 @@
+/* CSS Document */
+#main-content ul,
+#main-content ol {padding: 0;}
+#main-content ul li {height:24px; line-height:24px; padding:0 3px; margin:0;background:none;}
+#main-content .content-box-tabs li{ height:29px; overflow:hidden;}
+
+.cc-cbox-filter input,.cc-tree-gname,#main-content ul li.cc-hasChild-item,.cate-path .up,.cc-nav,.b_inputAttention .attention,.cate-tip i{background:url(http://img02.taobaocdn.com/tps/i2/T13PGlXfdfXXXXXXXX-261-188.png) no-repeat}
+
+.cate-container{width:900px;height:260px;overflow:hidden;position:relative;}
+#cate-cascading{padding:0;border:1px solid #CCCCCC;background:#F3F3F3;height:258px;position:relative;z-index:11;-moz-border-radius: 4px;-webkit-border-radius: 4px;border-radius: 4px;}
+#cate-cascading .cc-prev{left:0;background-position:-0px -60px}
+#cate-cascading .cc-next{right:0;background-position:-24px -60px}
+#main-content .cc-nav{visibility:hidden;position:absolute;top:50%;margin-top:-41px;height:80px;width:24px;display:inline-block;line-height:99em;overflow:hidden}
+#main-content .cc-listwrap{position:relative;overflow:hidden}
+#main-content .cc-list{width:2000em;}
+#main-content .cc-listwrap,.cc-list,.cc-list-item{height:100%}
+#main-content .cc-list-item{overflow-y:auto;overflow-x:hidden;float:left;width:223px;border-right:2px solid #CCCCCC;background:#fff}
+#main-content .cc-tree-group{padding:3px;border-bottom:1px dashed #ccc}
+#main-content .cc-tree .cc-tree-last{border:0}
+#main-content .cc-tree-gname{color:#36c;background-position:right -107px;display:inline-block;*display:inline;*zoom:1;margin:2px 0;cursor:default}
+#main-content .cc-tree-expanded .cc-tree-gname{background-position:right -123px}
+#main-content .cc-cbox-item,#main-content .cc-tree-item,#main-content .cc-listbox-item{background-color:#FFF;border:1px solid #FFF;height:20px;line-height:20px;overflow:hidden;padding-left:41px;cursor:pointer;}
+#main-content .cc-cbox-item{padding-right:16px}
+.cc-tree-gname,#main-content .cc-tree-item,#main-content .cc-listbox-item{padding:0 16px 0 14px}
+#main-content .cc-tree-gcont{display:none;list-style:none;}
+#main-content .cc-tree-expanded .cc-tree-gcont{display:block}
+#main-content ul li.cc-selected{border:1px solid #CCCCCC;background-color:#F3F3F3}
+#main-content ul li.cc-focused{border:1px dotted #CCCCCC}
+#main-content div.cc-focused{outline:#9cd7fc dotted 1px;*border:#CCCCCC dotted 1px;*margin:1px 0;*padding:0 16px 0 13px}
+#main-content ul li.cc-hasChild-item{background-position:right -137px}
+
+#main-content .cc-cbox-cont{padding:0 3px;}
+#main-content .cc-cbox-item i{background:none repeat scroll 0 0 #AAA;color:#FFF;display:inline-block;font-style:normal;height:13px;line-height:13px;text-align:center;text-transform:uppercase;width:13px;margin-right:17px;margin-left:-30px;_margin-top:3px}
+
+#main-content .cc-loading{background:rgba(255,255,255,.8);background:#fff\9;filter:alpha(opacity=80);border:1px none snow;height:258px;left:1px;position:absolute;top:1px;width:948px;display:none;z-index:13}
+#main-content .cc-loading-content{position:relative;width:150px;height:21px;margin:130px auto}
+#main-content .cc-loading-icon{float:left;margin-right:5px}
+#main-content .cc-loading-text{font-size:12px;display:block;float:left;margin-left:5px;padding-top:0;color:#f60}#main-content .loading .cc-loading{display:block}

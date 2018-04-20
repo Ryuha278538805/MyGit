@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="NewsGet.aspx.cs" Inherits="Admin.Ajax.NewsGet" %>

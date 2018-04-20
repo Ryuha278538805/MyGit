@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="E:\Release\cphaocw\images" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="watermark/watermark.png" publishTime="12/03/2012 23:20:44" />
+    <file relUrl="UpLoad.asmx" publishTime="07/20/2011 14:23:40" />
+    <file relUrl="bin/Pic.pdb" publishTime="03/11/2013 21:15:43" />
+    <file relUrl="bin/Pic.dll" publishTime="03/11/2013 21:15:43" />
+    <file relUrl="Web.config" publishTime="01/01/2009 00:11:58" />
+  </publishProfile>
+</publishData>

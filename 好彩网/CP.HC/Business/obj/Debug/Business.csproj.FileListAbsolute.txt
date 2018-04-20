@@ -1,0 +1,89 @@
+F:\web\EB\Business\bin\Debug\Business.dll
+F:\web\EB\Business\bin\Debug\Business.pdb
+F:\web\EB\Business\bin\Debug\Common.dll
+F:\web\EB\Business\bin\Debug\DataProvider.dll
+F:\web\EB\Business\bin\Debug\Model.dll
+F:\web\EB\Business\bin\Debug\Model.pdb
+F:\web\EB\Business\bin\Debug\Common.pdb
+F:\web\EB\Business\bin\Debug\DataProvider.pdb
+F:\web\EB\Business\obj\Debug\ResolveAssemblyReference.cache
+F:\web\EB\Business\obj\Debug\Business.dll
+F:\web\EB\Business\obj\Debug\Business.pdb
+E:\web\EB\Business\bin\Debug\Business.dll
+E:\web\EB\Business\bin\Debug\Business.pdb
+E:\web\EB\Business\bin\Debug\Common.dll
+E:\web\EB\Business\bin\Debug\DataProvider.dll
+E:\web\EB\Business\bin\Debug\Model.dll
+E:\web\EB\Business\bin\Debug\Model.pdb
+E:\web\EB\Business\bin\Debug\Common.pdb
+E:\web\EB\Business\bin\Debug\DataProvider.pdb
+E:\web\EB\Business\obj\Debug\ResolveAssemblyReference.cache
+E:\web\EB\Business\obj\Debug\Business.dll
+E:\web\EB\Business\obj\Debug\Business.pdb
+E:\web\CP\Business\bin\Debug\Business.dll
+E:\web\CP\Business\bin\Debug\Business.pdb
+E:\web\CP\Business\bin\Debug\Common.dll
+E:\web\CP\Business\bin\Debug\DataProvider.dll
+E:\web\CP\Business\bin\Debug\Model.dll
+E:\web\CP\Business\bin\Debug\Common.pdb
+E:\web\CP\Business\bin\Debug\DataProvider.pdb
+E:\web\CP\Business\bin\Debug\Model.pdb
+E:\web\CP\Business\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CP\Business\obj\Debug\Business.dll
+E:\web\CP\Business\obj\Debug\Business.pdb
+E:\web\CPhaocw\Business\bin\Debug\Business.dll
+E:\web\CPhaocw\Business\bin\Debug\Business.pdb
+E:\web\CPhaocw\Business\bin\Debug\Common.dll
+E:\web\CPhaocw\Business\bin\Debug\DataProvider.dll
+E:\web\CPhaocw\Business\bin\Debug\Model.dll
+E:\web\CPhaocw\Business\bin\Debug\Common.pdb
+E:\web\CPhaocw\Business\bin\Debug\DataProvider.pdb
+E:\web\CPhaocw\Business\bin\Debug\Model.pdb
+E:\web\CPhaocw\Business\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CPhaocw\Business\obj\Debug\Business.dll
+E:\web\CPhaocw\Business\obj\Debug\Business.pdb
+E:\web\CP.HC\Business\bin\Debug\Business.dll
+E:\web\CP.HC\Business\bin\Debug\Business.pdb
+E:\web\CP.HC\Business\bin\Debug\Common.dll
+E:\web\CP.HC\Business\bin\Debug\DataProvider.dll
+E:\web\CP.HC\Business\bin\Debug\Model.dll
+E:\web\CP.HC\Business\bin\Debug\Common.pdb
+E:\web\CP.HC\Business\bin\Debug\DataProvider.pdb
+E:\web\CP.HC\Business\bin\Debug\Model.pdb
+E:\web\CP.HC\Business\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CP.HC\Business\obj\Debug\Business.dll
+E:\web\CP.HC\Business\obj\Debug\Business.pdb
+E:\www\CP.HC\Business\obj\Debug\ResolveAssemblyReference.cache
+E:\www\CP.HC\Business\obj\Debug\Business.dll
+E:\www\CP.HC\Business\bin\Debug\Business.dll
+E:\www\CP.HC\Business\bin\Debug\Business.pdb
+E:\www\CP.HC\Business\bin\Debug\Common.dll
+E:\www\CP.HC\Business\bin\Debug\DataProvider.dll
+E:\www\CP.HC\Business\bin\Debug\Model.dll
+E:\www\CP.HC\Business\bin\Debug\Common.pdb
+E:\www\CP.HC\Business\bin\Debug\DataProvider.pdb
+E:\www\CP.HC\Business\bin\Debug\Model.pdb
+E:\www\CP.HC\Business\obj\Debug\Business.pdb
+D:\CP.HC\Business\bin\Debug\Business.dll
+D:\CP.HC\Business\bin\Debug\Business.pdb
+D:\CP.HC\Business\bin\Debug\Common.dll
+D:\CP.HC\Business\bin\Debug\DataProvider.dll
+D:\CP.HC\Business\bin\Debug\Model.dll
+D:\CP.HC\Business\bin\Debug\Common.pdb
+D:\CP.HC\Business\bin\Debug\DataProvider.pdb
+D:\CP.HC\Business\bin\Debug\Model.pdb
+D:\CP.HC\Business\obj\Debug\Business.dll
+D:\CP.HC\Business\obj\Debug\Business.pdb
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Debug\Business.dll
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Debug\Business.pdb
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Debug\Common.dll
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Debug\DataProvider.dll
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Debug\Model.dll
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Debug\Common.pdb
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Debug\DataProvider.pdb
+D:\Project Program\www.haocw.com\CP.HC\Business\bin\Debug\Model.pdb
+D:\Project Program\www.haocw.com\CP.HC\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\Project Program\www.haocw.com\CP.HC\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+D:\Project Program\www.haocw.com\CP.HC\Business\obj\Debug\Business.dll
+D:\Project Program\www.haocw.com\CP.HC\Business\obj\Debug\Business.pdb
+D:\CP.HC\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache

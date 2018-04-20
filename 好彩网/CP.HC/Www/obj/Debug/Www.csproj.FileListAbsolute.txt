@@ -1,0 +1,87 @@
+E:\web\CPhaocw\Www\bin\Www.dll
+E:\web\CPhaocw\Www\bin\Www.pdb
+E:\web\CPhaocw\Www\bin\AspNetPager.dll
+E:\web\CPhaocw\Www\bin\Business.dll
+E:\web\CPhaocw\Www\bin\Common.dll
+E:\web\CPhaocw\Www\bin\DataProvider.dll
+E:\web\CPhaocw\Www\bin\Intelligencia.UrlRewriter.dll
+E:\web\CPhaocw\Www\bin\Model.dll
+E:\web\CPhaocw\Www\bin\Pic.dll
+E:\web\CPhaocw\Www\bin\Business.pdb
+E:\web\CPhaocw\Www\bin\Common.pdb
+E:\web\CPhaocw\Www\bin\DataProvider.pdb
+E:\web\CPhaocw\Www\bin\Model.pdb
+E:\web\CPhaocw\Www\bin\Pic.pdb
+E:\web\CPhaocw\Www\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CPhaocw\Www\obj\Debug\Www.dll
+E:\web\CPhaocw\Www\obj\Debug\Www.pdb
+E:\web\CP.HC\Www\bin\Www.dll
+E:\web\CP.HC\Www\bin\Www.pdb
+E:\web\CP.HC\Www\bin\AspNetPager.dll
+E:\web\CP.HC\Www\bin\Business.dll
+E:\web\CP.HC\Www\bin\Common.dll
+E:\web\CP.HC\Www\bin\DataProvider.dll
+E:\web\CP.HC\Www\bin\Intelligencia.UrlRewriter.dll
+E:\web\CP.HC\Www\bin\Model.dll
+E:\web\CP.HC\Www\bin\Pic.dll
+E:\web\CP.HC\Www\bin\Business.pdb
+E:\web\CP.HC\Www\bin\Common.pdb
+E:\web\CP.HC\Www\bin\DataProvider.pdb
+E:\web\CP.HC\Www\bin\Model.pdb
+E:\web\CP.HC\Www\bin\Pic.pdb
+E:\web\CP.HC\Www\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CP.HC\Www\obj\Debug\Www.dll
+E:\web\CP.HC\Www\obj\Debug\Www.pdb
+E:\www\CP.HC\Www\bin\Www.dll
+E:\www\CP.HC\Www\bin\Www.pdb
+E:\www\CP.HC\Www\bin\AspNetPager.dll
+E:\www\CP.HC\Www\bin\Business.dll
+E:\www\CP.HC\Www\bin\Common.dll
+E:\www\CP.HC\Www\bin\DataProvider.dll
+E:\www\CP.HC\Www\bin\Intelligencia.UrlRewriter.dll
+E:\www\CP.HC\Www\bin\Model.dll
+E:\www\CP.HC\Www\bin\Pic.dll
+E:\www\CP.HC\Www\bin\Business.pdb
+E:\www\CP.HC\Www\bin\Common.pdb
+E:\www\CP.HC\Www\bin\DataProvider.pdb
+E:\www\CP.HC\Www\bin\Model.pdb
+E:\www\CP.HC\Www\bin\Pic.pdb
+E:\www\CP.HC\Www\obj\Debug\ResolveAssemblyReference.cache
+E:\www\CP.HC\Www\obj\Debug\Www.dll
+E:\www\CP.HC\Www\obj\Debug\Www.pdb
+D:\CP.HC\Www\bin\Www.dll
+D:\CP.HC\Www\bin\Www.pdb
+D:\CP.HC\Www\bin\AspNetPager.dll
+D:\CP.HC\Www\bin\Business.dll
+D:\CP.HC\Www\bin\Common.dll
+D:\CP.HC\Www\bin\DataProvider.dll
+D:\CP.HC\Www\bin\Model.dll
+D:\CP.HC\Www\bin\Pic.dll
+D:\CP.HC\Www\bin\Business.pdb
+D:\CP.HC\Www\bin\Common.pdb
+D:\CP.HC\Www\bin\DataProvider.pdb
+D:\CP.HC\Www\bin\Model.pdb
+D:\CP.HC\Www\bin\Pic.pdb
+D:\CP.HC\Www\obj\Debug\Www.dll
+D:\CP.HC\Www\obj\Debug\Www.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Www.dll.config
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Www.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Www.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\AspNetPager.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Business.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Common.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\DataProvider.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Model.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Pic.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Business.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Common.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\DataProvider.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Model.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Pic.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Pic.dll.config
+D:\Project Program\www.haocw.com\CP.HC\Www\obj\Debug\Www.csprojResolveAssemblyReference.cache
+D:\Project Program\www.haocw.com\CP.HC\Www\obj\Debug\Www.csproj.CoreCompileInputs.cache
+D:\Project Program\www.haocw.com\CP.HC\Www\obj\Debug\Www.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\obj\Debug\Www.pdb
+D:\CP.HC\Www\bin\Www.dll.config
+D:\CP.HC\Www\obj\Debug\Www.csprojResolveAssemblyReference.cache

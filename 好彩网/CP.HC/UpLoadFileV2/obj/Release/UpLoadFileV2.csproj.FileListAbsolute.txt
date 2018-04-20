@@ -1,0 +1,16 @@
+E:\web\EB\UpLoadFileV2\bin\Release\UpLoadFileV2.dll.config
+E:\web\EB\UpLoadFileV2\bin\Release\UpLoadFileV2.dll
+E:\web\EB\UpLoadFileV2\bin\Release\UpLoadFileV2.XmlSerializers.dll
+E:\web\EB\UpLoadFileV2\bin\Release\UpLoadFileV2.pdb
+E:\web\EB\UpLoadFileV2\obj\Release\ResolveAssemblyReference.cache
+E:\web\EB\UpLoadFileV2\obj\Release\UpLoadFileV2.dll
+E:\web\EB\UpLoadFileV2\obj\Release\UpLoadFileV2.pdb
+E:\web\EB\UpLoadFileV2\obj\Release\UpLoadFileV2.XmlSerializers.dll
+E:\web\CP\UpLoadFileV2\obj\Release\ResolveAssemblyReference.cache
+E:\web\CP\UpLoadFileV2\obj\Release\UpLoadFileV2.dll
+E:\web\CP\UpLoadFileV2\obj\Release\UpLoadFileV2.XmlSerializers.dll
+E:\web\CP\UpLoadFileV2\bin\Release\UpLoadFileV2.dll.config
+E:\web\CP\UpLoadFileV2\bin\Release\UpLoadFileV2.dll
+E:\web\CP\UpLoadFileV2\bin\Release\UpLoadFileV2.XmlSerializers.dll
+E:\web\CP\UpLoadFileV2\bin\Release\UpLoadFileV2.pdb
+E:\web\CP\UpLoadFileV2\obj\Release\UpLoadFileV2.pdb

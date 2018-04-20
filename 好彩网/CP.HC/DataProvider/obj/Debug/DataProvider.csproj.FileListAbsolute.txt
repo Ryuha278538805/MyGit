@@ -1,0 +1,69 @@
+F:\web\EB\DataProvider\bin\Debug\DataProvider.dll
+F:\web\EB\DataProvider\bin\Debug\DataProvider.pdb
+F:\web\EB\DataProvider\obj\Debug\ResolveAssemblyReference.cache
+F:\web\EB\DataProvider\obj\Debug\DataProvider.dll
+F:\web\EB\DataProvider\obj\Debug\DataProvider.pdb
+E:\web\EB\DataProvider\bin\Debug\DataProvider.dll
+E:\web\EB\DataProvider\bin\Debug\DataProvider.pdb
+E:\web\EB\DataProvider\bin\Debug\Common.dll
+E:\web\EB\DataProvider\bin\Debug\Model.dll
+E:\web\EB\DataProvider\bin\Debug\Common.pdb
+E:\web\EB\DataProvider\bin\Debug\Model.pdb
+E:\web\EB\DataProvider\obj\Debug\ResolveAssemblyReference.cache
+E:\web\EB\DataProvider\obj\Debug\DataProvider.dll
+E:\web\EB\DataProvider\obj\Debug\DataProvider.pdb
+E:\web\CP\DataProvider\bin\Debug\DataProvider.dll
+E:\web\CP\DataProvider\bin\Debug\DataProvider.pdb
+E:\web\CP\DataProvider\bin\Debug\Common.dll
+E:\web\CP\DataProvider\bin\Debug\Model.dll
+E:\web\CP\DataProvider\bin\Debug\Common.pdb
+E:\web\CP\DataProvider\bin\Debug\Model.pdb
+E:\web\CP\DataProvider\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CP\DataProvider\obj\Debug\DataProvider.dll
+E:\web\CP\DataProvider\obj\Debug\DataProvider.pdb
+E:\web\CPhaocw\DataProvider\bin\Debug\DataProvider.dll
+E:\web\CPhaocw\DataProvider\bin\Debug\DataProvider.pdb
+E:\web\CPhaocw\DataProvider\bin\Debug\Common.dll
+E:\web\CPhaocw\DataProvider\bin\Debug\Model.dll
+E:\web\CPhaocw\DataProvider\bin\Debug\Common.pdb
+E:\web\CPhaocw\DataProvider\bin\Debug\Model.pdb
+E:\web\CPhaocw\DataProvider\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CPhaocw\DataProvider\obj\Debug\DataProvider.dll
+E:\web\CPhaocw\DataProvider\obj\Debug\DataProvider.pdb
+E:\web\CP.HC\DataProvider\bin\Debug\DataProvider.dll
+E:\web\CP.HC\DataProvider\bin\Debug\DataProvider.pdb
+E:\web\CP.HC\DataProvider\bin\Debug\Common.dll
+E:\web\CP.HC\DataProvider\bin\Debug\Model.dll
+E:\web\CP.HC\DataProvider\bin\Debug\Common.pdb
+E:\web\CP.HC\DataProvider\bin\Debug\Model.pdb
+E:\web\CP.HC\DataProvider\obj\Debug\ResolveAssemblyReference.cache
+E:\web\CP.HC\DataProvider\obj\Debug\DataProvider.dll
+E:\web\CP.HC\DataProvider\obj\Debug\DataProvider.pdb
+E:\www\CP.HC\DataProvider\bin\Debug\DataProvider.dll
+E:\www\CP.HC\DataProvider\bin\Debug\DataProvider.pdb
+E:\www\CP.HC\DataProvider\bin\Debug\Common.dll
+E:\www\CP.HC\DataProvider\bin\Debug\Model.dll
+E:\www\CP.HC\DataProvider\bin\Debug\Common.pdb
+E:\www\CP.HC\DataProvider\bin\Debug\Model.pdb
+E:\www\CP.HC\DataProvider\obj\Debug\ResolveAssemblyReference.cache
+E:\www\CP.HC\DataProvider\obj\Debug\DataProvider.dll
+E:\www\CP.HC\DataProvider\obj\Debug\DataProvider.pdb
+D:\CP.HC\DataProvider\bin\Debug\DataProvider.dll
+D:\CP.HC\DataProvider\bin\Debug\DataProvider.pdb
+D:\CP.HC\DataProvider\bin\Debug\Common.dll
+D:\CP.HC\DataProvider\bin\Debug\Model.dll
+D:\CP.HC\DataProvider\bin\Debug\Common.pdb
+D:\CP.HC\DataProvider\bin\Debug\Model.pdb
+D:\CP.HC\DataProvider\obj\Debug\DataProvider.dll
+D:\CP.HC\DataProvider\obj\Debug\DataProvider.pdb
+D:\Project Program\www.haocw.com\CP.HC\DataProvider\bin\Debug\DataProvider.dll
+D:\Project Program\www.haocw.com\CP.HC\DataProvider\bin\Debug\DataProvider.pdb
+D:\Project Program\www.haocw.com\CP.HC\DataProvider\bin\Debug\Common.dll
+D:\Project Program\www.haocw.com\CP.HC\DataProvider\bin\Debug\Model.dll
+D:\Project Program\www.haocw.com\CP.HC\DataProvider\bin\Debug\Common.pdb
+D:\Project Program\www.haocw.com\CP.HC\DataProvider\bin\Debug\Model.pdb
+D:\Project Program\www.haocw.com\CP.HC\DataProvider\obj\Debug\DataProvider.csprojResolveAssemblyReference.cache
+D:\Project Program\www.haocw.com\CP.HC\DataProvider\obj\Debug\DataProvider.csproj.CoreCompileInputs.cache
+D:\Project Program\www.haocw.com\CP.HC\DataProvider\obj\Debug\DataProvider.dll
+D:\Project Program\www.haocw.com\CP.HC\DataProvider\obj\Debug\DataProvider.pdb
+D:\CP.HC\DataProvider\obj\Debug\DataProvider.csprojResolveAssemblyReference.cache

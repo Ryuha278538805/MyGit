@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8"/>
+<title>太湖图库、福彩3d图、红五图库</title>
+<meta name="keywords" content="太湖图库,福彩3d图,红五图库" />
+<meta name="description" content="太湖图库专区收录太湖图库，福彩3d图，红五图库等3D图。" />
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="/js/lightbox/js/jquery.lightbox-0.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lightbox/css/jquery.lightbox-0.5.css" media="screen" />
+<script language="javascript">
+var $id = function(o){ return document.getElementById(o) || o};
+function getXMLHttp(){
+     var xmlhttp;
+      try {
+             xmlhttp = new XMLHttpRequest(); // Mozilla / Safari / IE7
+       } catch (e) {
+           // IE
+           var XMLHTTP_IDS = new Array('MSXML2.XMLHTTP.5.0',
+                                        'MSXML2.XMLHTTP.4.0',
+										'MSXML2.XMLHTTP.3.0',
+										'MSXML2.XMLHTTP',
+										'Microsoft.XMLHTTP' );
+       var success = false;
+       for (var i=0;i < XMLHTTP_IDS.length && !success; i++) {
+         try {
+             xmlhttp = new ActiveXObject(XMLHTTP_IDS[i]);
+              success = true;
+         } catch (e) {}
+       }
+       if (!success) {
+        throw new Error('Unable to create XMLHttpRequest.');
+     }
+   }
+   return xmlhttp;
+}
+</script>
+</head>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" id="dhtb" bgcolor="#354E5A">
+  <tr>
+    <td height="40" style="padding-left:15px;">
+    	<div class="topdh_txt" >
+        	<img src="/image/thtklog.jpg" alt="图库" border="0" align="absmiddle"/>
+			<a href="http://www.98488.com/">首页</a><a href="http://www.98488.com/index_3d.html">福彩3D</a><a href="http://www.98488.com/index_p3.html">排列三</a><a href="http://www.98488.com/index_ssq.html">双色球</a><a href="http://www.98488.com/jpt/index.html">精品图</a><a href="http://www.98488.com/jth/index.html">解太湖</a><a href="http://www.98488.com/dyt/index.html">打印图</a><a href="http://www.98488.com/hzt/index.html">精品汇总</a><a href="http://www.98488.com/sdhot/index.html">热门预测</a><a href="http://www.98488.com/sjhh/index.html">试机后分析</a><a href="http://tu.98488.com/"  class="on">太湖图库</a><a href="http://bbs.98488.com" target="_blank">太湖论坛</a> 
+		</div>
+	</td>
+	 <td align="center">
+	<div class="denlu" ><a href="http://bbs.98488.com/login.aspx">登录</a> ｜ <a href="http://bbs.98488.com/register.aspx">注册</a><img src="/image/98488_04.jpg" width="102" height="25" align="absmiddle" alt="官方腾讯微博" /><img src="/image/98488_06.jpg" width="94" height="25" alt="官方新浪微博" align="absmiddle" /></div>
+	</td>
+  </tr>
+</table>
+<div id="wrap" class="wrap" style="top:50px;"></div>
+<div style="text-align:center;padding:20px 0 120px;" id="loading">正在加载……</div>
+
+</body>
+<script type="text/javascript">
+var t=0;//全局变量，重排开关。服务器能够给出图片宽高则不需要此项
+var startH = 0; //加载元素的初始位置
+var warpWidth = 220; //格子宽度
+var margin = 14; //格子间距
+var isAjax = 1; //ajax开关
+var sumChild = 0; //记录当前总共有多少个格子
+var page =1;
+var h = []; //记录每列的高度
+
+function sortNew(el,newBox){
+	var box = newBox;
+	postPosition(el,box,"add");//执行定位函数
+	for(var i = 0; i < box.length; i++) {
+		box[i].style.visibility = "visible"; //定位完毕后显示新增节点
+	}
+	startH = h[0];
+	isAjax=0;
+	if( navigator.userAgent.indexOf("Firefox") > -1)
+	{
+		scroll(0,startH-700);//火狐滚动条问题，暂无好的解决办法，随便打个补丁先
+	}
+}
+function sortAll(el,childTagName){
+	h = []; 
+	var box = el.getElementsByTagName(childTagName);
+	postPosition(el,box,"re");
+}
+
+function postPosition(el,box,op){
+	var minH = box[0].offsetHeight,
+	boxW = box[0].offsetWidth+margin;
+	n = document.documentElement.offsetWidth / boxW | 0; 
+	el.style.width = n * boxW - margin + "px";
+	el.style.visibility = "visible";
+	for(var i = 0; i < box.length; i++) {//排序算法，有待完善
+		boxh = box[i].offsetHeight; //获取每个Pin的高度
+		if(i < n && op =="re" || (i < n && op =="add" && h.length<n)) { //第一行特殊处理
+				h[i] = boxh;
+				box[i].style.top = 0 + 'px';
+				box[i].style.left = (i * boxW) + 'px';
+				box[i].style.opacity = 1;
+		} 
+		else { 
+				minH = Array.min(h); //取得各列累计高度最低的一列
+				minKey = getarraykey(h, minH);
+				h[minKey] += boxh+margin ; //加上新高度后更新高度值
+				box[i].style.top = minH+margin + 'px';
+				box[i].style.left = (minKey * boxW) + 'px';
+				box[i].style.opacity = 1;
+		}
+	}
+	maxH = Array.max(h); 
+	maxKey = getarraykey(h, maxH);
+	el.style.height = h[maxKey] +"px";
+}
+
+Array.min=function(array)
+{
+    return Math.min.apply(Math,array);
+}
+Array.max=function(array)
+{
+    return Math.max.apply(Math,array);
+}
+/* 返回数组中某一值的对应项数 */
+function getarraykey(s, v) {
+        for(k in s) {
+                if(s[k] == v) {
+                        return k;
+                }
+        }
+}
+function getNumber(){
+	return Math.floor(document.documentElement.clientWidth/(warpWidth+14));
+	//return 3;
+}
+function getMore(el,childClass){
+	var n = getNumber();
+	var pagesize = 3*n;
+	var cid =7;
+	el.className = "wrap";
+	if(page<=20)
+	{
+		var xmlhttp=getXMLHttp();
+		if(xmlhttp==null){alert("您的浏览器不支持Ajax!");return;};
+		xmlhttp.onreadystatechange=stateChange;
+		xmlhttp.open("POST","/ajax/waterfall.aspx",true);
+		xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		xmlhttp.send('page='+escape(page)+'&pagesize='+escape(pagesize)+'&cid='+escape(cid));
+		function stateChange(){
+		  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+			{
+				m = xmlhttp.responseXML;					
+				addList(el,m,childClass);			
+				//changeJeson(el,m,childClass);//处理jeson
+			}
+		}
+	}
+	else
+	{
+		$("#loading").html("休息一下，看得够多了哦");
+	}
+	page++;
+}
+
+function  addList(el,json,childClass){
+	var newBox = [];		
+	var items = json.getElementsByTagName("item");
+	sumChild =  sumChild+ items.length;
+	var _title;
+	for(var i = 0; i < items.length; i++) { 		
+		itemn = items[i]; 
+		var src =itemn.getElementsByTagName("src")[0].firstChild.nodeValue;		
+		var url =itemn.getElementsByTagName("url")[0].firstChild.nodeValue;		
+		var title =itemn.getElementsByTagName("title")[0].firstChild.nodeValue;	
+		var anthor =itemn.getElementsByTagName("anthor")[0].firstChild.nodeValue;		
+		var addtime =itemn.getElementsByTagName("addtime")[0].firstChild.nodeValue;		
+		imgReady(src,  items.length , i , el , newBox , childClass, url, title, anthor, addtime, function () {				
+			var height = this.height;
+			var src = this.src;
+			var el = this.el;
+			var newBox = this.newBox;
+			var childClass = this.childClass;
+			var i = this.i;
+			var length = this.length;
+			var url = this.urllink;
+			var title = this.title;
+			var anthor = this.anthor;
+			var addtime = this.addtime;
+			callBackAdd(height, src , length, i , el, newBox, childClass, url, title, anthor, addtime);
+		});
+	
+	}
+		//strhtml += "<div class=\"item\"><a href=\""+ $(obj).find("src").text()+"\" target=\"_blank\"><img  width=\"200\" src=\""+ $(obj).find("src").text()+"\"  /></a><div class=\"title\">"+ $(obj).find("title").text()+"</div></div>";																		
+	
+	//chackImg(el,newBox);
+}
+
+
+
+function changeJeson(el,json,childClass){
+	var jsonString = json; // 获取服务器返回的json字符串
+	var jsonObj = null;
+	try {
+		jsonObj = eval('(' + jsonString + ')'); // 将json字符串转换成对象
+		
+	} catch (ex) {		
+		return null;	
+	}
+	addList(el,jsonObj,childClass);//执行添加节点函数
+}
+
+function callBackAdd(height,src, length, i ,el,newBox,childClass,url,title,anthor,addtime){
+	var div = document.createElement("div");
+	div.className = childClass+" "+"popup_in"; //预留接口
+	div.innerHTML =  "<p class='pic'><a href='"+url+"' title='"+title+"' class='pica' target='_blank'><img src='"+src+"' alt='"+title+"'/></a></p><p class='tit'><a href='"+src+"' title='"+title+"' class='tita' target='_blank'>"+title+"</a></p><p class='user'><span class='blues'>"+anthor+"</span> <span class='gray'> 发布于"+addtime+"</span></p>";
+	div.style.top = startH +"px";
+	div.style.opacity = 0;
+	el.appendChild(div);
+	newBox[i]=div;
+	t++;
+	$("#wrap .tita").lightBox();
+	if(t>length-1){
+		sortNew(el,newBox);
+		t=0;
+	}
+}
+
+function chackImg(el,newBox){
+	var imgs =[];
+	imgs=el.getElementsByTagName("img");//只遍历新增图片
+	for(i=sumChild;i<imgs.length;i++){
+		//var img = new SImage(icall,el,imgs.length,imgs[i].src,newBox);
+		
+	}
+}
+
+var imgReady = (function () {	var list = [], intervalId = null,
+	// 用来执行队列
+	tick = function () {
+		var i = 0;
+		for (; i < list.length; i++) {
+			list[i].end ? list.splice(i--, 1) : list[i]();
+		};
+		!list.length && stop();
+	},
+
+	// 停止所有定时器队列
+	stop = function () {
+		clearInterval(intervalId);
+		intervalId = null;
+	};
+
+	return function (url, length , i, el , newBox , childClass ,urllink,title,anthor, addtime,  ready, load, error) {
+		var onready, width, height, newWidth, newHeight,
+			img = new Image();
+		img.src = url;
+		// 如果图片被缓存，则直接返回缓存数据
+		if (img.complete) {
+			//ready.call(img);
+			//load && load.call(img);
+			//return;
+		};
+		
+		img.urllink = urllink;
+		img.title = title;
+		img.anthor = anthor;
+		img.addtime = addtime;
+
+		width = img.width;
+		height = img.height;
+		img.el = el ;
+		img.newBox = newBox ;
+		img.childClass = childClass ;
+		img.i = i ;
+		img.length = length ;
+		// 加载错误后的事件
+		img.onerror = function () {
+			error && error.call(img);
+			onready.end = true;
+			img = img.onload = img.onerror = null;
+		};
+
+		// 图片尺寸就绪
+		onready = function () {
+			newWidth = img.width;
+			newHeight = img.height;
+			if (newWidth !== width || newHeight !== height ||
+				// 如果图片已经在其他地方加载可使用面积检测
+				newWidth * newHeight > 1024
+			) {
+				//alert(ready)
+				ready.call(img);
+				onready.end = true;
+			};
+		};
+		//onready();
+
+		// 完全加载完毕的事件
+		img.onload = function () {
+			// onload在定时器时间差范围内可能比onready快
+			// 这里进行检查并保证onready优先执行
+			!onready.end && onready();
+
+			load && load.call(img);
+
+			// IE gif动画会循环执行onload，置空onload即可
+			img = img.onload = img.onerror = null;
+		};
+
+		// 加入队列中定期执行
+		if (!onready.end) {
+			list.push(onready);
+			// 无论何时只允许出现一个定时器，减少浏览器性能损耗
+			if (intervalId === null) intervalId = setInterval(tick, 40);
+		};
+	};
+})();
+
+
+		
+window.onload = function() {
+	scroll(0,0);
+	getMore($id("wrap"),"mode");	
+};
+
+var re;
+var so;
+window.onresize = function() {
+	clearTimeout(re);
+	re = setTimeout(resize,100);				
+}
+
+function resize(){
+	$id("wrap").className = "wrap active";
+	sortAll($id("wrap"),"div");
+}
+
+window.onscroll = function(){
+	var a=document.body.scrollHeight;
+	var b=document.documentElement.clientHeight;
+	var c=document.documentElement.scrollTop + document.body.scrollTop;
+	//$id("aaa1").innerHTML=a+"xxx"+b+"xxx"+c;
+	if((c+b+100>=a)&&isAjax==0){
+		isAjax=1;
+		getMore($id("wrap"),"mode");		
+	} 
+	else {return}
+} 
+</script>
+
+
+<div id="aaa1" style="display:none;position: fixed;width:400px;height:200px;background:#000;color:#fff;top:30%;left:50%">
+<script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F35d327de062443e30abb04504ecf6685' type='text/javascript'%3E%3C/script%3E"));
+        </script> 	
+		<script type="text/javascript">
+            var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe0dfc3abb26054fcdf47e0c9cfd4e0c1' type='text/javascript'%3E%3C/script%3E"));
+            </script>	     
+            <!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=6&amp;mini=1&amp;pos=right&amp;uid=669093" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+var bds_config={"bdTop":95};
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script></div>
+</html>

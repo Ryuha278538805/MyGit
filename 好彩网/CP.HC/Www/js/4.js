@@ -1,0 +1,10 @@
+﻿document.writeln("<table width=\'100%\' border=\'0\' cellspacing=\'0\' cellpadding=\'0\'><tr><td align=\'center\'><table width=\'728\' border=\'0\' align=\'center\' cellpadding=\'0\' cellspacing=\'1\' bgcolor=\'ccc\' style=\'font-size:12px; text-align:center\'>");
+document.writeln("  <tr>");
+document.writeln("    <td  width=\'50%\' height=\'35\' colspan=\'2\' bgcolor=\'#fff\'><a href=\'http://www.sm577.com\' target=\'_blank\'><strong style=\'font-size:14px\'>██站长推荐：世贸集团平台--世贸彩票██</strong></a></td>");
+document.writeln("    <td width=\'50%\' height=\'35\' colspan=\'2\' bgcolor=\'#fff\'><a href=\'https://jq.qq.com/?_wv=1027&k=5Z87qvg\' target=\'_blank\'><strong style=\'font-size:14px\'>██世贸时时彩PK10官方交流群135626682██</strong></a></td>");
+document.writeln("  </tr>");
+document.writeln("  <tr>");
+document.writeln("    <td  width=\'50%\' height=\'35\' colspan=\'2\' bgcolor=\'#fff\'><a href=\'https://jq.qq.com/?_wv=1027&k=473bmV3\' target=\'_blank\'><strong style=\'font-size:14px\'>彩票交流QQ群</strong></a></td>");
+document.writeln("    <td width=\'50%\' height=\'35\' colspan=\'2\' bgcolor=\'#fff\'><a href=\'https://jq.qq.com/?_wv=1027&k=473bmV3\' target=\'_blank\'><strong style=\'font-size:14px\'>精准五码计划</strong></a></td>");
+document.writeln("  </tr>");
+document.writeln("</table></td></tr></table>");

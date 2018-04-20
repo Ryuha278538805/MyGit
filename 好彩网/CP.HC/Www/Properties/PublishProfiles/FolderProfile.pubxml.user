@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Project Program\www.haocw.com\CP.HC\Www\bin\Release\PublishOutput</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="404.aspx">
+      <publishTime>05/29/2013 14:19:00</publishTime>
+    </File>
+    <File Include="404.htm">
+      <publishTime>05/29/2013 12:51:50</publishTime>
+    </File>
+    <File Include="500.aspx">
+      <publishTime>05/29/2013 14:20:16</publishTime>
+    </File>
+    <File Include="ajax/makepage.aspx">
+      <publishTime>12/27/2012 21:42:26</publishTime>
+    </File>
+    <File Include="ajax/updateui.aspx">
+      <publishTime>03/16/2013 00:09:46</publishTime>
+    </File>
+    <File Include="ajax/waterfall.aspx">
+      <publishTime>12/12/2012 21:18:22</publishTime>
+    </File>
+    <File Include="bin/AspNetPager.dll">
+      <publishTime>07/29/2011 10:40:28</publishTime>
+    </File>
+    <File Include="bin/Business.dll">
+      <publishTime>11/19/2017 22:22:30</publishTime>
+    </File>
+    <File Include="bin/Business.pdb">
+      <publishTime>11/19/2017 22:22:30</publishTime>
+    </File>
+    <File Include="bin/Common.dll">
+      <publishTime>11/19/2017 22:22:30</publishTime>
+    </File>
+    <File Include="bin/Common.pdb">
+      <publishTime>11/19/2017 22:22:30</publishTime>
+    </File>
+    <File Include="bin/DataProvider.dll">
+      <publishTime>11/19/2017 22:22:30</publishTime>
+    </File>
+    <File Include="bin/DataProvider.pdb">
+      <publishTime>11/19/2017 22:22:30</publishTime>
+    </File>
+    <File Include="bin/Intelligencia.UrlRewriter.dll">
+      <publishTime>07/15/2007 10:50:02</publishTime>
+    </File>
+    <File Include="bin/Model.dll">
+      <publishTime>11/19/2017 22:22:30</publishTime>
+    </File>
+    <File Include="bin/Model.pdb">
+      <publishTime>11/19/2017 22:22:30</publishTime>
+    </File>
+    <File Include="bin/Pic.dll">
+      <publishTime>11/19/2017 22:22:29</publishTime>
+    </File>
+    <File Include="bin/Pic.dll.config">
+      <publishTime>01/01/2009 00:12:00</publishTime>
+    </File>
+    <File Include="bin/Pic.pdb">
+      <publishTime>11/19/2017 22:22:29</publishTime>
+    </File>
+    <File Include="bin/Www.dll">
+      <publishTime>11/19/2017 22:22:31</publishTime>
+    </File>
+    <File Include="bin/Www.pdb">
+      <publishTime>11/19/2017 22:22:31</publishTime>
+    </File>
+    <File Include="channel3d.aspx">
+      <publishTime>05/29/2013 13:22:50</publishTime>
+    </File>
+    <File Include="channelp3.aspx">
+      <publishTime>05/29/2013 13:23:04</publishTime>
+    </File>
+    <File Include="channelssq.aspx">
+      <publishTime>05/29/2013 13:22:20</publishTime>
+    </File>
+    <File Include="css/css.css">
+      <publishTime>11/18/2017 17:40:36</publishTime>
+    </File>
+    <File Include="css/css2.css">
+      <publishTime>12/14/2014 21:29:51</publishTime>
+    </File>
+    <File Include="css/css_dz.css">
+      <publishTime>01/24/2013 16:46:16</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>01/24/2013 16:23:06</publishTime>
+    </File>
+    <File Include="footer.ascx">
+      <publishTime>11/18/2017 15:25:25</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/29/2013 14:16:22</publishTime>
+    </File>
+    <File Include="header.ascx">
+      <publishTime>09/05/2017 11:09:47</publishTime>
+    </File>
+    <File Include="html/kjhad.html">
+      <publishTime>03/14/2013 00:29:22</publishTime>
+    </File>
+    <File Include="image/1.jpg">
+      <publishTime>11/03/2012 11:25:52</publishTime>
+    </File>
+    <File Include="image/98488_01.jpg">
+      <publishTime>10/31/2012 15:41:04</publishTime>
+    </File>
+    <File Include="image/98488_04.jpg">
+      <publishTime>10/31/2012 15:41:04</publishTime>
+    </File>
+    <File Include="image/98488_06.jpg">
+      <publishTime>10/31/2012 15:41:04</publishTime>
+    </File>
+    <File Include="image/98488_17.jpg">
+      <publishTime>10/31/2012 15:41:04</publishTime>
+    </File>
+    <File Include="image/acd_01.jpg">
+      <publishTime>11/30/2012 12:46:44</publishTime>
+    </File>
+    <File Include="image/bd200.jpg">
+      <publishTime>11/19/2012 11:06:30</publishTime>
+    </File>
+    <File Include="image/bgjiho.gif">
+      <publishTime>08/06/2014 11:51:40</publishTime>
+    </File>
+    <File Include="image/blue.gif">
+      <publishTime>10/31/2012 14:39:34</publishTime>
+    </File>
+    <File Include="image/chenj.jpg">
+      <publishTime>01/09/2013 16:10:52</publishTime>
+    </File>
+    <File Include="image/concrete_wall_3.png">
+      <publishTime>12/12/2012 20:59:50</publishTime>
+    </File>
+    <File Include="image/dasktop.gif">
+      <publishTime>01/05/2013 23:30:10</publishTime>
+    </File>
+    <File Include="image/dhbg.gif">
+      <publishTime>08/06/2014 12:06:16</publishTime>
+    </File>
+    <File Include="image/djgg.gif">
+      <publishTime>08/07/2014 11:31:52</publishTime>
+    </File>
+    <File Include="image/flbg1.jpg">
+      <publishTime>11/01/2012 10:53:22</publishTime>
+    </File>
+    <File Include="image/flbg2.jpg">
+      <publishTime>11/01/2012 12:05:18</publishTime>
+    </File>
+    <File Include="image/gongju.jpg">
+      <publishTime>08/07/2014 13:22:14</publishTime>
+    </File>
+    <File Include="image/grbg.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/guanz.jpg">
+      <publishTime>11/03/2012 11:48:22</publishTime>
+    </File>
+    <File Include="image/haog.gif">
+      <publishTime>08/06/2014 11:04:04</publishTime>
+    </File>
+    <File Include="image/hgg1.jpg">
+      <publishTime>11/29/2012 10:03:46</publishTime>
+    </File>
+    <File Include="image/htop.gif">
+      <publishTime>08/06/2014 11:03:06</publishTime>
+    </File>
+    <File Include="image/icon_feed.gif">
+      <publishTime>12/10/2012 19:25:58</publishTime>
+    </File>
+    <File Include="image/jdr.gif">
+      <publishTime>08/06/2014 14:03:32</publishTime>
+    </File>
+    <File Include="image/jian.jpg">
+      <publishTime>11/02/2012 14:07:08</publishTime>
+    </File>
+    <File Include="image/jpc.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/jpt.jpg">
+      <publishTime>01/24/2013 17:03:24</publishTime>
+    </File>
+    <File Include="image/jptgg.gif">
+      <publishTime>08/07/2014 11:30:44</publishTime>
+    </File>
+    <File Include="image/kjbg.jpg">
+      <publishTime>11/01/2012 10:53:22</publishTime>
+    </File>
+    <File Include="image/lbsbg.jpg">
+      <publishTime>11/01/2012 10:53:22</publishTime>
+    </File>
+    <File Include="image/lightbox-blank.gif">
+      <publishTime>03/30/2006 18:20:38</publishTime>
+    </File>
+    <File Include="image/lightbox-btn-close.gif">
+      <publishTime>12/18/2012 21:11:26</publishTime>
+    </File>
+    <File Include="image/lightbox-btn-next.gif">
+      <publishTime>12/18/2012 21:14:34</publishTime>
+    </File>
+    <File Include="image/lightbox-btn-prev.gif">
+      <publishTime>12/18/2012 21:13:44</publishTime>
+    </File>
+    <File Include="image/lightbox-ico-loading.gif">
+      <publishTime>10/03/2007 23:12:22</publishTime>
+    </File>
+    <File Include="image/lindan.png">
+      <publishTime>11/28/2012 15:06:52</publishTime>
+    </File>
+    <File Include="image/lindan0.png">
+      <publishTime>11/28/2012 15:07:10</publishTime>
+    </File>
+    <File Include="image/lindan1.png">
+      <publishTime>08/07/2014 13:21:32</publishTime>
+    </File>
+    <File Include="image/loading.gif">
+      <publishTime>12/04/2012 11:32:08</publishTime>
+    </File>
+    <File Include="image/logo.gif">
+      <publishTime>01/17/2015 00:15:26</publishTime>
+    </File>
+    <File Include="image/logo.jpg">
+      <publishTime>11/14/2012 16:26:26</publishTime>
+    </File>
+    <File Include="image/logo.png">
+      <publishTime>12/27/2012 23:43:08</publishTime>
+    </File>
+    <File Include="image/lrbg.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/lry_1.jpg">
+      <publishTime>12/17/2012 14:24:12</publishTime>
+    </File>
+    <File Include="image/lry_2.jpg">
+      <publishTime>12/17/2012 14:24:12</publishTime>
+    </File>
+    <File Include="image/mainbg.png">
+      <publishTime>11/18/2017 14:31:08</publishTime>
+    </File>
+    <File Include="image/new.gif">
+      <publishTime>12/14/2014 20:50:12</publishTime>
+    </File>
+    <File Include="image/newhc.gif">
+      <publishTime>08/10/2014 15:25:30</publishTime>
+    </File>
+    <File Include="image/org.gif">
+      <publishTime>11/01/2012 14:04:52</publishTime>
+    </File>
+    <File Include="image/p3.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/pddhbg.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/phan1.jpg">
+      <publishTime>01/10/2013 11:13:50</publishTime>
+    </File>
+    <File Include="image/phan2.jpg">
+      <publishTime>01/10/2013 11:13:50</publishTime>
+    </File>
+    <File Include="image/pm1.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/pm2.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/qqdu.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/red.gif">
+      <publishTime>10/31/2012 14:39:34</publishTime>
+    </File>
+    <File Include="image/rmgg.gif">
+      <publishTime>08/07/2014 11:31:26</publishTime>
+    </File>
+    <File Include="image/sd.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/ssq.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/thcai_01.jpg">
+      <publishTime>10/31/2012 15:41:04</publishTime>
+    </File>
+    <File Include="image/thcai_04.jpg">
+      <publishTime>10/31/2012 15:41:04</publishTime>
+    </File>
+    <File Include="image/thcai_06.jpg">
+      <publishTime>10/31/2012 15:41:04</publishTime>
+    </File>
+    <File Include="image/thtklog.jpg">
+      <publishTime>12/18/2012 16:06:36</publishTime>
+    </File>
+    <File Include="image/thtktb.jpg">
+      <publishTime>12/05/2012 12:32:14</publishTime>
+    </File>
+    <File Include="image/tkpub.jpg">
+      <publishTime>12/04/2012 12:56:30</publishTime>
+    </File>
+    <File Include="image/tkpub.png">
+      <publishTime>12/04/2012 11:49:56</publishTime>
+    </File>
+    <File Include="image/tksb.jpg">
+      <publishTime>12/03/2012 12:36:58</publishTime>
+    </File>
+    <File Include="image/tkxb.jpg">
+      <publishTime>12/03/2012 12:36:36</publishTime>
+    </File>
+    <File Include="image/tkxtubg.jpg">
+      <publishTime>12/03/2012 13:15:58</publishTime>
+    </File>
+    <File Include="image/tk_login.png">
+      <publishTime>12/18/2012 14:39:04</publishTime>
+    </File>
+    <File Include="image/topxiabg.jpg">
+      <publishTime>10/31/2012 15:41:04</publishTime>
+    </File>
+    <File Include="image/tu1.jpg">
+      <publishTime>11/01/2012 13:39:46</publishTime>
+    </File>
+    <File Include="image/tu2.jpg">
+      <publishTime>11/01/2012 13:40:52</publishTime>
+    </File>
+    <File Include="image/userdu.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/users.gif">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/weizhij.gif">
+      <publishTime>11/03/2012 09:55:50</publishTime>
+    </File>
+    <File Include="image/weizhit.gif">
+      <publishTime>11/03/2012 09:55:50</publishTime>
+    </File>
+    <File Include="image/wzrtop.jpg">
+      <publishTime>11/03/2012 11:00:42</publishTime>
+    </File>
+    <File Include="image/xb.jpg">
+      <publishTime>11/02/2012 14:07:08</publishTime>
+    </File>
+    <File Include="image/xbbg.jpg">
+      <publishTime>12/02/2012 21:10:50</publishTime>
+    </File>
+    <File Include="image/xiangqing.jpg">
+      <publishTime>08/07/2014 13:22:12</publishTime>
+    </File>
+    <File Include="image/youqin.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/yqbg.jpg">
+      <publishTime>11/01/2012 14:24:20</publishTime>
+    </File>
+    <File Include="image/zhuom.jpg">
+      <publishTime>01/09/2013 16:08:54</publishTime>
+    </File>
+    <File Include="image/zqbg.jpg">
+      <publishTime>11/02/2012 14:07:08</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>11/18/2017 17:39:15</publishTime>
+    </File>
+    <File Include="js/55126.js">
+      <publishTime>12/18/2012 23:36:56</publishTime>
+    </File>
+    <File Include="js/jquery-1.8.0.min.js">
+      <publishTime>03/13/2013 21:17:54</publishTime>
+    </File>
+    <File Include="js/jquery.js">
+      <publishTime>07/18/2014 22:05:42</publishTime>
+    </File>
+    <File Include="js/lightbox/css/jquery.lightbox-0.5.css">
+      <publishTime>07/27/2010 21:53:28</publishTime>
+    </File>
+    <File Include="js/lightbox/js/jquery.lightbox-0.5.min.js">
+      <publishTime>12/18/2012 11:49:44</publishTime>
+    </File>
+    <File Include="js/pic.js">
+      <publishTime>12/19/2012 21:33:08</publishTime>
+    </File>
+    <File Include="js/wz/170fuwu.shtml">
+      <publishTime>09/29/2016 22:36:57</publishTime>
+    </File>
+    <File Include="js/wz/3dcaipiaowang.shtml">
+      <publishTime>09/29/2016 22:36:56</publishTime>
+    </File>
+    <File Include="js/wz/3Dzhijia.shtml">
+      <publishTime>09/29/2016 22:36:56</publishTime>
+    </File>
+    <File Include="js/wz/baocaiwang.shtml">
+      <publishTime>09/29/2016 22:36:55</publishTime>
+    </File>
+    <File Include="js/wz/caiba.shtml">
+      <publishTime>09/29/2016 22:36:55</publishTime>
+    </File>
+    <File Include="js/wz/caibazhushou.shtml">
+      <publishTime>09/29/2016 22:36:54</publishTime>
+    </File>
+    <File Include="js/wz/caijinwang.shtml">
+      <publishTime>09/29/2016 22:36:54</publishTime>
+    </File>
+    <File Include="js/wz/caiminzhijia.shtml">
+      <publishTime>09/29/2016 22:36:53</publishTime>
+    </File>
+    <File Include="js/wz/caipiaodajiyin.shtml">
+      <publishTime>09/29/2016 22:36:53</publishTime>
+    </File>
+    <File Include="js/wz/css.css">
+      <publishTime>09/29/2016 22:36:52</publishTime>
+    </File>
+    <File Include="js/wz/dongcaiwang.shtml">
+      <publishTime>09/29/2016 22:36:52</publishTime>
+    </File>
+    <File Include="js/wz/fucai777.shtml">
+      <publishTime>09/29/2016 22:36:51</publishTime>
+    </File>
+    <File Include="js/wz/gongyishibao.shtml">
+      <publishTime>09/29/2016 22:36:51</publishTime>
+    </File>
+    <File Include="js/wz/lecaiwang.shtml">
+      <publishTime>09/29/2016 22:36:50</publishTime>
+    </File>
+    <File Include="js/wz/niucaiwang.shtml">
+      <publishTime>09/29/2016 22:36:50</publishTime>
+    </File>
+    <File Include="js/wz/shuangcaiwang.shtml">
+      <publishTime>09/29/2016 22:36:49</publishTime>
+    </File>
+    <File Include="js/wz/tianjishuju.shtml">
+      <publishTime>09/29/2016 22:36:49</publishTime>
+    </File>
+    <File Include="js/wz/tianjiwang.shtml">
+      <publishTime>09/29/2016 22:36:48</publishTime>
+    </File>
+    <File Include="js/wz/tianqiwang.shtml">
+      <publishTime>09/29/2016 22:36:48</publishTime>
+    </File>
+    <File Include="js/wz/wz.shtml">
+      <publishTime>09/29/2016 22:36:47</publishTime>
+    </File>
+    <File Include="js/wz/xiaocaishen.shtml">
+      <publishTime>09/29/2016 22:36:47</publishTime>
+    </File>
+    <File Include="js/wz/zhongcaiwang.shtml">
+      <publishTime>09/29/2016 22:36:46</publishTime>
+    </File>
+    <File Include="kj/225.aspx">
+      <publishTime>03/20/2015 13:31:29</publishTime>
+    </File>
+    <File Include="kj/225_list.aspx">
+      <publishTime>03/20/2015 13:31:34</publishTime>
+    </File>
+    <File Include="kj/3d.aspx">
+      <publishTime>06/24/2015 17:10:27</publishTime>
+    </File>
+    <File Include="kj/3d_list.aspx">
+      <publishTime>03/20/2015 13:30:18</publishTime>
+    </File>
+    <File Include="kj/dlt.aspx">
+      <publishTime>11/19/2017 20:03:49</publishTime>
+    </File>
+    <File Include="kj/dlt_list.aspx">
+      <publishTime>03/20/2015 13:31:48</publishTime>
+    </File>
+    <File Include="kj/index.aspx">
+      <publishTime>06/24/2015 17:09:54</publishTime>
+    </File>
+    <File Include="kj/live_3d.aspx">
+      <publishTime>03/20/2015 13:32:09</publishTime>
+    </File>
+    <File Include="kj/live_p3.aspx">
+      <publishTime>03/20/2015 13:32:14</publishTime>
+    </File>
+    <File Include="kj/live_ssq.aspx">
+      <publishTime>03/20/2015 13:32:20</publishTime>
+    </File>
+    <File Include="kj/p3.aspx">
+      <publishTime>03/20/2015 13:32:40</publishTime>
+    </File>
+    <File Include="kj/p3_list.aspx">
+      <publishTime>03/20/2015 13:32:45</publishTime>
+    </File>
+    <File Include="kj/p5.aspx">
+      <publishTime>03/20/2015 13:32:49</publishTime>
+    </File>
+    <File Include="kj/p5_list.aspx">
+      <publishTime>03/20/2015 13:33:01</publishTime>
+    </File>
+    <File Include="kj/qlc.aspx">
+      <publishTime>03/20/2015 13:33:05</publishTime>
+    </File>
+    <File Include="kj/qlc_list.aspx">
+      <publishTime>03/20/2015 13:33:10</publishTime>
+    </File>
+    <File Include="kj/qxc.aspx">
+      <publishTime>03/20/2015 13:33:14</publishTime>
+    </File>
+    <File Include="kj/qxc_list.aspx">
+      <publishTime>03/20/2015 13:33:18</publishTime>
+    </File>
+    <File Include="kj/ssq.aspx">
+      <publishTime>03/20/2015 13:33:22</publishTime>
+    </File>
+    <File Include="kj/ssq_list.aspx">
+      <publishTime>03/20/2015 13:33:26</publishTime>
+    </File>
+    <File Include="news/news_info.aspx">
+      <publishTime>11/19/2017 22:21:34</publishTime>
+    </File>
+    <File Include="news/news_info_pic.aspx">
+      <publishTime>11/19/2017 22:22:06</publishTime>
+    </File>
+    <File Include="news/news_list.aspx">
+      <publishTime>03/10/2017 15:22:22</publishTime>
+    </File>
+    <File Include="rss.aspx">
+      <publishTime>03/14/2013 20:16:02</publishTime>
+    </File>
+    <File Include="tk/index.htm">
+      <publishTime>05/29/2013 13:24:14</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/19/2017 22:22:51</publishTime>
+    </File>
+    <File Include="yc/list.aspx">
+      <publishTime>03/10/2017 15:33:49</publishTime>
+    </File>
+    <File Include="yc/yc_info.aspx">
+      <publishTime>03/10/2017 15:34:25</publishTime>
+    </File>
+    <File Include="yc/yc_list.aspx">
+      <publishTime>03/10/2017 15:34:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

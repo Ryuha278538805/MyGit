@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="E:\Release\cphaocw\shop" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/Model.dll" publishTime="03/16/2013 00:22:50" />
+    <file relUrl="img/search.gif" publishTime="01/13/2009 10:31:22" />
+    <file relUrl="bin/Common.dll" publishTime="03/16/2013 00:22:50" />
+    <file relUrl="goods.aspx" publishTime="03/14/2013 00:29:20" />
+    <file relUrl="img/googsbg.gif" publishTime="12/24/2012 21:04:06" />
+    <file relUrl="img/noimg.gif" publishTime="01/06/2009 11:35:16" />
+    <file relUrl="bin/Business.pdb" publishTime="03/16/2013 01:18:09" />
+    <file relUrl="bin/DataProvider.pdb" publishTime="03/16/2013 00:43:40" />
+    <file relUrl="error.aspx" publishTime="03/14/2013 00:29:20" />
+    <file relUrl="bin/Model.pdb" publishTime="03/16/2013 00:22:50" />
+    <file relUrl="css/css.css" publishTime="12/26/2012 23:00:06" />
+    <file relUrl="img/back.gif" publishTime="01/07/2009 10:38:17" />
+    <file relUrl="img/show.gif" publishTime="01/08/2009 11:38:24" />
+    <file relUrl="bin/Common.pdb" publishTime="03/16/2013 00:22:49" />
+    <file relUrl="bin/Shop.dll" publishTime="03/30/2013 16:24:00" />
+    <file relUrl="bin/AspNetPager.dll" publishTime="07/29/2011 10:40:28" />
+    <file relUrl="bin/Shop.pdb" publishTime="03/30/2013 16:24:00" />
+    <file relUrl="bin/Intelligencia.UrlRewriter.dll" publishTime="07/15/2007 10:50:02" />
+    <file relUrl="img/mygoods.gif" publishTime="01/08/2009 11:07:41" />
+    <file relUrl="img/bg_hotsale.gif" publishTime="12/24/2012 20:33:30" />
+    <file relUrl="img/bay.gif" publishTime="01/06/2009 14:28:13" />
+    <file relUrl="bin/DataProvider.dll" publishTime="03/16/2013 00:43:40" />
+    <file relUrl="head.ascx" publishTime="03/14/2013 00:29:26" />
+    <file relUrl="img/buy.png" publishTime="12/25/2012 21:48:20" />
+    <file relUrl="goodssell_my.aspx" publishTime="03/14/2013 00:29:19" />
+    <file relUrl="img/buy_bg.png" publishTime="12/25/2012 00:23:52" />
+    <file relUrl="img/change.gif" publishTime="01/08/2009 11:50:16" />
+    <file relUrl="goods_my.aspx" publishTime="03/14/2013 00:29:20" />
+    <file relUrl="Web.config" publishTime="03/30/2013 16:07:01" />
+    <file relUrl="index.aspx" publishTime="03/14/2013 00:29:20" />
+    <file relUrl="bottom.ascx" publishTime="03/14/2013 00:29:20" />
+    <file relUrl="bin/Business.dll" publishTime="03/16/2013 01:18:09" />
+    <file relUrl="goods_bay.aspx" publishTime="03/14/2013 00:29:20" />
+  </publishProfile>
+</publishData>

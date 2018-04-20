@@ -1,0 +1,36 @@
+﻿.goodslist{ padding:10px 0; list-style:none;overflow:hidden;}
+.goodslist  li{ width:196px; height:363px;float:left; overflow:hidden; border:#999 solid 0px; padding:14px; margin:14px 14px 0 0;}
+.goodslist  li:hover{ background:url(../img/googsbg.gif) no-repeat;}   
+.goodslist  li img{ width:196px; height:240px; border:none; margin-bottom:15px;}
+.goodslist  li  a:hover{ color:#F00; text-decoration:underline;}
+.goodslist  li  p{ line-height:22px;}
+.goodslist  li  .red{ color:#C00;}
+.goodslist  li  .orege{ color:#C49173;}
+.goodslist  li  .blue{ color:#568396;}
+.goodslist  li  .gray{ color:#A7A7A7;}
+.goodslist  li  .b{ font-weight:bolder;}
+.goodslist  li .button{ margin-top:10px; padding-left:40px; }
+.goodslist  li .button a{float: left;width: 50px;height: 22px;line-height: 22px;text-align: center;background: url(../img/bg_hotsale.gif) no-repeat 0 -632px;margin-right: 5px;}
+
+.goodsinfotb{ line-height:30px;}
+.goodsinfotb .gimg{  max-height: 400px;  width:auto;   height:expression(this.height > 400 ? "400px" : this.height);}
+#name { padding: 10px;border-bottom: 1px dotted #CCC;zoom: 1;}
+.goodsinfotb h2{ float:left; height: 1.5em;white-space: nowrap;text-overflow: ellipsis; overflow: hidden;font: bold 16px/1.5em Arial,Verdana,"microsoft yahei";}
+.goodsinfotb .hits{ height: 1.5em; color:#F60; float:left; font-size:12px; margin-left:20px;}
+
+.tb-btn-buy a,   .tb-btn-back a ,  .tb-btn-sbuy a{position: relative;text-indent: 0;text-align: center;font: bold 18px/36px arial; margin-left:10px;}
+.tb-btn-buy a,  .tb-btn-buy a b,  .tb-btn-back a,  .tb-btn-back a b ,  .submit{float: left; width: 127px; height: 36px; margin-right: 0; overflow: hidden; text-indent: -200px;}
+.tb-btn-buy a b, .tb-btn-back a b  {background: url(/img/buy_bg.png) no-repeat;position: absolute;top: 0;left: 0;cursor: pointer;}
+.tb-btn-sbuy a b {background: url(/img/buy.png) no-repeat;position: absolute;top: 0;left: 0;cursor: pointer;}
+.tb-btn-sbuy a b {background-position: 0 0px;}
+.tb-btn-buy a b {background-position: 0 -108px;}
+.tb-btn-buy a:hover b {background-position: 0 -145px;}
+.tb-btn-back a b {background-position: -388px -144px;}
+.tb-btn-back a:hover b {background-position: -388px -182px;}
+.goodsinfotb a:hover {color: #F60;text-decoration: none;}
+.submit {border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: url('/img/buy.png') no-repeat;
+    position: absolute;cursor: pointer;
+}

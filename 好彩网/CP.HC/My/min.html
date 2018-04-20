@@ -1,0 +1,576 @@
+<link href="images/skin.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" /><style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #EEF2FB;
+}
+-->
+</style>
+          <!--JavaScript部分-->
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript"> 
+var switchmenus = function(id)
+{
+	for(var i=1;i<8;i++)	
+	{
+		$("#tables"+i).hide();
+		$("#na"+i).removeClass("sec2");
+		$("#na"+i).removeClass("sec1");
+	}
+	$("#tables"+id).show();
+	
+	
+	
+	for(var i=1;i<8;i++)	
+	{
+	if(id==i){
+		$("#na"+i).addClass("sec2");}
+	else{
+		$("#na"+i).addClass("sec1");}
+	}
+	
+}
+</SCRIPT>
+              <!--HTML部分-->
+
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="17" valign="top" background="images/mail_leftbg.gif"><img src="images/left-top-right.gif" width="17" height="29" /></td>
+    <td valign="top" background="images/content-bg.gif"><table width="100%" height="31" border="0" cellpadding="0" cellspacing="0" class="left_topbg" id="table2">
+      <tr>
+        <td height="31"><div class="titlebt">Welcome</div></td>
+      </tr>
+    </table></td>
+    <td width="16" valign="top" background="images/mail_rightbg.gif"><img src="images/nav-right-bg.gif" width="16" height="29" /></td>
+  </tr>
+  <tr>
+    <td valign="middle" background="images/mail_leftbg.gif">&nbsp;</td>
+    <td valign="top" bgcolor="#F7F8F9"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="2" valign="top">&nbsp;</td>
+        </tr>
+      <tr>
+        <td colspan="2" valign="top">
+              <TABLE width=72% border=0 cellPadding=0 cellSpacing=0 id=secTable>
+                <TBODY>
+                  <TR align=middle height=20>
+                    <TD align="center" class=sec2 id="na1"><a href="javascript:void(0);"   onmouseover="switchmenus(1)" id="nav1">用户信息</a></TD>
+                    <TD align="center" class=sec1 id="na2"><a href="javascript:void(0);"   onmouseover="switchmenus(2)" id="nav2">福彩3D中奖</a></TD>
+                    <TD align="center" class=sec1 id="na3"><a href="javascript:void(0);"   onmouseover="switchmenus(3)" id="nav3">双色球中奖</a></TD>
+                    <TD align="center" class=sec1 id="na4"><a href="javascript:void(0);"   onmouseover="switchmenus(4)" id="nav4">排列三中奖</a></TD>
+                    <TD align="center" class=sec1 id="na5"><a href="javascript:void(0);"   onmouseover="switchmenus(5)" id="nav5">我的中奖记录</a></TD>
+                    <TD align="center" class=sec1 id="na6"><a href="javascript:void(0);"   onmouseover="switchmenus(6)" id="nav6">我的彩贝贴</a></TD>
+                    <TD align="center" class=sec1 id="na7"><a href="javascript:void(0);"   onmouseover="switchmenus(7)" id="nav7">我的免费贴</a></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>            <TABLE class=main_tab id=mainTable cellSpacing=0
+cellPadding=0 width=100% border=0>
+                <!--关于TBODY标记-->
+                <TBODY style="DISPLAY: block"  id="tables1">
+                  <TR>
+                    <TD vAlign=top align=left><TABLE width=500 height="136" border=0 cellPadding=0 cellSpacing=0>
+                        <TBODY>
+                          <TR>
+                            <TD height="5" colspan="4"></TD>
+                          </TR>
+                          <TR>
+                            <TD width="4%" height="25" rowspan="4" bgcolor="#FAFBFC">&nbsp;</TD>
+                            <TD width="140" height="25" rowspan="4" bgcolor="#FAFBFC"><img src="toux.gif" width="120" height="120" /></TD>
+                            <TD bgcolor="#FAFBFC"><span class="left_txt">您好： </span> <span class="left_ts">kill </span></TD>
+                            <TD height="25" bgcolor="#FAFBFC">&nbsp;</TD>
+                          </TR>
+                          <TR>
+                            <TD bgcolor="#FAFBFC"><span class="left_txt">您的彩贝贴： </span> <span class="left_ts">159条 </span></TD>
+                            <TD height="25" bgcolor="#FAFBFC"><span class="left_txt">您的人气量： </span> <span class="left_ts"> 57 条 </span></TD>
+                          </TR>
+                          <TR>
+                            <TD bgcolor="#FAFBFC"><span class="left_txt">您的免费贴： </span> <span class="left_ts"> 54条</span></TD>
+                            <TD height="25" bgcolor="#FAFBFC"><span class="left_txt">您的关注度： </span> <span class="left_ts"> 4598 人</span></TD>
+                          </TR>
+                          <TR>
+                            <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                            <TD height="3" bgcolor="#FAFBFC">&nbsp;</TD>
+                          </TR>
+                          
+                          <TR>
+                            <TD height="5" colspan="4"></TD>
+                          </TR>
+                        </TBODY>
+                    </TABLE></TD>
+                  </TR>
+                </TBODY>
+                <!--关于cells集合-->
+                <TBODY style="DISPLAY: none" id="tables2">
+                  <TR>
+                    <TD vAlign=top align=middle><TABLE width=98% height="63" border=0 align="center" cellPadding=0 cellSpacing=0>
+                        <TBODY>
+                          <TR>
+                            <TD height="5" colspan="5"></TD>
+                          </TR>
+						  <TR>
+                            <TD width="4%" bgcolor="#FAFBFC">&nbsp;</TD>
+                            <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt"><a href="1.html">13003期双色球预测专家推荐！</a> 7 / 7</span></TD>
+                            <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                            <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 7 / 6 </span></TD>
+                            <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          </TR>
+                          <TR>
+                            <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                            <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                            <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                            <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                            <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          </TR>
+						  <TR>
+                            <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                            <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期大陆行喜中4+1！ </span></TD>
+                            <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                            <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                            <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          </TR>
+						  <TR>
+                            <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                            <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期水在转喜中5+1！ </span></TD>
+                            <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                            <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                            <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          </TR>
+						  <TR>
+                            <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                            <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期水在转喜中5+1！ </span></TD>
+                            <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                            <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                            <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          </TR>
+                          <TR>
+                            <TD height="5" colspan="5"></TD>
+                          </TR>
+                        </TBODY>
+                    </TABLE></TD>
+                  </TR>
+                </TBODY>
+                <!--关于tBodies集合-->
+                <TBODY style="DISPLAY: none" id="tables3">
+                  <TR>
+                    <TD vAlign=top align=middle><TABLE width=98% height="63" border=0 align="center" cellPadding=0 cellSpacing=0>
+                      <TBODY>
+                        <TR>
+                          <TD height="5" colspan="5"></TD>
+                        </TR>
+                        <TR>
+                          <TD width="4%" bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期大陆行喜中4+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期水在转喜中5+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期水在转喜中5+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD height="5" colspan="5"></TD>
+                        </TR>
+                      </TBODY>
+                    </TABLE></TD>
+                  </TR>
+                </TBODY>
+                <!--关于display属性-->
+                <TBODY style="DISPLAY: none" id="tables4">
+                  <TR>
+                    <TD vAlign=top align=middle><TABLE width=98% height="63" border=0 align="center" cellPadding=0 cellSpacing=0>
+                      <TBODY>
+                        <TR>
+                          <TD height="5" colspan="5"></TD>
+                        </TR>
+                        <TR>
+                          <TD width="4%" bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期大陆行喜中4+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期水在转喜中5+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期水在转喜中5+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD height="5" colspan="5"></TD>
+                        </TR>
+                      </TBODY>
+                    </TABLE></TD>
+                  </TR>
+                </TBODY>
+				<TBODY style="DISPLAY: none" id="tables5">
+                  <TR>
+                    <TD vAlign=top align=middle><TABLE width=98% height="63" border=0 align="center" cellPadding=0 cellSpacing=0>
+                      <TBODY>
+                        <TR>
+                          <TD height="5" colspan="5"></TD>
+                        </TR>
+                        <TR>
+                          <TD width="4%" bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期大陆行喜中4+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期水在转喜中5+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期水在转喜中5+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD height="5" colspan="5"></TD>
+                        </TR>
+                      </TBODY>
+                    </TABLE></TD>
+                  </TR>
+                </TBODY>
+				<TBODY style="DISPLAY: none" id="tables6">
+                  <TR>
+                    <TD vAlign=top align=middle><TABLE width=98% height="63" border=0 align="center" cellPadding=0 cellSpacing=0>
+                      <TBODY>
+                        <TR>
+                          <TD height="5" colspan="5"></TD>
+                        </TR>
+                        <TR>
+                          <TD width="4%" bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！！！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期大陆行喜中4+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期水在转喜中5+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期水在转喜中5+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD height="5" colspan="5"></TD>
+                        </TR>
+                      </TBODY>
+                    </TABLE></TD>
+                  </TR>
+                </TBODY>
+				<TBODY style="DISPLAY: none" id="tables7">
+                  <TR>
+                    <TD vAlign=top align=middle><TABLE width=98% height="63" border=0 align="center" cellPadding=0 cellSpacing=0>
+                      <TBODY>
+                        <TR>
+                          <TD height="5" colspan="5"></TD>
+                        </TR>
+                        <TR>
+                          <TD width="4%" bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测！！！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期大陆行喜中4+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期水在转喜中5+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD bgcolor="#FAFBFC">&nbsp;</TD>
+                          <TD width="38%" height="25" bgcolor="#FAFBFC"><span class="left_txt">001期水在转喜中5+1！ </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+                          <TD width="38%" bgcolor="#FAFBFC"><span class="left_txt">002期彩票精灵红球三胆中二 </span></TD>
+                          <TD width="10%" bgcolor="#FAFBFC"><span class="left_txtname">晴天</span></TD>
+                        </TR>
+                        <TR>
+                          <TD height="5" colspan="5"></TD>
+                        </TR>
+                      </TBODY>
+                    </TABLE></TD>
+                  </TR>
+                </TBODY>
+            </TABLE>
+          
+		  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td colspan="3" valign="top">&nbsp;</td>
+            </tr>
+          <tr>
+            <td valign="top"><table width="100%" height="144" border="0" cellpadding="0" cellspacing="0" class="line_table">
+              <tr>
+                <td width="1%" height="27" background="images/news-title-bg.gif"><img src="images/news-title-bg.gif" width="2" height="27"></td>
+                <td background="images/news-title-bg.gif" class="left_bt2">最新公告</td>
+              </tr>
+              <tr>
+                <td height="102" valign="top">&nbsp;</td>
+                <td height="102" valign="top"></td>
+              </tr>
+              <tr>
+                <td height="5" colspan="2">&nbsp;</td>
+              </tr>
+            </table></td>
+            <td valign="top">&nbsp;</td>
+            <td valign="top"><table width="100%" height="144" border="0" cellpadding="0" cellspacing="0" class="line_table">
+              <tr>
+                <td width="1%" height="27" background="images/news-title-bg.gif"><img src="images/news-title-bg.gif" width="2" height="27"></td>
+                <td background="images/news-title-bg.gif" class="left_bt2">我的关注</td>
+              </tr>
+              <tr>
+                <td height="102" valign="top">&nbsp;</td>
+                <td height="102" valign="top"><label></label>
+                    <label></label>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tb_12px">
+                      <tr>
+                        <td width="25%" height="25" align="center">西北一绝</td>
+                        <td width="25%" align="center">水在转</td>
+                        <td width="25%" align="center">彩圣大帝</td>
+                        <td width="25%" align="center">雨雾</td>
+                      </tr>
+                      <tr>
+                        <td height="25" align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                      </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td height="5" colspan="2">&nbsp;</td>
+              </tr>
+            </table></td>
+            </tr>
+          <tr>
+            <td colspan="3" valign="top">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="49%" valign="top">
+			
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" class="line_table">
+              <tr>
+                <td height="27" colspan="2" background="images/news-title-bg.gif" class="left_bt2">&nbsp;&nbsp;最新彩贝贴</td>
+                </tr>
+              <tr>
+                  <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt"><a href="1.html">13003期双色球预测专家推荐！ </a></span></TD>
+                  <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                  <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                  <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                  <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                  <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                  <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                  <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                  <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                  <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                  <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                  <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                  <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                  <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                  <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                  <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                  <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                  <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                  <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                  <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+            </table>			</td>
+            <td width="2%" valign="top">&nbsp;</td>
+            <td width="49%" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="line_table">
+              <tr>
+                <td height="27" colspan="2" background="images/news-title-bg.gif" class="left_bt2">&nbsp;&nbsp;最新免费贴</td>
+              </tr>
+              <tr>
+                <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+              <tr>
+                <TD width="80%" height="25" bgcolor="#FAFBFC"><span class="left_txt">13003期双色球预测专家推荐！ </span></TD>
+                <TD width="20%" bgcolor="#FAFBFC"><span class="left_txtname">上善若水劫</span></TD>
+              </tr>
+            </table></td>
+          </tr>
+        </table>		  </td>
+        </tr>
+      
+      <tr>
+        <td height="40" colspan="2"><table width="100%" height="1" border="0" cellpadding="0" cellspacing="0" bgcolor="#CCCCCC">
+          <tr>
+            <td></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td width="2%">&nbsp;</td>
+        <td class="left_txt"><p> 客户服务QQ：<br>
+           联系电话：</p>          </td>
+        </tr>
+    </table></td>
+    <td background="images/mail_rightbg.gif">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="bottom" background="images/mail_leftbg.gif"><img src="images/buttom_left2.gif" width="17" height="17" /></td>
+    <td background="images/buttom_bgs.gif"><img src="images/buttom_bgs.gif" width="17" height="17"></td>
+    <td valign="bottom" background="images/mail_rightbg.gif"><img src="images/buttom_right2.gif" width="16" height="17" /></td>
+  </tr>
+</table>
+</body>

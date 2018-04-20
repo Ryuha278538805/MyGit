@@ -1,0 +1,16 @@
+E:\web\CP\My\bin\My.dll
+E:\web\CP\My\bin\My.pdb
+E:\web\CP\My\bin\Business.dll
+E:\web\CP\My\bin\Common.dll
+E:\web\CP\My\bin\DataProvider.dll
+E:\web\CP\My\bin\Model.dll
+E:\web\CP\My\bin\UpLoadFileV2.dll
+E:\web\CP\My\bin\Business.pdb
+E:\web\CP\My\bin\Common.pdb
+E:\web\CP\My\bin\DataProvider.pdb
+E:\web\CP\My\bin\Model.pdb
+E:\web\CP\My\bin\UpLoadFileV2.pdb
+E:\web\CP\My\bin\UpLoadFileV2.XmlSerializers.dll
+E:\web\CP\My\obj\Release\ResolveAssemblyReference.cache
+E:\web\CP\My\obj\Release\My.dll
+E:\web\CP\My\obj\Release\My.pdb

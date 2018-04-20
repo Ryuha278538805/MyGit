@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://images.thcai.com" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://images.thcai.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://images.thcai.com">
+      <s:element name="FileServerUrl">
+        <s:complexType />
+      </s:element>
+      <s:element name="FileServerUrlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FileServerUrlResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FileServerDir">
+        <s:complexType />
+      </s:element>
+      <s:element name="FileServerDirResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FileServerDirResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FileFormat">
+        <s:complexType />
+      </s:element>
+      <s:element name="FileFormatResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FileFormatResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fs" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="Path" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UploadFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UploadFileResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="FileServerUrlSoapIn">
+    <wsdl:part name="parameters" element="tns:FileServerUrl" />
+  </wsdl:message>
+  <wsdl:message name="FileServerUrlSoapOut">
+    <wsdl:part name="parameters" element="tns:FileServerUrlResponse" />
+  </wsdl:message>
+  <wsdl:message name="FileServerDirSoapIn">
+    <wsdl:part name="parameters" element="tns:FileServerDir" />
+  </wsdl:message>
+  <wsdl:message name="FileServerDirSoapOut">
+    <wsdl:part name="parameters" element="tns:FileServerDirResponse" />
+  </wsdl:message>
+  <wsdl:message name="FileFormatSoapIn">
+    <wsdl:part name="parameters" element="tns:FileFormat" />
+  </wsdl:message>
+  <wsdl:message name="FileFormatSoapOut">
+    <wsdl:part name="parameters" element="tns:FileFormatResponse" />
+  </wsdl:message>
+  <wsdl:message name="UploadFileSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadFile" />
+  </wsdl:message>
+  <wsdl:message name="UploadFileSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadFileResponse" />
+  </wsdl:message>
+  <wsdl:portType name="UpLoadSoap">
+    <wsdl:operation name="FileServerUrl">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Web 服务提供的方法，返回文件服务器URL配置</wsdl:documentation>
+      <wsdl:input message="tns:FileServerUrlSoapIn" />
+      <wsdl:output message="tns:FileServerUrlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FileServerDir">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Web 服务提供的方法，返回文件服务器目录配置</wsdl:documentation>
+      <wsdl:input message="tns:FileServerDirSoapIn" />
+      <wsdl:output message="tns:FileServerDirSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FileFormat">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Web 服务提供的方法，返回文件扩展名配置</wsdl:documentation>
+      <wsdl:input message="tns:FileFormatSoapIn" />
+      <wsdl:output message="tns:FileFormatSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadFile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Web 服务提供的方法，返回是否文件上载成功与否，自带日期目录</wsdl:documentation>
+      <wsdl:input message="tns:UploadFileSoapIn" />
+      <wsdl:output message="tns:UploadFileSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UpLoadSoap" type="tns:UpLoadSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FileServerUrl">
+      <soap:operation soapAction="http://images.thcai.com/FileServerUrl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileServerDir">
+      <soap:operation soapAction="http://images.thcai.com/FileServerDir" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileFormat">
+      <soap:operation soapAction="http://images.thcai.com/FileFormat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadFile">
+      <soap:operation soapAction="http://images.thcai.com/UploadFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="UpLoadSoap12" type="tns:UpLoadSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="FileServerUrl">
+      <soap12:operation soapAction="http://images.thcai.com/FileServerUrl" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileServerDir">
+      <soap12:operation soapAction="http://images.thcai.com/FileServerDir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FileFormat">
+      <soap12:operation soapAction="http://images.thcai.com/FileFormat" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadFile">
+      <soap12:operation soapAction="http://images.thcai.com/UploadFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UpLoad">
+    <wsdl:port name="UpLoadSoap" binding="tns:UpLoadSoap">
+      <soap:address location="http://images.thcai.com/UpLoad.asmx" />
+    </wsdl:port>
+    <wsdl:port name="UpLoadSoap12" binding="tns:UpLoadSoap12">
+      <soap12:address location="http://images.thcai.com/UpLoad.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

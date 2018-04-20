@@ -1,0 +1,36 @@
+E:\web\CP\Www\bin\Www.dll
+E:\web\CP\Www\bin\Www.pdb
+E:\web\CP\Www\bin\AspNetPager.dll
+E:\web\CP\Www\bin\Business.dll
+E:\web\CP\Www\bin\Common.dll
+E:\web\CP\Www\bin\DataProvider.dll
+E:\web\CP\Www\bin\Model.dll
+E:\web\CP\Www\bin\Pic.dll
+E:\web\CP\Www\bin\Business.pdb
+E:\web\CP\Www\bin\Common.pdb
+E:\web\CP\Www\bin\DataProvider.pdb
+E:\web\CP\Www\bin\Model.pdb
+E:\web\CP\Www\bin\Pic.pdb
+E:\web\CP\Www\obj\Release\ResolveAssemblyReference.cache
+E:\web\CP\Www\obj\Release\Www.dll
+E:\web\CP\Www\obj\Release\Www.pdb
+E:\web\CP\Www\bin\Intelligencia.UrlRewriter.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Www.dll.config
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Www.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Www.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\AspNetPager.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Business.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Common.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\DataProvider.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Model.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Pic.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Business.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Common.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\DataProvider.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Model.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Pic.pdb
+D:\Project Program\www.haocw.com\CP.HC\Www\bin\Pic.dll.config
+D:\Project Program\www.haocw.com\CP.HC\Www\obj\Release\Www.csprojResolveAssemblyReference.cache
+D:\Project Program\www.haocw.com\CP.HC\Www\obj\Release\Www.csproj.CoreCompileInputs.cache
+D:\Project Program\www.haocw.com\CP.HC\Www\obj\Release\Www.dll
+D:\Project Program\www.haocw.com\CP.HC\Www\obj\Release\Www.pdb
