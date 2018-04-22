@@ -18,10 +18,10 @@
     <style type="text/css">
         .homeIcon {
             font-style: normal;
-            margin-right:3px;
+            margin-right: 3px;
             color: rgb(255,101,0);
-            font-weight:bolder;
-            font-size:18px;
+            font-weight: bolder;
+            font-size: 18px;
         }
     </style>
     <script type="text/javascript">
@@ -48,7 +48,7 @@
         </header>
         <nav class="typeLinkBox col bg-fff clearfix mb-10">
             <%foreach (var info in Navs)
-                { %>
+              { %>
             <div class="col">
                 <a href="/ls2.aspx?cid=<%=info.cid.ToString() %>&cn=<%=info.name %>"><%=info.name %></a>
             </div>
@@ -100,25 +100,25 @@
         </footer>
 
         <%if (ADsM.Count > 0)
-            {
-                int rowcount = ADsM.Count / 2 + 1;
+          {
+              int rowcount = ADsM.Count / 2 + 1;
         %>
         <section class="tuiguang bg-fff mb-10">
             <i class="tuiguang-guanbi" onclick="hideGuanggao();">✖</i>
             <table class="tuiguangTb" cellpadding="0" cellspacing="0" border="1">
                 <tbody>
                     <%
-                        int index = 0;
-                        for (int i = 0; i < rowcount; i++)
-                        {
-                            if (index >= ADsM.Count)
-                            {
-                                break;
-                            }
+                int index = 0;
+                for (int i = 0; i < rowcount; i++)
+                {
+                    if (index >= ADsM.Count)
+                    {
+                        break;
+                    }
                     %>
                     <tr>
                         <%if (i == 0)
-                            { %>
+                          { %>
                         <td rowspan="<%=rowcount%>" class="tg">
                             <b>广<br />
                                 告</b>
@@ -126,13 +126,13 @@
                         <%} %>
 
                         <%if (index < ADsM.Count)
-                            { %>
+                          { %>
                         <td><a href="<%=ADsM[index].link %>"><%=ADsM[index].title %></a></td>
                         <%
                                 index++;
                             } %>
                         <%if (index < ADsM.Count)
-                            { %>
+                          { %>
                         <td><a href="<%=ADsM[index].link %>"><%=ADsM[index].title %></a></td>
                         <%
                                 index++;
@@ -161,15 +161,15 @@
                 </div>
 
                 <%foreach (var pname in ParentNames)
-                    {
-                        var menus = Menus.Where(p => p.PName == pname);
+                  {
+                      var menus = Menus.Where(p => p.PName == pname);
                 %>
 
                 <div>
                     <h5 class="title bb-1"><%=pname %></h5>
                     <div class="typeLinkBox col bg-fff clearfix">
                         <%foreach (var m in menus)
-                            { %>
+                          { %>
                         <div class="col"><a href="/ls2.aspx?zid=<%=m.zid %>&cid=<%=m.cid %>&cn=<%=m.name %>"><%=m.name %></a></div>
                         <%} %>
                     </div>
@@ -179,6 +179,14 @@
 
         </section>
     </form>
-
+    <script type="text/javascript">
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?038f4a913ee2276cabec7e6fbedec13c";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </body>
 </html>
