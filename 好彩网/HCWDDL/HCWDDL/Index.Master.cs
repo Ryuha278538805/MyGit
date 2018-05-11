@@ -24,13 +24,19 @@ namespace HCWDDL.M
 
         public IList<string> ParentNames { get; set; }
 
+        public IList<tbl_ADmanagerInfo> ADsMTop { get; set; }
+
         public IList<tbl_ADmanagerInfo> ADsM { get; set; }
 
         protected void Page_Load(object sender, EventArgs e)
         {
             Navs = NewsClassManager.Navs;
             Menus = NewsClassManager.Menus;
-            ADsM = NewsClassManager.ADsM;
+            //上位广告获取
+            ADsMTop = NewsClassManager.ADsM.Where(p => p.PositonType == 0).ToList();
+            //下位广告获取
+            ADsM = NewsClassManager.ADsM.Where(p => p.PositonType == 1).ToList();
+
             ParentNames = Menus.Select(p => p.PName).Distinct().ToArray();
         }
     }

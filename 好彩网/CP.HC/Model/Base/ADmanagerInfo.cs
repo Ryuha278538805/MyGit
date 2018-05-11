@@ -28,6 +28,11 @@ namespace Model
         public int source { get; set; }
 
         /// <summary>
+        /// 广告位置
+        /// </summary>
+        public int PositonType { get; set; }
+
+        /// <summary>
         /// 排序
         /// </summary>
         public float? sort { get; set; }

@@ -10,6 +10,7 @@ namespace HCW.Model
         public string title { get; set; }
         public string link { get; set; }
         public int source { get; set; }
+        public int PositonType { get; set; }
         public float? sort { get; set; }
     }
 }

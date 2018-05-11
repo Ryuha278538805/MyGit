@@ -69,6 +69,7 @@ namespace Business
                     info.link = TypeConverter.ObjectToString(dr["link"]);
                     info.source = TypeConverter.ObjectToInt(dr["source"], 0);
                     info.sort = TypeConverter.ObjectToFloat(dr["sort"], 0);
+                    info.PositonType = TypeConverter.ObjectToInt(dr["PositonType"], 1);
                     list.Add(info);
                 }
             }

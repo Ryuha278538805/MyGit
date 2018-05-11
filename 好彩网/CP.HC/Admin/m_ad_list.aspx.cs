@@ -34,7 +34,7 @@ namespace Admin
         private void BinderList()
         {
             string where = string.Empty;
-            DataSet ds = AdData.GetPageList(AspNetPager1.PageSize, AspNetPager1.CurrentPageIndex, "tbl_ADmanager", "sort desc", where);
+            DataSet ds = AdData.GetPageList(AspNetPager1.PageSize, AspNetPager1.CurrentPageIndex, "tbl_ADmanager", "source,PositonType,sort desc", where);
             if (ds != null && ds.Tables[0].Rows.Count > 0)
             {
                 this.list.DataSource = ds.Tables[0];
@@ -52,6 +52,7 @@ namespace Admin
                 txtLink.Text = info.link;
                 txtSort.Text = TypeConverter.ObjectToString(info.sort);
                 drpSource.SelectedValue = TypeConverter.ObjectToString(info.source);
+                drpPosition.SelectedValue = TypeConverter.ObjectToString(info.PositonType);
             }
         }
 
@@ -73,6 +74,7 @@ namespace Admin
             info.link = this.txtLink.Text.Trim();
             info.sort = TypeConverter.StrToFloat(txtSort.Text);
             info.source = TypeConverter.ObjectToInt(drpSource.SelectedValue);
+            info.PositonType = TypeConverter.ObjectToInt(drpPosition.SelectedValue);
 
             int i = Ad.CreateAdDataInfo(info);
             if (i > 0)

@@ -26,7 +26,7 @@
     </style>
     <script type="text/javascript">
         function hideGuanggao(el) {
-            $(".tuiguang").hide()
+            $("." + el).hide()
         }
     </script>
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
@@ -58,6 +58,50 @@
                 <i class="iconfont icon-more"></i>
                 </span>
             </div>
+            <%if (ADsMTop.Count > 0)
+          {
+              int rowcount = ADsMTop.Count / 2 + 1;
+        %>
+        <section class="tuiguangtop bg-fff mb-10">
+            <i class="tuiguang-guanbi" onclick="hideGuanggao('tuiguangtop');">✖</i>
+            <table class="tuiguangTb" cellpadding="0" cellspacing="0" border="1">
+                <tbody>
+                    <%
+                int index = 0;
+                for (int i = 0; i < rowcount; i++)
+                {
+                    if (index >= ADsMTop.Count)
+                    {
+                        break;
+                    }
+                    %>
+                    <tr>
+                        <%if (i == 0)
+                          { %>
+                        <td rowspan="<%=rowcount%>" class="tg">
+                            <b>广<br />
+                                告</b>
+                        </td>
+                        <%} %>
+
+                        <%if (index < ADsMTop.Count)
+                          { %>
+                        <td><a href="<%=ADsMTop[index].link %>"><%=ADsMTop[index].title %></a></td>
+                        <%
+                                index++;
+                            } %>
+                        <%if (index < ADsMTop.Count)
+                          { %>
+                        <td><a href="<%=ADsMTop[index].link %>"><%=ADsMTop[index].title %></a></td>
+                        <%
+                                index++;
+                            } %>
+                    </tr>
+                    <%} %>
+                </tbody>
+            </table>
+        </section>
+        <%} %>
         </nav>
 
         <asp:ContentPlaceHolder ID="BodyContent" runat="server">
@@ -104,7 +148,7 @@
               int rowcount = ADsM.Count / 2 + 1;
         %>
         <section class="tuiguang bg-fff mb-10">
-            <i class="tuiguang-guanbi" onclick="hideGuanggao();">✖</i>
+            <i class="tuiguang-guanbi" onclick="hideGuanggao('tuiguang');">✖</i>
             <table class="tuiguangTb" cellpadding="0" cellspacing="0" border="1">
                 <tbody>
                     <%

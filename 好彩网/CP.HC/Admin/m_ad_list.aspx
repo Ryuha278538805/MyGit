@@ -71,9 +71,10 @@
                                             <tr>
                                                 <th width="10%">
                                                     <input class="check-all" type="checkbox" /></th>
-                                                <th width="20%">广告标题</th>
-                                                <th width="25%">链接</th>
+                                                <th width="15%">广告标题</th>
+                                                <th width="20%">链接</th>
                                                 <th width="15%">归属</th>
+                                                <th width="10%">位置</th>
                                                 <th width="14%">排序</th>
                                                 <th width="15%">操作</th>
                                             </tr>
@@ -108,6 +109,7 @@
                                                         <td><%#DataBinder.Eval(Container.DataItem,"title").ToString().Trim()%></td>
                                                         <td><%#DataBinder.Eval(Container.DataItem,"link").ToString().Trim()%></td>
                                                         <td><%#DataBinder.Eval(Container.DataItem,"source").ToString()=="0"?"手机端":"PC端"%></td>
+                                                        <td><%#DataBinder.Eval(Container.DataItem,"PositonType").ToString()=="0"?"上位":"下位"%></td>
                                                         <td><%#DataBinder.Eval(Container.DataItem,"sort").ToString().Trim()%></td>
                                                         <td>
                                                             <!-- Icons -->
@@ -192,6 +194,20 @@
                                                     <asp:DropDownList runat="server" ID="drpSource" Width="120px">
                                                         <asp:ListItem Value="0">手机端</asp:ListItem>
                                                         <asp:ListItem Value="1">PC端</asp:ListItem>
+                                                    </asp:DropDownList>
+                                                </td>
+                                                <td><span class="tip">(必须选择)</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p>
+                                                        <label>广告位置*</label>
+                                                    </p>
+                                                </td>
+                                                <td>
+                                                    <asp:DropDownList runat="server" ID="drpPosition" Width="120px">
+                                                        <asp:ListItem Value="0">上位</asp:ListItem>
+                                                        <asp:ListItem Value="1">下位</asp:ListItem>
                                                     </asp:DropDownList>
                                                 </td>
                                                 <td><span class="tip">(必须选择)</span></td>

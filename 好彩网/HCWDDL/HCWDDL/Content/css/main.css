@@ -654,7 +654,40 @@ mip-sidebar {
         color: #808080;
     }
 
-/*推广*/
+    /*推广上*/
+.tuiguangtop {
+    position: fixed;
+    top: 15rem;
+    right: 0;
+    opacity: 0.9;
+    font-style:italic;
+}
+
+    .tuiguangtop .tuiguangTb {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #D9D9D9;
+        overflow: hidden;
+        table-layout: fixed;
+    }
+
+        .tuiguangtop .tuiguangTb td {
+            border: 1px solid #D9D9D9;
+            height: 2.4rem;
+            color: #808080;
+            vertical-align: middle;
+            border-collapse: collapse;
+            width: 45%;
+            overflow: hidden;
+        }
+
+            .tuiguangtop .tuiguangTb td.tg {
+                width: 8%;
+                text-align:center;
+                font-size:1.2rem;
+                color:#333;
+            }
+/*推广下*/
 .tuiguang {
     position: fixed;
     bottom: 0rem;

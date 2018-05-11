@@ -87,3 +87,14 @@ D:\Project Program\www.haocw.com\CP.HC\Business\obj\Debug\Business.csproj.CoreCo
 D:\Project Program\www.haocw.com\CP.HC\Business\obj\Debug\Business.dll
 D:\Project Program\www.haocw.com\CP.HC\Business\obj\Debug\Business.pdb
 D:\CP.HC\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Business\bin\Debug\Business.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Business\bin\Debug\Business.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Business\bin\Debug\Common.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Business\bin\Debug\DataProvider.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Business\bin\Debug\Model.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Business\bin\Debug\Common.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Business\bin\Debug\DataProvider.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Business\bin\Debug\Model.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Business\obj\Debug\Business.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Business\obj\Debug\Business.pdb

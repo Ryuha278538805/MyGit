@@ -37,7 +37,7 @@ namespace DataProvider
         public static int CreateAdDataInfo(ADmanagerInfo info)
         {
             int i = 0;
-            i = TypeConverter.ObjectToInt(SqlHelper.ExecuteScalar(connstr, "sp_create_adinfo", info.id, info.title, info.link, info.source, info.sort));
+            i = TypeConverter.ObjectToInt(SqlHelper.ExecuteScalar(connstr, "sp_create_adinfo", info.id, info.title, info.link, info.source,info.PositonType, info.sort));
             return i;
         }
     }

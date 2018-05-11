@@ -67,3 +67,12 @@ D:\Project Program\www.haocw.com\CP.HC\DataProvider\obj\Debug\DataProvider.cspro
 D:\Project Program\www.haocw.com\CP.HC\DataProvider\obj\Debug\DataProvider.dll
 D:\Project Program\www.haocw.com\CP.HC\DataProvider\obj\Debug\DataProvider.pdb
 D:\CP.HC\DataProvider\obj\Debug\DataProvider.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\DataProvider\bin\Debug\DataProvider.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\DataProvider\bin\Debug\DataProvider.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\DataProvider\bin\Debug\Common.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\DataProvider\bin\Debug\Model.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\DataProvider\bin\Debug\Common.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\DataProvider\bin\Debug\Model.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\DataProvider\obj\Debug\DataProvider.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\DataProvider\obj\Debug\DataProvider.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\DataProvider\obj\Debug\DataProvider.pdb

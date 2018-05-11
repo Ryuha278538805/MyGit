@@ -38,3 +38,8 @@ D:\Project Program\www.haocw.com\CP.HC\Model\obj\Debug\Model.csproj.CoreCompileI
 D:\Project Program\www.haocw.com\CP.HC\Model\obj\Debug\Model.dll
 D:\Project Program\www.haocw.com\CP.HC\Model\obj\Debug\Model.pdb
 D:\CP.HC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Model\bin\Debug\Model.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Model\bin\Debug\Model.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Model\obj\Debug\Model.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Model\obj\Debug\Model.pdb

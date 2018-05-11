@@ -135,3 +135,23 @@ D:\Project Program\www.haocw.com\CP.HC\Admin\obj\Debug\Admin.dll
 D:\Project Program\www.haocw.com\CP.HC\Admin\obj\Debug\Admin.pdb
 D:\CP.HC\Admin\bin\Admin.dll.config
 D:\CP.HC\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Admin.dll.config
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Admin.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Admin.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Business.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Common.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\DataProvider.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Model.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Pic.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\UpLoadFileV2.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Www.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Business.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Common.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\DataProvider.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Model.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Pic.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\UpLoadFileV2.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\bin\Www.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\obj\Debug\Admin.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\obj\Debug\Admin.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Admin\obj\Debug\Admin.pdb

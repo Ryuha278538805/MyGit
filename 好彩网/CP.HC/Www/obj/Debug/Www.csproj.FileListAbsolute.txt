@@ -85,3 +85,20 @@ D:\Project Program\www.haocw.com\CP.HC\Www\obj\Debug\Www.dll
 D:\Project Program\www.haocw.com\CP.HC\Www\obj\Debug\Www.pdb
 D:\CP.HC\Www\bin\Www.dll.config
 D:\CP.HC\Www\obj\Debug\Www.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\Www.dll.config
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\Www.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\Www.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\AspNetPager.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\Business.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\Common.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\DataProvider.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\Model.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\Pic.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\Business.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\Common.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\DataProvider.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\Model.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\bin\Pic.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\obj\Debug\Www.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\obj\Debug\Www.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Www\obj\Debug\Www.pdb

@@ -41,3 +41,9 @@ D:\Project Program\www.haocw.com\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.cspro
 D:\Project Program\www.haocw.com\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.dll
 D:\Project Program\www.haocw.com\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.pdb
 D:\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll.config
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\UpLoadFileV2\bin\Debug\UpLoadFileV2.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\UpLoadFileV2\obj\Debug\UpLoadFileV2.pdb

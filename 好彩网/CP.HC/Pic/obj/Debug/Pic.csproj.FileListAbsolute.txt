@@ -35,3 +35,9 @@ D:\Project Program\www.haocw.com\CP.HC\Pic\obj\Debug\Pic.dll
 D:\Project Program\www.haocw.com\CP.HC\Pic\obj\Debug\Pic.pdb
 D:\CP.HC\Pic\bin\Pic.dll.config
 D:\CP.HC\Pic\obj\Debug\Pic.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Pic\bin\Pic.dll.config
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Pic\bin\Pic.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Pic\bin\Pic.pdb
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Pic\obj\Debug\Pic.csprojResolveAssemblyReference.cache
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Pic\obj\Debug\Pic.dll
+D:\VSWorkspace\GitSpace\好彩网\CP.HC\Pic\obj\Debug\Pic.pdb
