@@ -9,7 +9,7 @@
     <meta name="description" content="好彩网是从各大专业彩票网站上收录其3d预测、3d字谜、3d图谜等精华内容,方便彩民浏览的彩票行业网摘网站." />
     <meta name="keywords" content="好彩网" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
-    <link href="~/Content/css/main.css" rel='stylesheet' />
+    <link href="~/Content/css/main.css?v=3" rel='stylesheet' />
 
     <script src="/Js/hm.js"></script>
     <script src="/Js/hm1.js"></script>
@@ -58,50 +58,52 @@
                 <i class="iconfont icon-more"></i>
                 </span>
             </div>
+        </nav>
+        <nav class="typeLinkBox col bg-fff mb-10" style="padding:0px;">
             <%if (ADsMTop.Count > 0)
-          {
-              int rowcount = ADsMTop.Count / 2 + 1;
-        %>
-        <section class="tuiguangtop bg-fff mb-10">
-            <i class="tuiguang-guanbi" onclick="hideGuanggao('tuiguangtop');">✖</i>
-            <table class="tuiguangTb" cellpadding="0" cellspacing="0" border="1">
-                <tbody>
-                    <%
-                int index = 0;
-                for (int i = 0; i < rowcount; i++)
-                {
-                    if (index >= ADsMTop.Count)
-                    {
-                        break;
-                    }
-                    %>
-                    <tr>
-                        <%if (i == 0)
-                          { %>
-                        <td rowspan="<%=rowcount%>" class="tg">
-                            <b>广<br />
-                                告</b>
-                        </td>
-                        <%} %>
+              {
+                  int rowcount = ADsMTop.Count / 2 + 1;
+            %>
+            <section class="tuiguangtop bg-fff mb-10">
+                <%--<i class="tuiguang-guanbi" onclick="hideGuanggao('tuiguangtop');">✖</i>--%>
+                <table class="tuiguangTb" cellpadding="0" cellspacing="0" border="1">
+                    <tbody>
+                        <%
+              int index = 0;
+              for (int i = 0; i < rowcount; i++)
+              {
+                  if (index >= ADsMTop.Count)
+                  {
+                      break;
+                  }
+                        %>
+                        <tr>
+                            <%if (i == 0)
+                              { %>
+                            <td rowspan="<%=rowcount%>" class="tg">
+                                <b>广<br />
+                                    告</b>
+                            </td>
+                            <%} %>
 
-                        <%if (index < ADsMTop.Count)
-                          { %>
-                        <td><a href="<%=ADsMTop[index].link %>"><%=ADsMTop[index].title %></a></td>
-                        <%
-                                index++;
-                            } %>
-                        <%if (index < ADsMTop.Count)
-                          { %>
-                        <td><a href="<%=ADsMTop[index].link %>"><%=ADsMTop[index].title %></a></td>
-                        <%
-                                index++;
-                            } %>
-                    </tr>
-                    <%} %>
-                </tbody>
-            </table>
-        </section>
-        <%} %>
+                            <%if (index < ADsMTop.Count)
+                              { %>
+                            <td><a href="<%=ADsMTop[index].link %>"><%=ADsMTop[index].title %></a></td>
+                            <%
+                              index++;
+                          } %>
+                            <%if (index < ADsMTop.Count)
+                              { %>
+                            <td><a href="<%=ADsMTop[index].link %>"><%=ADsMTop[index].title %></a></td>
+                            <%
+                              index++;
+                          } %>
+                        </tr>
+                        <%} %>
+                    </tbody>
+                </table>
+            </section>
+            <%} %>
         </nav>
 
         <asp:ContentPlaceHolder ID="BodyContent" runat="server">
@@ -152,13 +154,13 @@
             <table class="tuiguangTb" cellpadding="0" cellspacing="0" border="1">
                 <tbody>
                     <%
-                int index = 0;
-                for (int i = 0; i < rowcount; i++)
-                {
-                    if (index >= ADsM.Count)
-                    {
-                        break;
-                    }
+              int index = 0;
+              for (int i = 0; i < rowcount; i++)
+              {
+                  if (index >= ADsM.Count)
+                  {
+                      break;
+                  }
                     %>
                     <tr>
                         <%if (i == 0)
@@ -173,14 +175,14 @@
                           { %>
                         <td><a href="<%=ADsM[index].link %>"><%=ADsM[index].title %></a></td>
                         <%
-                                index++;
-                            } %>
+                              index++;
+                          } %>
                         <%if (index < ADsM.Count)
                           { %>
                         <td><a href="<%=ADsM[index].link %>"><%=ADsM[index].title %></a></td>
                         <%
-                                index++;
-                            } %>
+                              index++;
+                          } %>
                     </tr>
                     <%} %>
                 </tbody>
